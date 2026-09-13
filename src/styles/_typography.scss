@@ -1,0 +1,89 @@
+// ============================================================
+// MOBILE MUSEUM — Typography
+// "Typography is part of the exhibition."
+// ============================================================
+@use 'tokens' as *;
+
+body {
+  font-family: $font-sans;
+  color: $c-text;
+  font-size: $sp-4;
+}
+
+// ---- Display (hero scale) ----
+.display-hero {
+  font-size: clamp(52px, 14vw, 220px);
+  font-weight: 200;
+  line-height: 0.92;
+  letter-spacing: -0.03em;
+}
+
+.display-1 {
+  font-size: clamp(40px, 8vw, 110px);
+  font-weight: 200;
+  line-height: 0.96;
+  letter-spacing: -0.02em;
+}
+
+// Year numerals — exhibition scale
+.year-display {
+  font-size: clamp(84px, 22vw, 240px);
+  font-weight: 100;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  font-variant-numeric: tabular-nums;
+}
+
+.year-mid {
+  font-size: clamp(56px, 9vw, 128px);
+  font-weight: 100;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+
+// ---- Section headings ----
+.heading-1 {
+  font-size: clamp(36px, 6.5vw, 84px);
+  font-weight: 250;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.heading-2 {
+  font-size: clamp(24px, 3.6vw, 44px);
+  font-weight: 300;
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+}
+
+// ---- Editorial body ----
+.body-lg {
+  font-size: clamp(16px, 2vw, 20px);
+  font-weight: 300;
+  line-height: 1.65;
+  color: $c-text-2;
+}
+
+.body-md {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: $c-text-2;
+}
+
+// ---- Museum plaque label ----
+.label {
+  @include label-style;
+  color: $c-text-3;
+}
+
+.label--light {
+  color: $c-text-2;
+}
+
+// ---- Technical numbers ----
+.mono {
+  font-family: $font-mono;
+  font-variant-numeric: tabular-nums;
+}

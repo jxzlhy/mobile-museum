@@ -1,0 +1,3795 @@
+{
+  "apple-iphone": {
+    "candidates": [
+      {
+        "author": "1DmkIIN",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_Fashion_Valley.jpg",
+        "height": 3102,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_Fashion_Valley.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone Fashion Valley.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/IPhone_Fashion_Valley.jpg/1920px-IPhone_Fashion_Valley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2336
+      },
+      {
+        "author": "Yutaka Tsutano",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_disassembled.jpg",
+        "height": 3138,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_disassembled.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone disassembled.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/IPhone_disassembled.jpg/1920px-IPhone_disassembled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4707
+      },
+      {
+        "author": "ArnoldReinhold",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg",
+        "height": 1512,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg"
+        },
+        "status": "candidate",
+        "title": "File:First iPhone Macworld 2007 DSCF1286.agr.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/First_iPhone_Macworld_2007_DSCF1286.agr.jpg/1920px-First_iPhone_Macworld_2007_DSCF1286.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2016
+      },
+      {
+        "author": "Cullen Steber",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_XS.jpg",
+        "height": 3033,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_XS.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone XS.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/IPhone_XS.jpg/1920px-IPhone_XS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5253
+      },
+      {
+        "author": "bfishadow",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_OTG_Kindle.jpg",
+        "height": 3024,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_OTG_Kindle.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone OTG Kindle.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/IPhone_OTG_Kindle.jpg/1920px-IPhone_OTG_Kindle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4032
+      }
+    ],
+    "phone": {
+      "id": "apple-iphone",
+      "name": "Apple iPhone 2007",
+      "year": 2007
+    }
+  },
+  "apple-iphone-12": {
+    "candidates": [
+      {
+        "author": "ajay_suresh",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_12_Pro_-_Cameras_(50535314721).jpg",
+        "height": 2916,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_12_Pro_-_Cameras_(50535314721).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Apple iPhone 12 Pro - Cameras (50535314721).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Apple_iPhone_12_Pro_-_Cameras_%2850535314721%29.jpg/1920px-Apple_iPhone_12_Pro_-_Cameras_%2850535314721%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5184
+      },
+      {
+        "author": "KKPCW",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_12_-_3.jpg",
+        "height": 2160,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_12_-_3.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 12 - 3.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/IPhone_12_-_3.jpg/1920px-IPhone_12_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2160
+      },
+      {
+        "author": "KKPCW",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_12_-_2.jpg",
+        "height": 3626,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_12_-_2.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 12 - 2.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/IPhone_12_-_2.jpg/1920px-IPhone_12_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1933
+      },
+      {
+        "author": "Raphaël Poupon",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Iphone-12-product--red.png",
+        "height": 1540,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Iphone-12-product--red.png"
+        },
+        "status": "candidate",
+        "title": "File:Iphone-12-product--red.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Iphone-12-product--red.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 762
+      },
+      {
+        "author": "Asdaiang14453",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Rear_3_lenses_of_an_iPhone_12.jpg",
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Rear_3_lenses_of_an_iPhone_12.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Rear 3 lenses of an iPhone 12.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Rear_3_lenses_of_an_iPhone_12.jpg/1920px-Rear_3_lenses_of_an_iPhone_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3024
+      }
+    ],
+    "phone": {
+      "id": "apple-iphone-12",
+      "name": "Apple iPhone 12",
+      "year": 2020
+    }
+  },
+  "apple-iphone-15-pro": {
+    "candidates": [
+      {
+        "author": "SimonWaldherr",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_13_Pro.jpg",
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_13_Pro.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Apple iPhone 13 Pro.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Apple_iPhone_13_Pro.jpg/1920px-Apple_iPhone_13_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 6000
+      },
+      {
+        "author": "Kyu3",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_15_Pro_and_Pro_Max_in_Apple_Store_-_2.jpg",
+        "height": 2117,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_15_Pro_and_Pro_Max_in_Apple_Store_-_2.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 15 Pro and Pro Max in Apple Store - 2.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/IPhone_15_Pro_and_Pro_Max_in_Apple_Store_-_2.jpg/1920px-IPhone_15_Pro_and_Pro_Max_in_Apple_Store_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2070
+      },
+      {
+        "author": "Kyu3",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_15_Pro_and_Pro_Max_in_Apple_Store_-_1.jpg",
+        "height": 2160,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_15_Pro_and_Pro_Max_in_Apple_Store_-_1.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 15 Pro and Pro Max in Apple Store - 1.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/IPhone_15_Pro_and_Pro_Max_in_Apple_Store_-_1.jpg/1920px-IPhone_15_Pro_and_Pro_Max_in_Apple_Store_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2160
+      },
+      {
+        "author": "Kyu3",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_15_Pro_and_Pro_Max_in_Apple_Store_-_3.jpg",
+        "height": 2160,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_15_Pro_and_Pro_Max_in_Apple_Store_-_3.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 15 Pro and Pro Max in Apple Store - 3.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/IPhone_15_Pro_and_Pro_Max_in_Apple_Store_-_3.jpg/1920px-IPhone_15_Pro_and_Pro_Max_in_Apple_Store_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2160
+      },
+      {
+        "author": "IPHONE 15",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15_Pro.jpg",
+        "height": 6144,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15_Pro.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Apple iPhone 15 Pro.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Apple_iPhone_15_Pro.jpg/1920px-Apple_iPhone_15_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 8192
+      }
+    ],
+    "phone": {
+      "id": "apple-iphone-15-pro",
+      "name": "Apple iPhone 15 Pro",
+      "year": 2023
+    }
+  },
+  "apple-iphone-3g": {
+    "candidates": [
+      {
+        "author": "gillyberlin",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_3G_and_3G_S_backs.jpg",
+        "height": 1527,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_3G_and_3G_S_backs.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 3G and 3G S backs.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/IPhone_3G_and_3G_S_backs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1807
+      },
+      {
+        "author": "Feureau",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Back_of_an_iPhone_3G_White_from_Apple.jpg",
+        "height": 5184,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Back_of_an_iPhone_3G_White_from_Apple.jpg"
+        },
+        "status": "candidate",
+        "title": "File:The Back of an iPhone 3G White from Apple.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Back_of_an_iPhone_3G_White_from_Apple.jpg/1920px-The_Back_of_an_iPhone_3G_White_from_Apple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3456
+      },
+      {
+        "author": "Raimond Spekking",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_3G_teardown_-_Apple_339S0036_ARM-3308.jpg",
+        "height": 3408,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_3G_teardown_-_Apple_339S0036_ARM-3308.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 3G teardown - Apple 339S0036 ARM-3308.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/IPhone_3G_teardown_-_Apple_339S0036_ARM-3308.jpg/1920px-IPhone_3G_teardown_-_Apple_339S0036_ARM-3308.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3899
+      },
+      {
+        "author": "Yutaka Tsutano from Lincoln, United States",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Original_iPhone_-_iPhone_3G_-_iPhone_4_-_Flickr_-_Yutaka_Tsutano.jpg",
+        "height": 3168,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Original_iPhone_-_iPhone_3G_-_iPhone_4_-_Flickr_-_Yutaka_Tsutano.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Original iPhone - iPhone 3G - iPhone 4 - Flickr - Yutaka Tsutano.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Original_iPhone_-_iPhone_3G_-_iPhone_4_-_Flickr_-_Yutaka_Tsutano.jpg/1920px-Original_iPhone_-_iPhone_3G_-_iPhone_4_-_Flickr_-_Yutaka_Tsutano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4752
+      },
+      {
+        "author": "JoBot164",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_3G_or_3GS_digital_render.png",
+        "height": 1916,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_3G_or_3GS_digital_render.png"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 3G or 3GS digital render.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/IPhone_3G_or_3GS_digital_render.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1036
+      }
+    ],
+    "phone": {
+      "id": "apple-iphone-3g",
+      "name": "Apple iPhone 3G",
+      "year": 2008
+    }
+  },
+  "apple-iphone-4": {
+    "candidates": [
+      {
+        "author": "Matthew Yohe (talk)",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP.jpg",
+        "height": 3194,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Steve Jobs Headshot 2010-CROP.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Steve_Jobs_Headshot_2010-CROP.jpg/1920px-Steve_Jobs_Headshot_2010-CROP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3259
+      },
+      {
+        "author": "Yutaka Tsutano",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_4_Bumper.jpg",
+        "height": 3168,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_4_Bumper.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Apple iPhone 4 Bumper.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Apple_iPhone_4_Bumper.jpg/1920px-Apple_iPhone_4_Bumper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4752
+      },
+      {
+        "author": "Justin14",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_4_Mock_No_Shadow_PSD.png",
+        "height": 1493,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_4_Mock_No_Shadow_PSD.png"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 4 Mock No Shadow PSD.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/IPhone_4_Mock_No_Shadow_PSD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 758
+      },
+      {
+        "author": "Yutaka Tsutano from Lincoln, United States",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Original_iPhone_-_iPhone_3G_-_iPhone_4_-_Flickr_-_Yutaka_Tsutano.jpg",
+        "height": 3168,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Original_iPhone_-_iPhone_3G_-_iPhone_4_-_Flickr_-_Yutaka_Tsutano.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Original iPhone - iPhone 3G - iPhone 4 - Flickr - Yutaka Tsutano.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Original_iPhone_-_iPhone_3G_-_iPhone_4_-_Flickr_-_Yutaka_Tsutano.jpg/1920px-Original_iPhone_-_iPhone_3G_-_iPhone_4_-_Flickr_-_Yutaka_Tsutano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4752
+      },
+      {
+        "author": "iGeeksBlog",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_4_Grid_Framed.jpg",
+        "height": 3376,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_4_Grid_Framed.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 4 Grid Framed.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/IPhone_4_Grid_Framed.jpg/1920px-IPhone_4_Grid_Framed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 6000
+      }
+    ],
+    "phone": {
+      "id": "apple-iphone-4",
+      "name": "Apple iPhone 4",
+      "year": 2010
+    }
+  },
+  "apple-iphone-5s": {
+    "candidates": [
+      {
+        "author": "Zach Vega",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_5s_Black.png",
+        "height": 1602,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_5s_Black.png"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 5s Black.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/IPhone_5s_Black.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 763
+      },
+      {
+        "author": "Zach Vega",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_5s.png",
+        "height": 1595,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_5s.png"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 5s.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/IPhone_5s.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 758
+      },
+      {
+        "author": "Maurizio Pesce from Milan, Italia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_5s_(15048820331).jpg",
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_5s_(15048820331).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Apple iPhone 5s (15048820331).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Apple_iPhone_5s_%2815048820331%29.jpg/1920px-Apple_iPhone_5s_%2815048820331%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5184
+      },
+      {
+        "author": "Maurizio Pesce from Milan, Italia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_5s_(15028879486).jpg",
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_5s_(15028879486).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Apple iPhone 5s (15028879486).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Apple_iPhone_5s_%2815028879486%29.jpg/1920px-Apple_iPhone_5s_%2815028879486%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5184
+      },
+      {
+        "author": "Maurizio Pesce from Milan, Italia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_5s_(15048819141).jpg",
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_5s_(15048819141).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Apple iPhone 5s (15048819141).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Apple_iPhone_5s_%2815048819141%29.jpg/1920px-Apple_iPhone_5s_%2815048819141%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5184
+      }
+    ],
+    "phone": {
+      "id": "apple-iphone-5s",
+      "name": "Apple iPhone 5s",
+      "year": 2013
+    }
+  },
+  "apple-iphone-6": {
+    "candidates": [
+      {
+        "author": "Rayukk (talk) 22:48, 11 September 2014 (UTC)",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone6_silver_frontface.png",
+        "height": 2039,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone6_silver_frontface.png"
+        },
+        "status": "candidate",
+        "title": "File:IPhone6 silver frontface.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/IPhone6_silver_frontface.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1000
+      },
+      {
+        "author": "Kārlis Dambrāns from Latvia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_6_(15233472568).jpg",
+        "height": 1365,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_6_(15233472568).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Apple iPhone 6 (15233472568).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Apple_iPhone_6_%2815233472568%29.jpg/1920px-Apple_iPhone_6_%2815233472568%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2048
+      },
+      {
+        "author": "Johannes Maximilian",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_6_display_removed_1.jpg",
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_6_display_removed_1.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 6 display removed 1.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/IPhone_6_display_removed_1.jpg/1920px-IPhone_6_display_removed_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5472
+      },
+      {
+        "author": "Håkan Dahlström from Malmö, Sweden",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_6_iOS_Update_(16195046500).jpg",
+        "height": 3744,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_6_iOS_Update_(16195046500).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Apple iPhone 6 iOS Update (16195046500).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Apple_iPhone_6_iOS_Update_%2816195046500%29.jpg/1920px-Apple_iPhone_6_iOS_Update_%2816195046500%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5616
+      },
+      {
+        "author": "Punkt64",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_6_moved_front_camera_%22Crescentgate%22.jpg",
+        "height": 1886,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_6_moved_front_camera_%22Crescentgate%22.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 6 moved front camera \"Crescentgate\".jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/IPhone_6_moved_front_camera_%22Crescentgate%22.jpg/1920px-IPhone_6_moved_front_camera_%22Crescentgate%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2518
+      }
+    ],
+    "phone": {
+      "id": "apple-iphone-6",
+      "name": "Apple iPhone 6",
+      "year": 2014
+    }
+  },
+  "apple-iphone-x": {
+    "candidates": [
+      {
+        "author": "Gregory Varnum",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_X_-_front_(8121).jpg",
+        "height": 2296,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_X_-_front_(8121).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Apple iPhone X - front (8121).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Apple_iPhone_X_-_front_%288121%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1499
+      },
+      {
+        "author": "Gregory Varnum",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_X_-_back_(8111).jpg",
+        "height": 2637,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_X_-_back_(8111).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Apple iPhone X - back (8111).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Apple_iPhone_X_-_back_%288111%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1870
+      },
+      {
+        "author": "Gregory Varnum",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_X_and_included_accessories_(8127).jpg",
+        "height": 2428,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_X_and_included_accessories_(8127).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Apple iPhone X and included accessories (8127).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Apple_iPhone_X_and_included_accessories_%288127%29.jpg/1920px-Apple_iPhone_X_and_included_accessories_%288127%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3913
+      },
+      {
+        "author": "Fabian V. Thobe of riCompro Srl in Italy",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_11_Pro,_iPhone_XS_and_iPhone_X_Carbon_Emissions_of_the_1st_Life_Cycle.png",
+        "height": 964,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_11_Pro,_iPhone_XS_and_iPhone_X_Carbon_Emissions_of_the_1st_Life_Cycle.png"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 11 Pro, iPhone XS and iPhone X Carbon Emissions of the 1st Life Cycle.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/IPhone_11_Pro%2C_iPhone_XS_and_iPhone_X_Carbon_Emissions_of_the_1st_Life_Cycle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1494
+      },
+      {
+        "author": "freestocks.org from Olsztyn, Poland",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IPhone_6s,_iPhone_8_plus_and_iPhone_X.jpg",
+        "height": 2965,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IPhone_6s,_iPhone_8_plus_and_iPhone_X.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IPhone 6s, iPhone 8 plus and iPhone X.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/IPhone_6s%2C_iPhone_8_plus_and_iPhone_X.jpg/1920px-IPhone_6s%2C_iPhone_8_plus_and_iPhone_X.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4447
+      }
+    ],
+    "phone": {
+      "id": "apple-iphone-x",
+      "name": "Apple iPhone X",
+      "year": 2017
+    }
+  },
+  "blackberry-bold-9000": {
+    "candidates": [
+      {
+        "author": "Zuzu",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:BlackBerry_Bold_9000_TIM.jpeg",
+        "height": 1455,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:BlackBerry_Bold_9000_TIM.jpeg"
+        },
+        "status": "candidate",
+        "title": "File:BlackBerry Bold 9000 TIM.jpeg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/BlackBerry_Bold_9000_TIM.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 890
+      },
+      {
+        "author": "Evan-Amos",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Blackberry-Bold-9650-Verizon.jpg",
+        "height": 3480,
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Blackberry-Bold-9650-Verizon.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Blackberry-Bold-9650-Verizon.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Blackberry-Bold-9650-Verizon.jpg/1920px-Blackberry-Bold-9650-Verizon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2120
+      },
+      {
+        "author": "Zvivi",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:BlackBerryBold9000.JPG",
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:BlackBerryBold9000.JPG"
+        },
+        "status": "candidate",
+        "title": "File:BlackBerryBold9000.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/BlackBerryBold9000.JPG/1920px-BlackBerryBold9000.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1936
+      },
+      {
+        "author": "Metrónomo",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:BlackBerry_Bold_9000.JPG",
+        "height": 3240,
+        "license": "CC BY-SA 2.5 ar",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/ar/deed.en",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:BlackBerry_Bold_9000.JPG"
+        },
+        "status": "candidate",
+        "title": "File:BlackBerry Bold 9000.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/BlackBerry_Bold_9000.JPG/1920px-BlackBerry_Bold_9000.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4320
+      },
+      {
+        "author": "Metrónomo",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:BlackBerry_Bold_9000_-_2.JPG",
+        "height": 3240,
+        "license": "CC BY-SA 2.5 ar",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/ar/deed.en",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:BlackBerry_Bold_9000_-_2.JPG"
+        },
+        "status": "candidate",
+        "title": "File:BlackBerry Bold 9000 - 2.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/BlackBerry_Bold_9000_-_2.JPG/1920px-BlackBerry_Bold_9000_-_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4320
+      }
+    ],
+    "phone": {
+      "id": "blackberry-bold-9000",
+      "name": "BlackBerry Bold 9000",
+      "year": 2008
+    }
+  },
+  "blackberry-curve-8520": {
+    "candidates": [
+      {
+        "author": "IEPP298",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:BB8520.JPG",
+        "height": 2048,
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:BB8520.JPG"
+        },
+        "status": "candidate",
+        "title": "File:BB8520.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/BB8520.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1536
+      },
+      {
+        "author": "Joseph001",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Blackberry_curve_white_1.jpg",
+        "height": 536,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Blackberry_curve_white_1.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Blackberry curve white 1.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Blackberry_curve_white_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 716
+      },
+      {
+        "author": "Joseph001",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Blackberry_curve_white_2.jpg",
+        "height": 804,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Blackberry_curve_white_2.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Blackberry curve white 2.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Blackberry_curve_white_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1072
+      },
+      {
+        "author": "Klaeiis",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:BlackBerry_Curve_8520.jpg",
+        "height": 2560,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:BlackBerry_Curve_8520.jpg"
+        },
+        "status": "candidate",
+        "title": "File:BlackBerry Curve 8520.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/BlackBerry_Curve_8520.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1920
+      },
+      {
+        "author": "A7N8X",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:BB_8520.jpg",
+        "height": 2217,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:BB_8520.jpg"
+        },
+        "status": "candidate",
+        "title": "File:BB 8520.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/BB_8520.jpg/1920px-BB_8520.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2600
+      }
+    ],
+    "phone": {
+      "id": "blackberry-curve-8520",
+      "name": "BlackBerry Curve 8520",
+      "year": 2009
+    }
+  },
+  "google-pixel": {
+    "candidates": [
+      {
+        "author": "April.Kai",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Google_Pixel_PSD_%E9%BB%91.png",
+        "height": 2583,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Google_Pixel_PSD_%E9%BB%91.png"
+        },
+        "status": "candidate",
+        "title": "File:Google Pixel PSD 黑.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Google_Pixel_PSD_%E9%BB%91.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1286
+      },
+      {
+        "author": "Maurizio Pesce from Milan, Italia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Android_Assistant_on_the_Google_Pixel_XL_smartphone_(29526761674).jpg",
+        "height": 2793,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Android_Assistant_on_the_Google_Pixel_XL_smartphone_(29526761674).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Android Assistant on the Google Pixel XL smartphone (29526761674).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Android_Assistant_on_the_Google_Pixel_XL_smartphone_%2829526761674%29.jpg/1920px-Android_Assistant_on_the_Google_Pixel_XL_smartphone_%2829526761674%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1954
+      },
+      {
+        "author": "Maurizio Pesce from Milan, Italia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Google_Pixel_and_Pixel_XL_smartphones_(30155272575).jpg",
+        "height": 2912,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Google_Pixel_and_Pixel_XL_smartphones_(30155272575).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Google Pixel and Pixel XL smartphones (30155272575).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg/1920px-Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5184
+      },
+      {
+        "author": "Maurizio Pesce from Milan, Italia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Google_Pixel_and_Pixel_XL_smartphones_(30155266465).jpg",
+        "height": 2912,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Google_Pixel_and_Pixel_XL_smartphones_(30155266465).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Google Pixel and Pixel XL smartphones (30155266465).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Google_Pixel_and_Pixel_XL_smartphones_%2830155266465%29.jpg/1920px-Google_Pixel_and_Pixel_XL_smartphones_%2830155266465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5184
+      },
+      {
+        "author": "Maurizio Pesce from Milan, Italia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Google_Pixel_and_Pixel_XL_smartphones_(30120254046).jpg",
+        "height": 2912,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Google_Pixel_and_Pixel_XL_smartphones_(30120254046).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Google Pixel and Pixel XL smartphones (30120254046).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Google_Pixel_and_Pixel_XL_smartphones_%2830120254046%29.jpg/1920px-Google_Pixel_and_Pixel_XL_smartphones_%2830120254046%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5184
+      }
+    ],
+    "phone": {
+      "id": "google-pixel",
+      "name": "Google Pixel 2016",
+      "year": 2016
+    }
+  },
+  "htc-dream": {
+    "candidates": [
+      {
+        "author": "Michael Oryl",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:T-Mobile_G1_launch_event_2.jpg",
+        "height": 1082,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:T-Mobile_G1_launch_event_2.jpg"
+        },
+        "status": "candidate",
+        "title": "File:T-Mobile G1 launch event 2.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/T-Mobile_G1_launch_event_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1346
+      },
+      {
+        "author": "Marcus Sümnick",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HTC_Dream_flipside.jpg",
+        "height": 876,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:HTC_Dream_flipside.jpg"
+        },
+        "status": "candidate",
+        "title": "File:HTC Dream flipside.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/HTC_Dream_flipside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1600
+      },
+      {
+        "author": "Marcus Sümnick",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HTC_Dream_opened.jpg",
+        "height": 1269,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:HTC_Dream_opened.jpg"
+        },
+        "status": "candidate",
+        "title": "File:HTC Dream opened.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/HTC_Dream_opened.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1600
+      },
+      {
+        "author": "Marcus Sümnick",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HTC_Dream_(right_side).jpg",
+        "height": 703,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:HTC_Dream_(right_side).jpg"
+        },
+        "status": "candidate",
+        "title": "File:HTC Dream (right side).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/HTC_Dream_%28right_side%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1600
+      },
+      {
+        "author": "Marcus Sümnick",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HTC_Dream_flipside_(closed).jpg",
+        "height": 815,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:HTC_Dream_flipside_(closed).jpg"
+        },
+        "status": "candidate",
+        "title": "File:HTC Dream flipside (closed).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/HTC_Dream_flipside_%28closed%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1600
+      }
+    ],
+    "phone": {
+      "id": "htc-dream",
+      "name": "HTC Dream T-Mobile G1",
+      "year": 2008
+    }
+  },
+  "htc-one-m7": {
+    "candidates": [
+      {
+        "author": "TAKA@P.P.R.S",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HTC_One_J_HTL22_back.jpg",
+        "height": 2349,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:HTC_One_J_HTL22_back.jpg"
+        },
+        "status": "candidate",
+        "title": "File:HTC One J HTL22 back.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/HTC_One_J_HTL22_back.jpg/1920px-HTC_One_J_HTL22_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3341
+      },
+      {
+        "author": "Asmoth",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HTC_One_02.JPG",
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:HTC_One_02.JPG"
+        },
+        "status": "candidate",
+        "title": "File:HTC One 02.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/HTC_One_02.JPG/1920px-HTC_One_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4000
+      },
+      {
+        "author": "Asmoth",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HTC_One_03.JPG",
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:HTC_One_03.JPG"
+        },
+        "status": "candidate",
+        "title": "File:HTC One 03.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/HTC_One_03.JPG/1920px-HTC_One_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4000
+      },
+      {
+        "author": "Asmoth",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HTC_One_top.JPG",
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:HTC_One_top.JPG"
+        },
+        "status": "candidate",
+        "title": "File:HTC One top.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/HTC_One_top.JPG/1920px-HTC_One_top.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4000
+      },
+      {
+        "author": "Asmoth",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HTC_One_side.JPG",
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:HTC_One_side.JPG"
+        },
+        "status": "candidate",
+        "title": "File:HTC One side.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/HTC_One_side.JPG/1920px-HTC_One_side.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4000
+      }
+    ],
+    "phone": {
+      "id": "htc-one-m7",
+      "name": "HTC One M7",
+      "year": 2013
+    }
+  },
+  "huawei-mate-40-pro": {
+    "candidates": [
+      {
+        "author": "Petar Milošević",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Huawei_Store_(original_shot_with_Huawei_Mate_20_Pro).jpg",
+        "height": 7296,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Huawei_Store_(original_shot_with_Huawei_Mate_20_Pro).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Huawei Store (original shot with Huawei Mate 20 Pro).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Huawei_Store_%28original_shot_with_Huawei_Mate_20_Pro%29.jpg/1920px-Huawei_Store_%28original_shot_with_Huawei_Mate_20_Pro%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5472
+      },
+      {
+        "author": "Shwangtianyuan",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_40_Pro_Front.jpg",
+        "height": 3968,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_40_Pro_Front.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Huawei Mate 40 Pro Front.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Huawei_Mate_40_Pro_Front.jpg/1920px-Huawei_Mate_40_Pro_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2976
+      },
+      {
+        "author": "30000lightyears",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_40_RS.jpg",
+        "height": 2915,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_40_RS.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Huawei Mate 40 RS.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Huawei_Mate_40_RS.jpg/1920px-Huawei_Mate_40_RS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1976
+      },
+      {
+        "author": "30000lightyears",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HuaweI_Mate_40_Pro_orange.jpg",
+        "height": 4000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:HuaweI_Mate_40_Pro_orange.jpg"
+        },
+        "status": "candidate",
+        "title": "File:HuaweI Mate 40 Pro orange.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/HuaweI_Mate_40_Pro_orange.jpg/1920px-HuaweI_Mate_40_Pro_orange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2256
+      },
+      {
+        "author": "X-SHLIED",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_40_White_back.jpg",
+        "height": 9248,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_40_White_back.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Huawei Mate 40 White back.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Huawei_Mate_40_White_back.jpg/1920px-Huawei_Mate_40_White_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 6936
+      }
+    ],
+    "phone": {
+      "id": "huawei-mate-40-pro",
+      "name": "Huawei Mate 40 Pro",
+      "year": 2020
+    }
+  },
+  "huawei-p20-pro": {
+    "candidates": [
+      {
+        "author": "[Kārlis Dambrāns]",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Huawei_P20_Pro.jpg",
+        "height": 1365,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Huawei_P20_Pro.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Huawei P20 Pro.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Huawei_P20_Pro.jpg/1920px-Huawei_P20_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2048
+      },
+      {
+        "author": "GillyBerlin from Berlin, Germany",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_Rue_Montmartre.jpg",
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Paris_-_Rue_Montmartre.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Paris - Rue Montmartre.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Paris_-_Rue_Montmartre.jpg/1920px-Paris_-_Rue_Montmartre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3648
+      },
+      {
+        "author": "GillyBerlin from Berlin, Germany",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_Rue_Montorgueil.jpg",
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Paris_-_Rue_Montorgueil.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Paris - Rue Montorgueil.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Paris_-_Rue_Montorgueil.jpg/1920px-Paris_-_Rue_Montorgueil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3648
+      },
+      {
+        "author": "GillyBerlin from Berlin, Germany",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_Rue_Mandar.jpg",
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Paris_-_Rue_Mandar.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Paris - Rue Mandar.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Paris_-_Rue_Mandar.jpg/1920px-Paris_-_Rue_Mandar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3648
+      },
+      {
+        "author": "GillyBerlin from Berlin, Germany",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_Rue_Saint_Marc.jpg",
+        "height": 2736,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Paris_-_Rue_Saint_Marc.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Paris - Rue Saint Marc.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Paris_-_Rue_Saint_Marc.jpg/1920px-Paris_-_Rue_Saint_Marc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3648
+      }
+    ],
+    "phone": {
+      "id": "huawei-p20-pro",
+      "name": "Huawei P20 Pro",
+      "year": 2018
+    }
+  },
+  "ibm-simon": {
+    "candidates": [
+      {
+        "author": "Bcos47",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IBM_SImon_in_charging_station.png",
+        "height": 3264,
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IBM_SImon_in_charging_station.png"
+        },
+        "status": "candidate",
+        "title": "File:IBM SImon in charging station.png",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/IBM_SImon_in_charging_station.png/1920px-IBM_SImon_in_charging_station.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2448
+      },
+      {
+        "author": "RWallmow",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IBM_Simon_in_leather_case.jpg",
+        "height": 3264,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IBM_Simon_in_leather_case.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IBM Simon in leather case.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/IBM_Simon_in_leather_case.jpg/1920px-IBM_Simon_in_leather_case.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2448
+      },
+      {
+        "author": "Bcos47",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator.png",
+        "height": 3000,
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator.png"
+        },
+        "status": "candidate",
+        "title": "File:IBM Simon Personal Communicator.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/IBM_Simon_Personal_Communicator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1615
+      },
+      {
+        "author": "Michael Hicks from Saint Paul, MN, USA",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator_(1993)_-_the_first_smartphone_-_Computer_History_Museum.jpg",
+        "height": 5184,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator_(1993)_-_the_first_smartphone_-_Computer_History_Museum.jpg"
+        },
+        "status": "candidate",
+        "title": "File:IBM Simon Personal Communicator (1993) - the first smartphone - Computer History Museum.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/IBM_Simon_Personal_Communicator_%281993%29_-_the_first_smartphone_-_Computer_History_Museum.jpg/1920px-IBM_Simon_Personal_Communicator_%281993%29_-_the_first_smartphone_-_Computer_History_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3456
+      },
+      {
+        "author": "Bcos47",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator_(2).png",
+        "height": 3000,
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator_(2).png"
+        },
+        "status": "candidate",
+        "title": "File:IBM Simon Personal Communicator (2).png",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/IBM_Simon_Personal_Communicator_%282%29.png/1920px-IBM_Simon_Personal_Communicator_%282%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3000
+      }
+    ],
+    "phone": {
+      "id": "ibm-simon",
+      "name": "IBM Simon Personal Communicator",
+      "year": 1994
+    }
+  },
+  "lg-chocolate-kg90": {
+    "candidates": [],
+    "phone": {
+      "id": "lg-chocolate-kg90",
+      "name": "LG Chocolate KG90",
+      "year": 2006
+    }
+  },
+  "lg-g3": {
+    "candidates": [
+      {
+        "author": "LG전자",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:LG_G3_(Metallic_Black,_Front).jpg",
+        "height": 1448,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:LG_G3_(Metallic_Black,_Front).jpg"
+        },
+        "status": "candidate",
+        "title": "File:LG G3 (Metallic Black, Front).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/LG_G3_%28Metallic_Black%2C_Front%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 836
+      },
+      {
+        "author": "LG전자",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:LG_G3_(Metallic_Black,_Back).jpg",
+        "height": 1536,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:LG_G3_(Metallic_Black,_Back).jpg"
+        },
+        "status": "candidate",
+        "title": "File:LG G3 (Metallic Black, Back).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/LG_G3_%28Metallic_Black%2C_Back%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1152
+      },
+      {
+        "author": "LG전자",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:LG_G3_Specification.jpg",
+        "height": 3429,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:LG_G3_Specification.jpg"
+        },
+        "status": "candidate",
+        "title": "File:LG G3 Specification.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/LG_G3_Specification.jpg/1920px-LG_G3_Specification.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2245
+      },
+      {
+        "author": "John Karakatsanis",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:LG_G3_S.jpg",
+        "height": 2448,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:LG_G3_S.jpg"
+        },
+        "status": "candidate",
+        "title": "File:LG G3 S.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/LG_G3_S.jpg/1920px-LG_G3_S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3264
+      },
+      {
+        "author": "LG전자",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:LG_G3_A_(white,_back).jpg",
+        "height": 1024,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:LG_G3_A_(white,_back).jpg"
+        },
+        "status": "candidate",
+        "title": "File:LG G3 A (white, back).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/LG_G3_A_%28white%2C_back%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 768
+      }
+    ],
+    "phone": {
+      "id": "lg-g3",
+      "name": "LG G3",
+      "year": 2014
+    }
+  },
+  "motorola-dynatac-8000x": {
+    "candidates": [
+      {
+        "author": "Rico Shen",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:2007Computex_e21Forum-MartinCooper.jpg",
+        "height": 3072,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:2007Computex_e21Forum-MartinCooper.jpg"
+        },
+        "status": "candidate",
+        "title": "File:2007Computex e21Forum-MartinCooper.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/2007Computex_e21Forum-MartinCooper.jpg/1920px-2007Computex_e21Forum-MartinCooper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2304
+      },
+      {
+        "author": "Umut Çolak",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_DynaTAC_and_Samsung_Galaxy_Note_Edge.jpg",
+        "height": 4000,
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_DynaTAC_and_Samsung_Galaxy_Note_Edge.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola DynaTAC and Samsung Galaxy Note Edge.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Motorola_DynaTAC_and_Samsung_Galaxy_Note_Edge.jpg/1920px-Motorola_DynaTAC_and_Samsung_Galaxy_Note_Edge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 6000
+      }
+    ],
+    "phone": {
+      "id": "motorola-dynatac-8000x",
+      "name": "Motorola DynaTAC 8000X",
+      "year": 1983
+    }
+  },
+  "motorola-dynatac-prototype": {
+    "candidates": [
+      {
+        "author": "Rico Shen",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:2007Computex_e21Forum-MartinCooper.jpg",
+        "height": 3072,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:2007Computex_e21Forum-MartinCooper.jpg"
+        },
+        "status": "candidate",
+        "title": "File:2007Computex e21Forum-MartinCooper.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/2007Computex_e21Forum-MartinCooper.jpg/1920px-2007Computex_e21Forum-MartinCooper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2304
+      }
+    ],
+    "phone": {
+      "id": "motorola-dynatac-prototype",
+      "name": "Motorola DynaTAC prototype",
+      "year": 1973
+    }
+  },
+  "motorola-microtac": {
+    "candidates": [
+      {
+        "author": "Redrum0486 (talk) / Redrum0486 at English Wikipedia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:MicroTAC_Comparison.jpg",
+        "height": 561,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:MicroTAC_Comparison.jpg"
+        },
+        "status": "candidate",
+        "title": "File:MicroTAC Comparison.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/MicroTAC_Comparison.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 800
+      },
+      {
+        "author": "Redrum0486 at English Wikipedia. Later version(s) were uploaded by Anetode at English Wikipedia.",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:MicroTAC.jpg",
+        "height": 1337,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:MicroTAC.jpg"
+        },
+        "status": "candidate",
+        "title": "File:MicroTAC.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/MicroTAC.jpg/1920px-MicroTAC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2220
+      }
+    ],
+    "phone": {
+      "id": "motorola-microtac",
+      "name": "Motorola MicroTAC 9800X",
+      "year": 1989
+    }
+  },
+  "motorola-milestone": {
+    "candidates": [
+      {
+        "author": "gillyberlin",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_Milestone_%26_LG_GW620_20100124.jpg",
+        "height": 2304,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_Milestone_%26_LG_GW620_20100124.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola Milestone & LG GW620 20100124.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Motorola_Milestone_%26_LG_GW620_20100124.jpg/1920px-Motorola_Milestone_%26_LG_GW620_20100124.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3072
+      },
+      {
+        "author": "Jan Stöcklin",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_Milestone.jpg",
+        "height": 2250,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_Milestone.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola Milestone.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Motorola_Milestone.jpg/1920px-Motorola_Milestone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3646
+      },
+      {
+        "author": "Bing",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_Droid_2.jpg",
+        "height": 528,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_Droid_2.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola Droid 2.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Motorola_Droid_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 704
+      },
+      {
+        "author": "Shritwod (talk)",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola-milestone-wikipedia.jpg",
+        "height": 600,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola-milestone-wikipedia.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola-milestone-wikipedia.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Motorola-milestone-wikipedia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 800
+      },
+      {
+        "author": "Shritwod (talk)",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola-milestone-portrait.jpg",
+        "height": 1598,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola-milestone-portrait.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola-milestone-portrait.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Motorola-milestone-portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 953
+      }
+    ],
+    "phone": {
+      "id": "motorola-milestone",
+      "name": "Motorola Milestone Droid",
+      "year": 2009
+    }
+  },
+  "motorola-razr-2019": {
+    "candidates": [
+      {
+        "author": "Booredatwork.com",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Moto_Razr_2020.png",
+        "height": 808,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Moto_Razr_2020.png"
+        },
+        "status": "candidate",
+        "title": "File:Moto Razr 2020.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Moto_Razr_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 716
+      },
+      {
+        "author": "Booredatwork.com",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Moto_Razr_2020_(2).png",
+        "height": 616,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Moto_Razr_2020_(2).png"
+        },
+        "status": "candidate",
+        "title": "File:Moto Razr 2020 (2).png",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Moto_Razr_2020_%282%29.png/1920px-Moto_Razr_2020_%282%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2194
+      }
+    ],
+    "phone": {
+      "id": "motorola-razr-2019",
+      "name": "Motorola Razr 2019 foldable",
+      "year": 2019
+    }
+  },
+  "motorola-razr-v3": {
+    "candidates": [
+      {
+        "author": "Raimond Spekking",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_RAZR_V3-4899.jpg",
+        "height": 3148,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_RAZR_V3-4899.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola RAZR V3-4899.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Motorola_RAZR_V3-4899.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1771
+      },
+      {
+        "author": "Raimond Spekking",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_RAZR_V3-4900.jpg",
+        "height": 2814,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_RAZR_V3-4900.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola RAZR V3-4900.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Motorola_RAZR_V3-4900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1583
+      },
+      {
+        "author": "Raimond Spekking",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_RAZR_V3-4901.jpg",
+        "height": 2638,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_RAZR_V3-4901.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola RAZR V3-4901.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Motorola_RAZR_V3-4901.jpg/1920px-Motorola_RAZR_V3-4901.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2638
+      },
+      {
+        "author": "Raimond Spekking",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_RAZR_V3-4902.jpg",
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_RAZR_V3-4902.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola RAZR V3-4902.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Motorola_RAZR_V3-4902.jpg/1920px-Motorola_RAZR_V3-4902.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2268
+      },
+      {
+        "author": "Raimond Spekking",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_RAZR_V3-4903.jpg",
+        "height": 3162,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_RAZR_V3-4903.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola RAZR V3-4903.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Motorola_RAZR_V3-4903.jpg/1920px-Motorola_RAZR_V3-4903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2372
+      }
+    ],
+    "phone": {
+      "id": "motorola-razr-v3",
+      "name": "Motorola RAZR V3",
+      "year": 2004
+    }
+  },
+  "motorola-startac": {
+    "candidates": [
+      {
+        "author": "ProhibitOnions at English Wikipedia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:MotorolaStarTAC.jpg",
+        "height": 777,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:MotorolaStarTAC.jpg"
+        },
+        "status": "candidate",
+        "title": "File:MotorolaStarTAC.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/MotorolaStarTAC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1026
+      },
+      {
+        "author": "Banffy",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_StarTac_70_Made_in_Germany_27.jpg",
+        "height": 1024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_StarTac_70_Made_in_Germany_27.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola StarTac 70 Made in Germany 27.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Motorola_StarTac_70_Made_in_Germany_27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 768
+      },
+      {
+        "author": "Banffy",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_StarTac_70_Made_in_Germany_21.jpg",
+        "height": 768,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_StarTac_70_Made_in_Germany_21.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola StarTac 70 Made in Germany 21.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Motorola_StarTac_70_Made_in_Germany_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1024
+      },
+      {
+        "author": "Banffy",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_StarTac_70_Made_in_Germany_19.jpg",
+        "height": 768,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_StarTac_70_Made_in_Germany_19.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola StarTac 70 Made in Germany 19.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Motorola_StarTac_70_Made_in_Germany_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1024
+      },
+      {
+        "author": "Banffy",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motorola_StarTac_70_Made_in_Germany_16.jpg",
+        "height": 1024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorola_StarTac_70_Made_in_Germany_16.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Motorola StarTac 70 Made in Germany 16.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Motorola_StarTac_70_Made_in_Germany_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 768
+      }
+    ],
+    "phone": {
+      "id": "motorola-startac",
+      "name": "Motorola StarTAC",
+      "year": 1996
+    }
+  },
+  "nexus-one": {
+    "candidates": [
+      {
+        "author": "Byrion Smith",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Google,_London,_UK_-_Victoria.jpg",
+        "height": 1944,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Google,_London,_UK_-_Victoria.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Google, London, UK - Victoria.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Google%2C_London%2C_UK_-_Victoria.jpg/1920px-Google%2C_London%2C_UK_-_Victoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2592
+      },
+      {
+        "author": "Johan Larsson",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sky_Map_Nexus_One.jpg",
+        "height": 2304,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Sky_Map_Nexus_One.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Sky Map Nexus One.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Sky_Map_Nexus_One.jpg/1920px-Sky_Map_Nexus_One.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3456
+      },
+      {
+        "author": "Johan Larsson from Göteborg, Sweden",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Google_Nexus_One_with_Evernote_for_Android_(4375773612).jpg",
+        "height": 2085,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Google_Nexus_One_with_Evernote_for_Android_(4375773612).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Google Nexus One with Evernote for Android (4375773612).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Google_Nexus_One_with_Evernote_for_Android_%284375773612%29.jpg/1920px-Google_Nexus_One_with_Evernote_for_Android_%284375773612%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3127
+      },
+      {
+        "author": "Micah Elizabeth Scott from San Francisco, United States",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Docked_Nexus_One_(4694597317).jpg",
+        "height": 1600,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Docked_Nexus_One_(4694597317).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Docked Nexus One (4694597317).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Docked_Nexus_One_%284694597317%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1200
+      },
+      {
+        "author": "Steve Rainwater from Irving, US",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Cam_2020-02-11_10-18-44_(49524241497).jpg",
+        "height": 2826,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Cam_2020-02-11_10-18-44_(49524241497).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Cam 2020-02-11 10-18-44 (49524241497).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Cam_2020-02-11_10-18-44_%2849524241497%29.jpg/1920px-Cam_2020-02-11_10-18-44_%2849524241497%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2825
+      }
+    ],
+    "phone": {
+      "id": "nexus-one",
+      "name": "Google Nexus One",
+      "year": 2010
+    }
+  },
+  "nokia-1011": {
+    "candidates": [
+      {
+        "author": "Gede",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Robertson_grave_full.jpg",
+        "height": 2576,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Robertson_grave_full.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Robertson grave full.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Robertson_grave_full.jpg/1920px-Robertson_grave_full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1936
+      },
+      {
+        "author": "Jkbw",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_1011.jpg",
+        "height": 3316,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_1011.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia 1011.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Nokia_1011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1160
+      },
+      {
+        "author": "Zacharie Grossen",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Plaine_Morte,_Pointe_de_la_Plaine_Morte.jpg",
+        "height": 1944,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Plaine_Morte,_Pointe_de_la_Plaine_Morte.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Plaine Morte, Pointe de la Plaine Morte.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Plaine_Morte%2C_Pointe_de_la_Plaine_Morte.jpg/1920px-Plaine_Morte%2C_Pointe_de_la_Plaine_Morte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2592
+      },
+      {
+        "author": "teteria sonnna from Obukhiv, Ukraine",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D0%BD%D0%BE%D0%BA_%D0%BD%D0%B0_%D1%80%D0%BE%D0%B7%D0%B1%D0%B8%D1%82%D1%96%D0%B9_%D0%B4%D0%BE%D1%80%D0%BE%D0%B7%D1%96_(13699318235).jpg",
+        "height": 1800,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D0%BD%D0%BE%D0%BA_%D0%BD%D0%B0_%D1%80%D0%BE%D0%B7%D0%B1%D0%B8%D1%82%D1%96%D0%B9_%D0%B4%D0%BE%D1%80%D0%BE%D0%B7%D1%96_(13699318235).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Ранок на розбитій дорозі (13699318235).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/%D0%A0%D0%B0%D0%BD%D0%BE%D0%BA_%D0%BD%D0%B0_%D1%80%D0%BE%D0%B7%D0%B1%D0%B8%D1%82%D1%96%D0%B9_%D0%B4%D0%BE%D1%80%D0%BE%D0%B7%D1%96_%2813699318235%29.jpg/1920px-%D0%A0%D0%B0%D0%BD%D0%BE%D0%BA_%D0%BD%D0%B0_%D1%80%D0%BE%D0%B7%D0%B1%D0%B8%D1%82%D1%96%D0%B9_%D0%B4%D0%BE%D1%80%D0%BE%D0%B7%D1%96_%2813699318235%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2400
+      },
+      {
+        "author": "D-Kuru",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_XR20-right_PNr%C2%B01011.jpg",
+        "height": 6580,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_XR20-right_PNr%C2%B01011.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia XR20-right PNr°1011.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Nokia_XR20-right_PNr%C2%B01011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 812
+      }
+    ],
+    "phone": {
+      "id": "nokia-1011",
+      "name": "Nokia 1011",
+      "year": 1992
+    }
+  },
+  "nokia-2110": {
+    "candidates": [
+      {
+        "author": "Thief12",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Celulares.JPG",
+        "height": 1119,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Celulares.JPG"
+        },
+        "status": "candidate",
+        "title": "File:Celulares.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Celulares.JPG/1920px-Celulares.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2081
+      },
+      {
+        "author": "Hundehalter at German Wikipedia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia2110i_red_back.jpg",
+        "height": 529,
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia2110i_red_back.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia2110i red back.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Nokia2110i_red_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 700
+      },
+      {
+        "author": "Leit",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Siebengebirge_Meerberg.jpg",
+        "height": 2248,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Siebengebirge_Meerberg.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Siebengebirge Meerberg.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Siebengebirge_Meerberg.jpg/1920px-Siebengebirge_Meerberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4000
+      },
+      {
+        "author": "Mustaraamattu",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_2110i_NHE-4NX.jpg",
+        "height": 3682,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_2110i_NHE-4NX.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia 2110i NHE-4NX.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Nokia_2110i_NHE-4NX.jpg/1920px-Nokia_2110i_NHE-4NX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2057
+      },
+      {
+        "author": "Santeri Viinamäki",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_2110i_(2016-06-17).jpg",
+        "height": 4000,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_2110i_(2016-06-17).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia 2110i (2016-06-17).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Nokia_2110i_%282016-06-17%29.jpg/1920px-Nokia_2110i_%282016-06-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3000
+      }
+    ],
+    "phone": {
+      "id": "nokia-2110",
+      "name": "Nokia 2110",
+      "year": 1994
+    }
+  },
+  "nokia-3210": {
+    "candidates": [
+      {
+        "author": "Michael Brandtner",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_3210_3.jpg",
+        "height": 3024,
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_3210_3.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia 3210 3.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Nokia_3210_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1230
+      },
+      {
+        "author": "J.Dncsn",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_3210_-.JPG",
+        "height": 3015,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_3210_-.JPG"
+        },
+        "status": "candidate",
+        "title": "File:Nokia 3210 -.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Nokia_3210_-.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1433
+      },
+      {
+        "author": "Basic.Master",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_3210_with_display_content.jpg",
+        "height": 2296,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_3210_with_display_content.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia 3210 with display content.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Nokia_3210_with_display_content.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1292
+      },
+      {
+        "author": "J.Dncsn",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_3210_--.jpg",
+        "height": 3216,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_3210_--.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia 3210 --.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Nokia_3210_--.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1320
+      },
+      {
+        "author": "Friedrich Haag",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:002_2018_07_18_Telefone.jpg",
+        "height": 2350,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:002_2018_07_18_Telefone.jpg"
+        },
+        "status": "candidate",
+        "title": "File:002 2018 07 18 Telefone.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/002_2018_07_18_Telefone.jpg/1920px-002_2018_07_18_Telefone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2127
+      }
+    ],
+    "phone": {
+      "id": "nokia-3210",
+      "name": "Nokia 3210",
+      "year": 1999
+    }
+  },
+  "nokia-3310": {
+    "candidates": [],
+    "phone": {
+      "id": "nokia-3310",
+      "name": "Nokia 3310",
+      "year": 2000
+    }
+  },
+  "nokia-8110": {
+    "candidates": [
+      {
+        "author": "Lewis Collard",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_8110.jpg",
+        "height": 1854,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_8110.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia 8110.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Nokia_8110.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 741
+      },
+      {
+        "author": "krystof.k (Twitter) &amp; nmuseum",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Matrixphone.jpg",
+        "height": 1080,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Matrixphone.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Matrixphone.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Matrixphone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1920
+      },
+      {
+        "author": "Mustaraamattu",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_8110_NHE-6BX.jpg",
+        "height": 3827,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_8110_NHE-6BX.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia 8110 NHE-6BX.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Nokia_8110_NHE-6BX.jpg/1920px-Nokia_8110_NHE-6BX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2069
+      },
+      {
+        "author": "Mustaraamattu",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_8110_NHE-6BX_open.jpg",
+        "height": 3736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_8110_NHE-6BX_open.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia 8110 NHE-6BX open.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Nokia_8110_NHE-6BX_open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1806
+      },
+      {
+        "author": "Сергей Алексеев",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B8%D0%B3%D0%B0_(%D0%9B%D0%B0%D1%82%D0%B2%D0%B8%D1%8F)_%D0%9D%D0%B0%D1%80%D1%83%D0%B6%D0%BD%D0%B0%D1%8F_%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%B0_(1998_%D0%B3%D0%BE%D0%B4)_-_panoramio.jpg",
+        "height": 1448,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B8%D0%B3%D0%B0_(%D0%9B%D0%B0%D1%82%D0%B2%D0%B8%D1%8F)_%D0%9D%D0%B0%D1%80%D1%83%D0%B6%D0%BD%D0%B0%D1%8F_%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%B0_(1998_%D0%B3%D0%BE%D0%B4)_-_panoramio.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Рига (Латвия) Наружная реклама (1998 год) - panoramio.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/%D0%A0%D0%B8%D0%B3%D0%B0_%28%D0%9B%D0%B0%D1%82%D0%B2%D0%B8%D1%8F%29_%D0%9D%D0%B0%D1%80%D1%83%D0%B6%D0%BD%D0%B0%D1%8F_%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%B0_%281998_%D0%B3%D0%BE%D0%B4%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1000
+      }
+    ],
+    "phone": {
+      "id": "nokia-8110",
+      "name": "Nokia 8110",
+      "year": 1996
+    }
+  },
+  "nokia-9000-communicator": {
+    "candidates": [
+      {
+        "author": "The original uploader was Loui at German Wikipedia.",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_Communicator_9000_(geschlossen).jpg",
+        "height": 1728,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_Communicator_9000_(geschlossen).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia Communicator 9000 (geschlossen).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Nokia_Communicator_9000_%28geschlossen%29.jpg/1920px-Nokia_Communicator_9000_%28geschlossen%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2304
+      },
+      {
+        "author": "derivative work: -Majestic- (talk) All9xxx.jpg: Original uploader was R@y at de.wikipedia (2004-04-03)",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:All_9xxx.png",
+        "height": 1154,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:All_9xxx.png"
+        },
+        "status": "candidate",
+        "title": "File:All 9xxx.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/All_9xxx.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1690
+      },
+      {
+        "author": "Oldmobil",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia-9110-9000.jpg",
+        "height": 582,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia-9110-9000.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia-9110-9000.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Nokia-9110-9000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1000
+      },
+      {
+        "author": "Nokia Communicator 9000 (geschlossen).jpg: Original uploader was Loui at de.wikipedia derivative work: TheAdam0s (talk)",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia9000.png",
+        "height": 2099,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia9000.png"
+        },
+        "status": "candidate",
+        "title": "File:Nokia9000.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Nokia9000.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 735
+      },
+      {
+        "author": "krystof.k (Twitter) &amp; nmuseum",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:As_Time_Goes_By_(Nokia_9000_Communicator_%26_E7).jpg",
+        "height": 1080,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:As_Time_Goes_By_(Nokia_9000_Communicator_%26_E7).jpg"
+        },
+        "status": "candidate",
+        "title": "File:As Time Goes By (Nokia 9000 Communicator & E7).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/As_Time_Goes_By_%28Nokia_9000_Communicator_%26_E7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1920
+      }
+    ],
+    "phone": {
+      "id": "nokia-9000-communicator",
+      "name": "Nokia 9000 Communicator",
+      "year": 1996
+    }
+  },
+  "nokia-lumia-920": {
+    "candidates": [
+      {
+        "author": "N i c o l a",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_920_-_Caledos_Runner.jpg",
+        "height": 3025,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_920_-_Caledos_Runner.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia Lumia 920 - Caledos Runner.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Nokia_Lumia_920_-_Caledos_Runner.jpg/1920px-Nokia_Lumia_920_-_Caledos_Runner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4034
+      },
+      {
+        "author": "Namlong618",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Microsoft%27s_Nokia_Lumia_1520.jpg",
+        "height": 3552,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Microsoft%27s_Nokia_Lumia_1520.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Microsoft's Nokia Lumia 1520.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Microsoft%27s_Nokia_Lumia_1520.jpg/1920px-Microsoft%27s_Nokia_Lumia_1520.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2000
+      },
+      {
+        "author": "Lumia930uploader",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Nokia_Lumia_920_and_the_Nokia_Lumia_930.jpg",
+        "height": 1728,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Nokia_Lumia_920_and_the_Nokia_Lumia_930.jpg"
+        },
+        "status": "candidate",
+        "title": "File:The Nokia Lumia 920 and the Nokia Lumia 930.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/The_Nokia_Lumia_920_and_the_Nokia_Lumia_930.jpg/1920px-The_Nokia_Lumia_920_and_the_Nokia_Lumia_930.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3072
+      },
+      {
+        "author": "Lumia930uploader",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_Charging_Nokia_Lumia_930.jpg",
+        "height": 2000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:A_Charging_Nokia_Lumia_930.jpg"
+        },
+        "status": "candidate",
+        "title": "File:A Charging Nokia Lumia 930.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/A_Charging_Nokia_Lumia_930.jpg/1920px-A_Charging_Nokia_Lumia_930.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3552
+      },
+      {
+        "author": "Indrek",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_920.jpg",
+        "height": 1647,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_920.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia Lumia 920.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Nokia_Lumia_920.jpg/1920px-Nokia_Lumia_920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2000
+      }
+    ],
+    "phone": {
+      "id": "nokia-lumia-920",
+      "name": "Nokia Lumia 920",
+      "year": 2012
+    }
+  },
+  "nokia-n9": {
+    "candidates": [
+      {
+        "author": "Bytearray render",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Blue_Nokia_N9.jpg",
+        "height": 471,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Blue_Nokia_N9.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Blue Nokia N9.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Blue_Nokia_N9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 800
+      },
+      {
+        "author": "Animist",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_N9.jpg",
+        "height": 1642,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_N9.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia N9.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Nokia_N9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 961
+      },
+      {
+        "author": "zache",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_n9.jpeg",
+        "height": 2592,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_n9.jpeg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia n9.jpeg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Nokia_n9.jpeg/1920px-Nokia_n9.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 1944
+      },
+      {
+        "author": "OLEG BONDARENKO",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NOKIA_N9_IZMAIL_BUDZHAK_BESSARABIYA_-_panoramio.jpg",
+        "height": 2000,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:NOKIA_N9_IZMAIL_BUDZHAK_BESSARABIYA_-_panoramio.jpg"
+        },
+        "status": "candidate",
+        "title": "File:NOKIA N9 IZMAIL BUDZHAK BESSARABIYA - panoramio.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/NOKIA_N9_IZMAIL_BUDZHAK_BESSARABIYA_-_panoramio.jpg/1920px-NOKIA_N9_IZMAIL_BUDZHAK_BESSARABIYA_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3552
+      },
+      {
+        "author": "OLEG BONDARENKO",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NOKIA_N9_CAMERA_sunny_day_bessarabiya_-_panoramio.jpg",
+        "height": 2000,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:NOKIA_N9_CAMERA_sunny_day_bessarabiya_-_panoramio.jpg"
+        },
+        "status": "candidate",
+        "title": "File:NOKIA N9 CAMERA sunny day bessarabiya - panoramio.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/NOKIA_N9_CAMERA_sunny_day_bessarabiya_-_panoramio.jpg/1920px-NOKIA_N9_CAMERA_sunny_day_bessarabiya_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3552
+      }
+    ],
+    "phone": {
+      "id": "nokia-n9",
+      "name": "Nokia N9",
+      "year": 2011
+    }
+  },
+  "nokia-n95": {
+    "candidates": [
+      {
+        "author": "User:Coaster J",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_N95_8GB.JPG",
+        "height": 1728,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_N95_8GB.JPG"
+        },
+        "status": "candidate",
+        "title": "File:Nokia N95 8GB.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Nokia_N95_8GB.JPG/1920px-Nokia_N95_8GB.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2304
+      },
+      {
+        "author": "Asim18",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_N95_Front_1.jpg",
+        "height": 3872,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_N95_Front_1.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia N95 Front 1.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Nokia_N95_Front_1.jpg/1920px-Nokia_N95_Front_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2592
+      },
+      {
+        "author": "未知作者",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_N95_and_Nokia_N95_8GB.jpg",
+        "height": 1704,
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_N95_and_Nokia_N95_8GB.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia N95 and Nokia N95 8GB.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Nokia_N95_and_Nokia_N95_8GB.jpg/1920px-Nokia_N95_and_Nokia_N95_8GB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2272
+      },
+      {
+        "author": "Nokia65",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NokiaN95_SlideOpen.jpg",
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:NokiaN95_SlideOpen.jpg"
+        },
+        "status": "candidate",
+        "title": "File:NokiaN95 SlideOpen.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/NokiaN95_SlideOpen.jpg/1920px-NokiaN95_SlideOpen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3000
+      },
+      {
+        "author": "Beamish4",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_N95_8GB_-_Back_(Closed).jpg",
+        "height": 5592,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_N95_8GB_-_Back_(Closed).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia N95 8GB - Back (Closed).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Nokia_N95_8GB_-_Back_%28Closed%29.jpg/1920px-Nokia_N95_8GB_-_Back_%28Closed%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4192
+      }
+    ],
+    "phone": {
+      "id": "nokia-n95",
+      "name": "Nokia N95",
+      "year": 2007
+    }
+  },
+  "nokia-ngage": {
+    "candidates": [
+      {
+        "author": "J-P Kärnä",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_N-Gage_wikitt%C3%A4%C3%A4.jpg",
+        "height": 447,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_N-Gage_wikitt%C3%A4%C3%A4.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia N-Gage wikittää.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Nokia_N-Gage_wikitt%C3%A4%C3%A4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 737
+      },
+      {
+        "author": "J-P Kärnä",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_N-Gage.png",
+        "height": 420,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_N-Gage.png"
+        },
+        "status": "candidate",
+        "title": "File:Nokia N-Gage.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Nokia_N-Gage.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 765
+      },
+      {
+        "author": "Evan-Amos",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia-NGage-QD.jpg",
+        "height": 2070,
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia-NGage-QD.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia-NGage-QD.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Nokia-NGage-QD.jpg/1920px-Nokia-NGage-QD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3240
+      },
+      {
+        "author": "Evan-Amos",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia-NGage-LL.jpg",
+        "height": 2670,
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia-NGage-LL.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Nokia-NGage-LL.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Nokia-NGage-LL.jpg/1920px-Nokia-NGage-LL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4680
+      },
+      {
+        "author": "Archimëa",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nokia_N-Gage_QD.png",
+        "height": 2070,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Nokia_N-Gage_QD.png"
+        },
+        "status": "candidate",
+        "title": "File:Nokia N-Gage QD.png",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Nokia_N-Gage_QD.png/1920px-Nokia_N-Gage_QD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3240
+      }
+    ],
+    "phone": {
+      "id": "nokia-ngage",
+      "name": "Nokia N-Gage",
+      "year": 2003
+    }
+  },
+  "oppo-find-x": {
+    "candidates": [
+      {
+        "author": "X-SHLIED",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:OPPO_Find_7.png",
+        "height": 2466,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:OPPO_Find_7.png"
+        },
+        "status": "candidate",
+        "title": "File:OPPO Find 7.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/OPPO_Find_7.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1167
+      },
+      {
+        "author": "Navigator84",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Oldsmobile_Ninety-Eight_X_02_Thailand_2022-03-24.jpg",
+        "height": 779,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Oldsmobile_Ninety-Eight_X_02_Thailand_2022-03-24.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Oldsmobile Ninety-Eight X 02 Thailand 2022-03-24.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Oldsmobile_Ninety-Eight_X_02_Thailand_2022-03-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1300
+      },
+      {
+        "author": "Navigator84",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Oldsmobile_Ninety-Eight_X_01_Thailand_2022-03-24.jpg",
+        "height": 789,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Oldsmobile_Ninety-Eight_X_01_Thailand_2022-03-24.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Oldsmobile Ninety-Eight X 01 Thailand 2022-03-24.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Oldsmobile_Ninety-Eight_X_01_Thailand_2022-03-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1300
+      },
+      {
+        "author": "X-SHLIED",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:OPPO_Find_N2.jpg",
+        "height": 1079,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:OPPO_Find_N2.jpg"
+        },
+        "status": "candidate",
+        "title": "File:OPPO Find N2.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/OPPO_Find_N2.jpg/1920px-OPPO_Find_N2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3420
+      },
+      {
+        "author": "X-SHLIED",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:OPPO_Find_X8_Pro_white_back.png",
+        "height": 3420,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:OPPO_Find_X8_Pro_white_back.png"
+        },
+        "status": "candidate",
+        "title": "File:OPPO Find X8 Pro white back.png",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/OPPO_Find_X8_Pro_white_back.png/1920px-OPPO_Find_X8_Pro_white_back.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2893
+      }
+    ],
+    "phone": {
+      "id": "oppo-find-x",
+      "name": "Oppo Find X",
+      "year": 2018
+    }
+  },
+  "samsung-galaxy-fold": {
+    "candidates": [
+      {
+        "author": "qdjuncheng",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Fold_in_Taidong,Qingdao.jpg",
+        "height": 3000,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Fold_in_Taidong,Qingdao.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy Fold in Taidong,Qingdao.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Samsung_Galaxy_Fold_in_Taidong%2CQingdao.jpg/1920px-Samsung_Galaxy_Fold_in_Taidong%2CQingdao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4000
+      },
+      {
+        "author": "KKPCW",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Galaxy_Fold_-_1.jpg",
+        "height": 2999,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Galaxy_Fold_-_1.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Galaxy Fold - 1.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Galaxy_Fold_-_1.jpg/1920px-Galaxy_Fold_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2736
+      },
+      {
+        "author": "Sandro Scharf",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Fold_5G_-_Aufgefaltet_Hauptdisplay.JPG",
+        "height": 4027,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Fold_5G_-_Aufgefaltet_Hauptdisplay.JPG"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy Fold 5G - Aufgefaltet Hauptdisplay.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Samsung_Galaxy_Fold_5G_-_Aufgefaltet_Hauptdisplay.JPG/1920px-Samsung_Galaxy_Fold_5G_-_Aufgefaltet_Hauptdisplay.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3220
+      },
+      {
+        "author": "Kengurukroshka",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%BE%D0%B7%D0%BA%D0%BB%D0%B0%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F_Samsung_Galaxy_Fold_2.png",
+        "height": 532,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%BE%D0%B7%D0%BA%D0%BB%D0%B0%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F_Samsung_Galaxy_Fold_2.png"
+        },
+        "status": "candidate",
+        "title": "File:Розкладання Samsung Galaxy Fold 2.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/%D0%A0%D0%BE%D0%B7%D0%BA%D0%BB%D0%B0%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F_Samsung_Galaxy_Fold_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1118
+      },
+      {
+        "author": "Kengurukroshka",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%BE%D0%B2%D0%BD%D1%96%D1%88%D0%BD%D1%96%D0%B9_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD_Samsung_Galaxy_Fold_2.png",
+        "height": 585,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%BE%D0%B2%D0%BD%D1%96%D1%88%D0%BD%D1%96%D0%B9_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD_Samsung_Galaxy_Fold_2.png"
+        },
+        "status": "candidate",
+        "title": "File:Зовнішній екран Samsung Galaxy Fold 2.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/%D0%97%D0%BE%D0%B2%D0%BD%D1%96%D1%88%D0%BD%D1%96%D0%B9_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD_Samsung_Galaxy_Fold_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 753
+      }
+    ],
+    "phone": {
+      "id": "samsung-galaxy-fold",
+      "name": "Samsung Galaxy Fold",
+      "year": 2019
+    }
+  },
+  "samsung-galaxy-note": {
+    "candidates": [
+      {
+        "author": "Rameshng",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_Note_-_Snap_2553.JPG",
+        "height": 2736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_Note_-_Snap_2553.JPG"
+        },
+        "status": "candidate",
+        "title": "File:Samsung galaxy Note - Snap 2553.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Samsung_galaxy_Note_-_Snap_2553.JPG/1920px-Samsung_galaxy_Note_-_Snap_2553.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3648
+      },
+      {
+        "author": "Rameshng",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_Note_-_Snap_2554.JPG",
+        "height": 2736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_Note_-_Snap_2554.JPG"
+        },
+        "status": "candidate",
+        "title": "File:Samsung galaxy Note - Snap 2554.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Samsung_galaxy_Note_-_Snap_2554.JPG/1920px-Samsung_galaxy_Note_-_Snap_2554.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3648
+      },
+      {
+        "author": "Rameshng",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_Note_-_Snap_2555.JPG",
+        "height": 2736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_Note_-_Snap_2555.JPG"
+        },
+        "status": "candidate",
+        "title": "File:Samsung galaxy Note - Snap 2555.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Samsung_galaxy_Note_-_Snap_2555.JPG/1920px-Samsung_galaxy_Note_-_Snap_2555.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3648
+      },
+      {
+        "author": "Rameshng",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_Note_-_Snap_2556.JPG",
+        "height": 2736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_Note_-_Snap_2556.JPG"
+        },
+        "status": "candidate",
+        "title": "File:Samsung galaxy Note - Snap 2556.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Samsung_galaxy_Note_-_Snap_2556.JPG/1920px-Samsung_galaxy_Note_-_Snap_2556.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3648
+      },
+      {
+        "author": "Rameshng",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_Note_-_Snap_2557.JPG",
+        "height": 2736,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_Note_-_Snap_2557.JPG"
+        },
+        "status": "candidate",
+        "title": "File:Samsung galaxy Note - Snap 2557.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Samsung_galaxy_Note_-_Snap_2557.JPG/1920px-Samsung_galaxy_Note_-_Snap_2557.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3648
+      }
+    ],
+    "phone": {
+      "id": "samsung-galaxy-note",
+      "name": "Samsung Galaxy Note N7000",
+      "year": 2011
+    }
+  },
+  "samsung-galaxy-s": {
+    "candidates": [
+      {
+        "author": "555KingFelix555",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_Advance_GT-I9070.JPG",
+        "height": 2637,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_Advance_GT-I9070.JPG"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy S Advance GT-I9070.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Samsung_Galaxy_S_Advance_GT-I9070.JPG/1920px-Samsung_Galaxy_S_Advance_GT-I9070.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3409
+      },
+      {
+        "author": "Petar Milošević",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_camera_sensor.jpg",
+        "height": 1239,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_camera_sensor.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy S camera sensor.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Samsung_Galaxy_S_camera_sensor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1446
+      },
+      {
+        "author": "AnVuong1222004 (2)",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_Advance_i9070.png",
+        "height": 2098,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_Advance_i9070.png"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy S Advance i9070.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Samsung_Galaxy_S_Advance_i9070.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1104
+      },
+      {
+        "author": "Striker9498",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:20240419_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_S24_%EC%9A%B8%ED%8A%B8%EB%9D%BC.jpg",
+        "height": 4000,
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:20240419_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_S24_%EC%9A%B8%ED%8A%B8%EB%9D%BC.jpg"
+        },
+        "status": "candidate",
+        "title": "File:20240419 삼성 갤럭시 S24 울트라.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/20240419_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_S24_%EC%9A%B8%ED%8A%B8%EB%9D%BC.jpg/1920px-20240419_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_S24_%EC%9A%B8%ED%8A%B8%EB%9D%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3000
+      },
+      {
+        "author": "Beamish4",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_(Metallic_Black)_-_Front_(splash_screen).jpg",
+        "height": 5520,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_(Metallic_Black)_-_Front_(splash_screen).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy S (Metallic Black) - Front (splash screen).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Samsung_Galaxy_S_%28Metallic_Black%29_-_Front_%28splash_screen%29.jpg/1920px-Samsung_Galaxy_S_%28Metallic_Black%29_-_Front_%28splash_screen%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4144
+      }
+    ],
+    "phone": {
+      "id": "samsung-galaxy-s",
+      "name": "Samsung Galaxy S i9000",
+      "year": 2010
+    }
+  },
+  "samsung-galaxy-s6-edge": {
+    "candidates": [
+      {
+        "author": "Kārlis Dambrāns",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Galaxy_S6_Edge.jpg",
+        "height": 1857,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Galaxy_S6_Edge.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Galaxy S6 Edge.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Galaxy_S6_Edge.jpg/1920px-Galaxy_S6_Edge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2785
+      },
+      {
+        "author": "https://www.flickr.com/people/janitors/",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S6_%26_S6_edge_Accessories.jpg",
+        "height": 2840,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S6_%26_S6_edge_Accessories.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy S6 & S6 edge Accessories.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Samsung_Galaxy_S6_%26_S6_edge_Accessories.jpg/1920px-Samsung_Galaxy_S6_%26_S6_edge_Accessories.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4260
+      },
+      {
+        "author": "Phuckhang15",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung-Galaxy-S6_and_S6_Edge.jpg",
+        "height": 683,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung-Galaxy-S6_and_S6_Edge.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Samsung-Galaxy-S6 and S6 Edge.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Samsung-Galaxy-S6_and_S6_Edge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1024
+      },
+      {
+        "author": "GadgetsGuy and GalaxyOptimus collage.",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S6_S6_Edge_and_S6_Edge_Plus.png",
+        "height": 834,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S6_S6_Edge_and_S6_Edge_Plus.png"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy S6 S6 Edge and S6 Edge Plus.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Samsung_Galaxy_S6_S6_Edge_and_S6_Edge_Plus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1178
+      },
+      {
+        "author": "Maurizio Pesce from Milan, Italia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S6_and_Galaxy_S6_edge_(16950221219).jpg",
+        "height": 3456,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S6_and_Galaxy_S6_edge_(16950221219).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy S6 and Galaxy S6 edge (16950221219).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Samsung_Galaxy_S6_and_Galaxy_S6_edge_%2816950221219%29.jpg/1920px-Samsung_Galaxy_S6_and_Galaxy_S6_edge_%2816950221219%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 5184
+      }
+    ],
+    "phone": {
+      "id": "samsung-galaxy-s6-edge",
+      "name": "Samsung Galaxy S6 Edge",
+      "year": 2015
+    }
+  },
+  "samsung-galaxy-z-flip": {
+    "candidates": [
+      {
+        "author": "Grace R. Samson",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Flip_fold_cr.jpg",
+        "height": 838,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Flip_fold_cr.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy Z Flip fold cr.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Samsung_Galaxy_Z_Flip_fold_cr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 976
+      },
+      {
+        "author": "marcusph",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Flip_(unfolded).png",
+        "height": 2817,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Flip_(unfolded).png"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy Z Flip (unfolded).png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Samsung_Galaxy_Z_Flip_%28unfolded%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1374
+      },
+      {
+        "author": "Kth696586",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Flip_opened.jpg",
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Flip_opened.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy Z Flip opened.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Samsung_Galaxy_Z_Flip_opened.jpg/1920px-Samsung_Galaxy_Z_Flip_opened.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3456
+      },
+      {
+        "author": "Hajoon0102",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Flip_4.jpg",
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Flip_4.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Samsung Galaxy Z Flip 4.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Samsung_Galaxy_Z_Flip_4.jpg/1920px-Samsung_Galaxy_Z_Flip_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3024
+      },
+      {
+        "author": "Hajoon0102",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Front_of_the_Samsung_Galaxy_Z_Flip_4.jpg",
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Front_of_the_Samsung_Galaxy_Z_Flip_4.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Front of the Samsung Galaxy Z Flip 4.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Front_of_the_Samsung_Galaxy_Z_Flip_4.jpg/1920px-Front_of_the_Samsung_Galaxy_Z_Flip_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3024
+      }
+    ],
+    "phone": {
+      "id": "samsung-galaxy-z-flip",
+      "name": "Samsung Galaxy Z Flip",
+      "year": 2020
+    }
+  },
+  "sharp-j-sh04": {
+    "candidates": [
+      {
+        "author": "Morio",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sharp_J-SH04_CP%2B_2011.jpg",
+        "height": 1408,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Sharp_J-SH04_CP%2B_2011.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Sharp J-SH04 CP+ 2011.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Sharp_J-SH04_CP%2B_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1600
+      }
+    ],
+    "phone": {
+      "id": "sharp-j-sh04",
+      "name": "Sharp J-SH04",
+      "year": 2000
+    }
+  },
+  "siemens-s10": {
+    "candidates": [
+      {
+        "author": "Ulli1105",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Siemens_S10.jpg",
+        "height": 2769,
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Siemens_S10.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Siemens S10.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Siemens_S10.jpg/1920px-Siemens_S10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2077
+      },
+      {
+        "author": "Tomás Del Coro from Las Vegas, Nevada, USA",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Siemens-Schuckert_D.IV_N1094G_-_Replica_by_Swanson_Carl_R_SSW_D-IV_C-N_S10_(26278596790).jpg",
+        "height": 1082,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Siemens-Schuckert_D.IV_N1094G_-_Replica_by_Swanson_Carl_R_SSW_D-IV_C-N_S10_(26278596790).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Siemens-Schuckert D.IV N1094G - Replica by Swanson Carl R SSW D-IV C-N S10 (26278596790).jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Siemens-Schuckert_D.IV_N1094G_-_Replica_by_Swanson_Carl_R_SSW_D-IV_C-N_S10_%2826278596790%29.jpg/1920px-Siemens-Schuckert_D.IV_N1094G_-_Replica_by_Swanson_Carl_R_SSW_D-IV_C-N_S10_%2826278596790%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2048
+      },
+      {
+        "author": "Namenloser Hobbyhistoriker",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Siemens_S10_D.jpg",
+        "height": 4608,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Siemens_S10_D.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Siemens S10 D.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Siemens_S10_D.jpg/1920px-Siemens_S10_D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3072
+      },
+      {
+        "author": "Haaso1",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SIEMENS_S10_outoor.jpg",
+        "height": 960,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:SIEMENS_S10_outoor.jpg"
+        },
+        "status": "candidate",
+        "title": "File:SIEMENS S10 outoor.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/SIEMENS_S10_outoor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 720
+      },
+      {
+        "author": "putnik",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Siemens_S10_Active.jpg",
+        "height": 4864,
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Siemens_S10_Active.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Siemens S10 Active.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Siemens_S10_Active.jpg/1920px-Siemens_S10_Active.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3648
+      }
+    ],
+    "phone": {
+      "id": "siemens-s10",
+      "name": "Siemens S10",
+      "year": 1998
+    }
+  },
+  "sony-ericsson-k750i": {
+    "candidates": [
+      {
+        "author": "Andrey Butko",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sony_Ericson_K750i_camera.jpg",
+        "height": 918,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Sony_Ericson_K750i_camera.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Sony Ericson K750i camera.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Sony_Ericson_K750i_camera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1798
+      },
+      {
+        "author": "Dan Taylor",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_K750i_Vodafone.jpg",
+        "height": 1728,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_K750i_Vodafone.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Sony Ericsson K750i Vodafone.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Sony_Ericsson_K750i_Vodafone.jpg/1920px-Sony_Ericsson_K750i_Vodafone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2304
+      },
+      {
+        "author": "Asim18 at English Wikipedia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:K750ifront.jpg",
+        "height": 1000,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:K750ifront.jpg"
+        },
+        "status": "candidate",
+        "title": "File:K750ifront.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/K750ifront.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 800
+      },
+      {
+        "author": "Cheon Fong Liew from Kluang, Malaysia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_K750i_(284505649).jpg",
+        "height": 852,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_K750i_(284505649).jpg"
+        },
+        "status": "candidate",
+        "title": "File:Sony Ericsson K750i (284505649).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Sony_Ericsson_K750i_%28284505649%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1136
+      },
+      {
+        "author": "Andrey Butko",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sony_Ericson_K750i_01.JPG",
+        "height": 2048,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Sony_Ericson_K750i_01.JPG"
+        },
+        "status": "candidate",
+        "title": "File:Sony Ericson K750i 01.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Sony_Ericson_K750i_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1536
+      }
+    ],
+    "phone": {
+      "id": "sony-ericsson-k750i",
+      "name": "Sony Ericsson K750i",
+      "year": 2005
+    }
+  },
+  "sony-ericsson-w800i": {
+    "candidates": [
+      {
+        "author": "earcos",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SE_W800i.jpg",
+        "height": 853,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:SE_W800i.jpg"
+        },
+        "status": "candidate",
+        "title": "File:SE W800i.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/SE_W800i.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1280
+      },
+      {
+        "author": "Original uploader was 阿貴 at zh.wikipedia",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_W800i.jpg",
+        "height": 1133,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_W800i.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Sony Ericsson W800i.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Sony_Ericsson_W800i.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1012
+      },
+      {
+        "author": "Pal Berge",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SonyW550iW800i.jpg",
+        "height": 1945,
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:SonyW550iW800i.jpg"
+        },
+        "status": "candidate",
+        "title": "File:SonyW550iW800i.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/SonyW550iW800i.jpg/1920px-SonyW550iW800i.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2980
+      },
+      {
+        "author": "Magnus Bäck",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_W800_(Smooth_White),_front_and_back.jpg",
+        "height": 1915,
+        "license": "Public domain",
+        "licenseUrl": "",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_W800_(Smooth_White),_front_and_back.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Sony Ericsson W800 (Smooth White), front and back.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Sony_Ericsson_W800_%28Smooth_White%29%2C_front_and_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1655
+      },
+      {
+        "author": "Centovalli",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:W800_windshield.jpg",
+        "height": 1200,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:W800_windshield.jpg"
+        },
+        "status": "candidate",
+        "title": "File:W800 windshield.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/W800_windshield.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1600
+      }
+    ],
+    "phone": {
+      "id": "sony-ericsson-w800i",
+      "name": "Sony Ericsson W800i",
+      "year": 2005
+    }
+  },
+  "sony-xperia-1": {
+    "candidates": [
+      {
+        "author": "X-SHLIED",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_1.png",
+        "height": 2040,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_1.png"
+        },
+        "status": "candidate",
+        "title": "File:Sony Xperia 1.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Sony_Xperia_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 849
+      },
+      {
+        "author": "Puddin1975",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Xperia_1_II.jpg",
+        "height": 810,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Xperia_1_II.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Xperia 1 II.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Xperia_1_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1440
+      },
+      {
+        "author": "D.328",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SONY_Xperia_1_(SOV40)_Purple_Frontside.jpg",
+        "height": 3264,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:SONY_Xperia_1_(SOV40)_Purple_Frontside.jpg"
+        },
+        "status": "candidate",
+        "title": "File:SONY Xperia 1 (SOV40) Purple Frontside.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/SONY_Xperia_1_%28SOV40%29_Purple_Frontside.jpg/1920px-SONY_Xperia_1_%28SOV40%29_Purple_Frontside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4928
+      },
+      {
+        "author": "D.328",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SONY_Xperia_1_(SOV40)_Purple_Backside.jpg",
+        "height": 3209,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:SONY_Xperia_1_(SOV40)_Purple_Backside.jpg"
+        },
+        "status": "candidate",
+        "title": "File:SONY Xperia 1 (SOV40) Purple Backside.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/SONY_Xperia_1_%28SOV40%29_Purple_Backside.jpg/1920px-SONY_Xperia_1_%28SOV40%29_Purple_Backside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4845
+      },
+      {
+        "author": "Müllowitsch",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_1_IV.jpg",
+        "height": 4128,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_1_IV.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Sony Xperia 1 IV.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Sony_Xperia_1_IV.jpg/1920px-Sony_Xperia_1_IV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2580
+      }
+    ],
+    "phone": {
+      "id": "sony-xperia-1",
+      "name": "Sony Xperia 1",
+      "year": 2019
+    }
+  },
+  "vivo-nex": {
+    "candidates": [
+      {
+        "author": "Tdxiang.",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sentosa_view_from_VivoCity_31_July_2010.JPG",
+        "height": 1856,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Sentosa_view_from_VivoCity_31_July_2010.JPG"
+        },
+        "status": "candidate",
+        "title": "File:Sentosa view from VivoCity 31 July 2010.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Sentosa_view_from_VivoCity_31_July_2010.JPG/1920px-Sentosa_view_from_VivoCity_31_July_2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 8192
+      },
+      {
+        "author": "Alcarabanda",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Alcarabanda_en_vivo_en_el_cafe_noir_de_Barcelona.jpg",
+        "height": 2224,
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Alcarabanda_en_vivo_en_el_cafe_noir_de_Barcelona.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Alcarabanda en vivo en el cafe noir de Barcelona.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Alcarabanda_en_vivo_en_el_cafe_noir_de_Barcelona.jpg/1920px-Alcarabanda_en_vivo_en_el_cafe_noir_de_Barcelona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3344
+      },
+      {
+        "author": "Martinsson Serg",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Vivo_nex.jpg",
+        "height": 933,
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Vivo_nex.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Vivo nex.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Vivo_nex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1400
+      },
+      {
+        "author": "Arthur Loosli",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Loosli,_LOUIS_XIV_TOUCHANT_LE_CLAVECIN,_Kaltnadel_1977,_32_x_50_cm_mit_hellem_Hintergrund.jpg",
+        "height": 1420,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Arthur_Loosli,_LOUIS_XIV_TOUCHANT_LE_CLAVECIN,_Kaltnadel_1977,_32_x_50_cm_mit_hellem_Hintergrund.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Arthur Loosli, LOUIS XIV TOUCHANT LE CLAVECIN, Kaltnadel 1977, 32 x 50 cm mit hellem Hintergrund.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Arthur_Loosli%2C_LOUIS_XIV_TOUCHANT_LE_CLAVECIN%2C_Kaltnadel_1977%2C_32_x_50_cm_mit_hellem_Hintergrund.jpg/1920px-Arthur_Loosli%2C_LOUIS_XIV_TOUCHANT_LE_CLAVECIN%2C_Kaltnadel_1977%2C_32_x_50_cm_mit_hellem_Hintergrund.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2143
+      },
+      {
+        "author": "Kisslouis14",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Penghu.jpg-kisslouis14.jpg",
+        "height": 3456,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Penghu.jpg-kisslouis14.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Penghu.jpg-kisslouis14.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Penghu.jpg-kisslouis14.jpg/1920px-Penghu.jpg-kisslouis14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4608
+      }
+    ],
+    "phone": {
+      "id": "vivo-nex",
+      "name": "Vivo NEX",
+      "year": 2018
+    }
+  },
+  "xiaomi-mi-1": {
+    "candidates": [
+      {
+        "author": "人工知能",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mi_MIX_Fold_front.jpg",
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Mi_MIX_Fold_front.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Mi MIX Fold front.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Mi_MIX_Fold_front.jpg/1920px-Mi_MIX_Fold_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3024
+      },
+      {
+        "author": "Badudoy",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Xiaomi_Mi_11_Ultra_back.jpg",
+        "height": 3648,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Mi_11_Ultra_back.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Xiaomi Mi 11 Ultra back.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_Mi_11_Ultra_back.jpg/1920px-Xiaomi_Mi_11_Ultra_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2736
+      },
+      {
+        "author": "TipzTeam",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:MIUI_V5_4.12.5_MI_C1.jpg",
+        "height": 2685,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:MIUI_V5_4.12.5_MI_C1.jpg"
+        },
+        "status": "candidate",
+        "title": "File:MIUI V5 4.12.5 MI C1.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/MIUI_V5_4.12.5_MI_C1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1458
+      },
+      {
+        "author": "TipzTeam",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:MIUI_V2_2.3.6y_MI_ONE_PLUS.jpg",
+        "height": 2624,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:MIUI_V2_2.3.6y_MI_ONE_PLUS.jpg"
+        },
+        "status": "candidate",
+        "title": "File:MIUI V2 2.3.6y MI ONE PLUS.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/MIUI_V2_2.3.6y_MI_ONE_PLUS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "width": 1423
+      },
+      {
+        "author": "Jacek Halicki",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:2023_Xiaomi_Mi_Portable_Air_Compressor_1S.jpg",
+        "height": 4527,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:2023_Xiaomi_Mi_Portable_Air_Compressor_1S.jpg"
+        },
+        "status": "candidate",
+        "title": "File:2023 Xiaomi Mi Portable Air Compressor 1S.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/2023_Xiaomi_Mi_Portable_Air_Compressor_1S.jpg/1920px-2023_Xiaomi_Mi_Portable_Air_Compressor_1S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2801
+      }
+    ],
+    "phone": {
+      "id": "xiaomi-mi-1",
+      "name": "Xiaomi Mi 1",
+      "year": 2011
+    }
+  },
+  "xiaomi-mi-mix": {
+    "candidates": [
+      {
+        "author": "Haha169",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mi_mix_2_front_back.png",
+        "height": 2257,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Mi_mix_2_front_back.png"
+        },
+        "status": "candidate",
+        "title": "File:Mi mix 2 front back.png",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Mi_mix_2_front_back.png/1920px-Mi_mix_2_front_back.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 2495
+      },
+      {
+        "author": "董辰兴",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%BA%E5%B0%8F%E7%B1%B3MIX_Alpha%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%89%8B%E6%9C%BA%E5%A3%B3.jpg",
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:%E4%B8%BA%E5%B0%8F%E7%B1%B3MIX_Alpha%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%89%8B%E6%9C%BA%E5%A3%B3.jpg"
+        },
+        "status": "candidate",
+        "title": "File:为小米MIX Alpha设计的手机壳.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%E4%B8%BA%E5%B0%8F%E7%B1%B3MIX_Alpha%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%89%8B%E6%9C%BA%E5%A3%B3.jpg/1920px-%E4%B8%BA%E5%B0%8F%E7%B1%B3MIX_Alpha%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%89%8B%E6%9C%BA%E5%A3%B3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3016
+      },
+      {
+        "author": "人工知能",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mi_MIX_Fold_front.jpg",
+        "height": 4032,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Mi_MIX_Fold_front.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Mi MIX Fold front.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Mi_MIX_Fold_front.jpg/1920px-Mi_MIX_Fold_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 3024
+      },
+      {
+        "author": "人工知能",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mi_MIX_Fold_back.jpg",
+        "height": 3024,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Mi_MIX_Fold_back.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Mi MIX Fold back.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Mi_MIX_Fold_back.jpg/1920px-Mi_MIX_Fold_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 4032
+      },
+      {
+        "author": "X-SHLIED",
+        "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Xiaomi_Mi_Mix_Fold_front.jpg",
+        "height": 9248,
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Mi_Mix_Fold_front.jpg"
+        },
+        "status": "candidate",
+        "title": "File:Xiaomi Mi Mix Fold front.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Xiaomi_Mi_Mix_Fold_front.jpg/1920px-Xiaomi_Mi_Mix_Fold_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "width": 6936
+      }
+    ],
+    "phone": {
+      "id": "xiaomi-mi-mix",
+      "name": "Xiaomi Mi MIX",
+      "year": 2016
+    }
+  }
+}

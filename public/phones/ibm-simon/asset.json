@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "85e1a5a056193b9cbb58621a15cc1a1247d7938ab70fd5b7b71233b43d30f723",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:IBM Simon Personal Communicator.png",
+    "licenseUrl": "",
+    "attribution": "File:IBM Simon Personal Communicator.png"
+  },
+  "verifiedAt": "2026-09-13T15:12:15.821Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

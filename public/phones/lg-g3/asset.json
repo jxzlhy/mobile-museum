@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "f8b4a12ed7e59253f6a6d8cab45215dec0106a2974d30a5789f19f065daf6fa4",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:LG G3 (Metallic Black, Front).jpg",
+    "licenseUrl": "",
+    "attribution": "File:LG G3 (Metallic Black, Front).jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:17.236Z",
+  "note": "批量管线下载；来源/许���证经 Commons 元数据核验，图片本体待人工复核。"
+}

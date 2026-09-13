@@ -1,0 +1,88 @@
+// ============================================================
+// MOBILE MUSEUM — Global layout, states, utilities
+// ============================================================
+@use 'tokens' as *;
+
+html {
+  background: $c-bg;
+}
+
+body {
+  background: $c-bg;
+  color: $c-text;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(255, 255, 255, 0.85);
+  color: #080808;
+}
+
+:focus-visible {
+  outline: 1px solid rgba(255, 255, 255, 0.7);
+  outline-offset: 3px;
+}
+
+// Thin dark scrollbar
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 3px;
+}
+
+// ---- Shared page shell ----
+.page {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.container {
+  padding-inline: $page-pad-x;
+  width: 100%;
+}
+
+.hairline-top {
+  @include hairline($c-line-soft);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// ---- Reduced motion ----
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+[data-motion='reduced'] {
+  .page-leave-active,
+  .page-enter-active {
+    animation: none !important;
+    transition: opacity 0.18s linear !important;
+  }
+}

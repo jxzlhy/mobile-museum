@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "9740ef11609737787a38c44d0c268b5c2317d56e16c8ad10b1b4da6330b6d4ed",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:HTC Dream flipside.jpg",
+    "licenseUrl": "",
+    "attribution": "File:HTC Dream flipside.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:13.325Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

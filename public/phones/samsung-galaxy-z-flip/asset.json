@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "29b8e123629a280148028ffe82563c3f47ca9f3f341964dff898d50127f8ec96",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Samsung Galaxy Z Flip opened.jpg",
+    "licenseUrl": "",
+    "attribution": "File:Samsung Galaxy Z Flip opened.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:53.822Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

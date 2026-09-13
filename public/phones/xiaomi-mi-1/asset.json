@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "e1367e419cc5d297ac12c64f4e2cc58c7cf6f4c84c90eca77e60daba03f96c9b",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Xiaomi Mi 11 Ultra back.jpg",
+    "licenseUrl": "",
+    "attribution": "File:Xiaomi Mi 11 Ultra back.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:13:09.311Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

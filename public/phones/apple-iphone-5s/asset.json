@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "8205f1a5ef79ae6823244ada91014f2f4eaba3043ff86a4e8d2a239f5e46c7f7",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:IPhone 5s Black.png",
+    "licenseUrl": "",
+    "attribution": "File:IPhone 5s Black.png"
+  },
+  "verifiedAt": "2026-09-13T15:12:02.992Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

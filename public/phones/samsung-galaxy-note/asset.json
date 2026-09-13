@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "23aad830218c5f8e208d7d01f30d945e47c2cb4cdba48933f8b74f59dd37875c",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Samsung galaxy Note - Snap 2553.JPG",
+    "licenseUrl": "",
+    "attribution": "File:Samsung galaxy Note - Snap 2553.JPG"
+  },
+  "verifiedAt": "2026-09-13T15:12:50.055Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

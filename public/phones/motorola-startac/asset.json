@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "6e026632ad0a3156ff92ee9825bb8efec950d5a1d0a756d1d5956c59fb93ffe2",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Motorola StarTac 70 Made in Germany 27.jpg",
+    "licenseUrl": "",
+    "attribution": "File:Motorola StarTac 70 Made in Germany 27.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:25.361Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

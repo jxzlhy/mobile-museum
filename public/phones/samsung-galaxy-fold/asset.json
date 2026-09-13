@@ -1,0 +1,15 @@
+{
+  "status": "rejected",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "6fe1be8bdb3920d45db665693444e07a31b97624ad2c496e8f07945f12b67282",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Samsung Galaxy Fold in Taidong,Qingdao.jpg",
+    "licenseUrl": "",
+    "attribution": "File:Samsung Galaxy Fold in Taidong,Qingdao.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:48.511Z",
+  "note": "人工审核：展柜场景照，设备主体过小，不符合 A/B 级标准（§10）。"
+}

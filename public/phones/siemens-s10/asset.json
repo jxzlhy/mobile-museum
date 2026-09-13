@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "9d184e519cee8292806982e75a92b40836dd1a2911c62f3b41a8435489792dc6",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Siemens S10 Active.jpg",
+    "licenseUrl": "",
+    "attribution": "File:Siemens S10 Active.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:13:01.544Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

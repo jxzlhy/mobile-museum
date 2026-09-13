@@ -1,0 +1,37 @@
+{
+  "name": "mobile-museum",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18.12"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:pages": "vite build --mode github",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit",
+    "assets:discover": "node scripts/fetch-wikidata.mjs && node scripts/search-commons.mjs",
+    "assets:download": "node scripts/download-assets.mjs",
+    "assets:verify": "node scripts/verify-assets.mjs",
+    "assets:build": "node scripts/build-assets-manifest.mjs",
+    "assets:approve": "node scripts/approve-assets.mjs"
+  },
+  "dependencies": {
+    "gsap": "^3.12.7",
+    "lenis": "^1.1.18",
+    "three": "^0.169.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/three": "^0.169.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "sass": "^1.83.4",
+    "typescript": "~5.6.3",
+    "vite": "^6.0.7",
+    "vue-tsc": "^2.2.0"
+  }
+}

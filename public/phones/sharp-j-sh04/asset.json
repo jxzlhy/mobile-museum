@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "96cff714b5bbb48fb15d547114c3345b67f34ed940d40c1514a1fdbe1f60df8a",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Sharp J-SH04 CP+ 2011.jpg",
+    "licenseUrl": "",
+    "attribution": "File:Sharp J-SH04 CP+ 2011.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:54.451Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

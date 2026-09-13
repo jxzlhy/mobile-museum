@@ -1,0 +1,827 @@
+{
+  "motorola-dynatac-prototype": {
+    "i": [
+      "dynatac",
+      "martin cooper",
+      "cooper 1973"
+    ],
+    "p": [
+      "prototype",
+      "1973",
+      "first handheld"
+    ],
+    "e": [
+      "8000x",
+      "8900",
+      "microtac",
+      "startac",
+      "razr"
+    ]
+  },
+  "motorola-dynatac-8000x": {
+    "i": [
+      "dynatac 8000x",
+      "dynatac 8000",
+      "8000x"
+    ],
+    "p": [
+      "motorola dynatac 8000x",
+      "dynatac 8000 x"
+    ],
+    "e": [
+      "8500",
+      "8900",
+      "microtac",
+      "startac",
+      "razr",
+      "prototype",
+      "cooper",
+      "note edge",
+      "comparison"
+    ]
+  },
+  "motorola-microtac": {
+    "i": [
+      "microtac"
+    ],
+    "p": [
+      "microtac 9800",
+      "motorola microtac"
+    ],
+    "e": [
+      "startac",
+      "dynatac",
+      "razr",
+      "comparison"
+    ]
+  },
+  "motorola-startac": {
+    "i": [
+      "startac",
+      "star tac"
+    ],
+    "p": [
+      "motorola startac",
+      "startac 130",
+      "startac 70"
+    ],
+    "e": [
+      "microtac",
+      "dynatac",
+      "razr"
+    ]
+  },
+  "motorola-razr-v3": {
+    "i": [
+      "razr v3",
+      "razr v3i",
+      "v3"
+    ],
+    "p": [
+      "motorola razr v3",
+      "razr v3 black",
+      "razr v3 pink",
+      "razr v3x"
+    ],
+    "e": [
+      "razr 2019",
+      "razr 5g",
+      "v3xx",
+      "moto razr"
+    ]
+  },
+  "motorola-milestone": {
+    "i": [
+      "milestone",
+      "motorola droid"
+    ],
+    "p": [
+      "droid a855",
+      "milestone a853"
+    ],
+    "e": [
+      "droid 2",
+      "droid x",
+      "droid turbo",
+      "razr"
+    ]
+  },
+  "motorola-razr-2019": {
+    "i": [
+      "razr 2019",
+      "motorola razr foldable",
+      "razr (2019)",
+      "moto razr 5g"
+    ],
+    "p": [
+      "razr 5g",
+      "foldable razr"
+    ],
+    "e": [
+      "v3",
+      "v3i",
+      "v3xx"
+    ]
+  },
+  "nokia-1011": {
+    "i": [
+      "nokia 1011"
+    ],
+    "p": [],
+    "e": [
+      "2110",
+      "3210",
+      "3310"
+    ]
+  },
+  "nokia-2110": {
+    "i": [
+      "nokia 2110"
+    ],
+    "p": [
+      "2110i"
+    ],
+    "e": [
+      "1011",
+      "3210",
+      "3310",
+      "8110"
+    ]
+  },
+  "nokia-8110": {
+    "i": [
+      "nokia 8110"
+    ],
+    "p": [
+      "8110 4g",
+      "banana phone"
+    ],
+    "e": [
+      "3210",
+      "3310",
+      "8800",
+      "2110"
+    ]
+  },
+  "nokia-9000-communicator": {
+    "i": [
+      "nokia 9000",
+      "9000 communicator"
+    ],
+    "p": [
+      "nokia 9000 communicator",
+      "9000il"
+    ],
+    "e": [
+      "9110",
+      "9210",
+      "9300",
+      "e90",
+      "e7",
+      "as time goes by"
+    ]
+  },
+  "nokia-3210": {
+    "i": [
+      "nokia 3210"
+    ],
+    "p": [
+      "nokia 3210 (2024)"
+    ],
+    "e": [
+      "3310",
+      "3410",
+      "3210 2024"
+    ]
+  },
+  "nokia-3310": {
+    "i": [
+      "nokia 3310"
+    ],
+    "p": [
+      "nokia 3310 (2017)",
+      "3310 blue",
+      "3310 grey"
+    ],
+    "e": [
+      "3210",
+      "3330",
+      "3410",
+      "3310 (2017)"
+    ]
+  },
+  "nokia-ngage": {
+    "i": [
+      "n-gage",
+      "ngage"
+    ],
+    "p": [
+      "n-gage qd",
+      "n-gage classic"
+    ],
+    "e": [
+      "3210",
+      "3310",
+      "qd"
+    ]
+  },
+  "nokia-n95": {
+    "i": [
+      "nokia n95"
+    ],
+    "p": [
+      "n95 8gb",
+      "nokia n95 8gb"
+    ],
+    "e": [
+      "n93",
+      "n96",
+      "n82",
+      "n73",
+      "95 8gb"
+    ]
+  },
+  "nokia-n9": {
+    "i": [
+      "nokia n9"
+    ],
+    "p": [
+      "n9-00",
+      "meego n9"
+    ],
+    "e": [
+      "n8",
+      "n95",
+      "n900"
+    ]
+  },
+  "nokia-lumia-920": {
+    "i": [
+      "lumia 920"
+    ],
+    "p": [
+      "nokia lumia 920"
+    ],
+    "e": [
+      "925",
+      "928",
+      "1020",
+      "820",
+      "800"
+    ]
+  },
+  "ibm-simon": {
+    "i": [
+      "ibm simon",
+      "simon personal communicator"
+    ],
+    "p": [
+      "ibm simon personal communicator"
+    ],
+    "e": []
+  },
+  "sharp-j-sh04": {
+    "i": [
+      "j-sh04",
+      "sharp j-sh04"
+    ],
+    "p": [],
+    "e": [
+      "j-sh05",
+      "j-sh06"
+    ]
+  },
+  "siemens-s10": {
+    "i": [
+      "siemens s10"
+    ],
+    "p": [
+      "siemens s10 active"
+    ],
+    "e": [
+      "s45",
+      "s55",
+      "sl45",
+      "sxg75"
+    ]
+  },
+  "sony-ericsson-k750i": {
+    "i": [
+      "k750i",
+      "k750"
+    ],
+    "p": [
+      "sony ericsson k750i",
+      "k750"
+    ],
+    "e": [
+      "w800",
+      "w810",
+      "d750",
+      "k700"
+    ]
+  },
+  "sony-ericsson-w800i": {
+    "i": [
+      "w800i",
+      "w800"
+    ],
+    "p": [
+      "sony ericsson w800i",
+      "w800 walkman"
+    ],
+    "e": [
+      "k750",
+      "w810",
+      "w700"
+    ]
+  },
+  "sony-xperia-1": {
+    "i": [
+      "xperia 1"
+    ],
+    "p": [
+      "xperia 1 (2019)",
+      "xperia 1 2019",
+      "xperia 1 802so"
+    ],
+    "e": [
+      "xperia 5",
+      "xperia 10",
+      "xperia pro",
+      "1 ii",
+      "1 iii",
+      "1 iv",
+      "1 v",
+      "xperia 1 ii"
+    ]
+  },
+  "blackberry-bold-9000": {
+    "i": [
+      "bold 9000",
+      "blackberry bold 9000"
+    ],
+    "p": [
+      "bold 9000"
+    ],
+    "e": [
+      "9700",
+      "9900",
+      "curve",
+      "torch",
+      "passport"
+    ]
+  },
+  "blackberry-curve-8520": {
+    "i": [
+      "curve 8520",
+      "blackberry 8520"
+    ],
+    "p": [
+      "curve 8520 gemini"
+    ],
+    "e": [
+      "9300",
+      "8900",
+      "bold",
+      "torch"
+    ]
+  },
+  "htc-dream": {
+    "i": [
+      "htc dream",
+      "t-mobile g1"
+    ],
+    "p": [
+      "t-mobile g1",
+      "android g1"
+    ],
+    "e": [
+      "magic",
+      "mytouch",
+      "hero",
+      "launch event",
+      "event",
+      "hands",
+      "keynote"
+    ]
+  },
+  "htc-one-m7": {
+    "i": [
+      "htc one m7",
+      "htc one (2013)"
+    ],
+    "p": [
+      "htc one 2013",
+      "m7"
+    ],
+    "e": [
+      "m8",
+      "m9",
+      "one x",
+      "one s",
+      "one mini"
+    ]
+  },
+  "apple-iphone": {
+    "i": [
+      "iphone"
+    ],
+    "p": [
+      "original iphone",
+      "iphone (1st generation)",
+      "iphone 1st generation",
+      "iphone 2g",
+      "iphone 2007"
+    ],
+    "e": [
+      "3g",
+      "3gs",
+      "4",
+      "4s",
+      "5",
+      "5s",
+      "5c",
+      "se",
+      "6",
+      "6s",
+      "7",
+      "8",
+      "x",
+      "xr",
+      "xs",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "newton",
+      "se ",
+      "fashion valley"
+    ]
+  },
+  "apple-iphone-3g": {
+    "i": [
+      "iphone 3g"
+    ],
+    "p": [
+      "iphone 3g (2008)",
+      "white iphone 3g"
+    ],
+    "e": [
+      "3gs",
+      "iphone 4",
+      "1st generation",
+      "backs"
+    ]
+  },
+  "apple-iphone-4": {
+    "i": [
+      "iphone 4"
+    ],
+    "p": [
+      "iphone 4 white",
+      "iphone 4 black",
+      "apple iphone 4"
+    ],
+    "e": [
+      "4s",
+      "3g",
+      "3gs",
+      "5",
+      "4g",
+      "bumper",
+      "teardown",
+      "disassembl",
+      "repair"
+    ]
+  },
+  "apple-iphone-5s": {
+    "i": [
+      "iphone 5s"
+    ],
+    "p": [
+      "iphone 5s gold",
+      "iphone 5s space gray"
+    ],
+    "e": [
+      "5 ",
+      "5c",
+      "6",
+      "se",
+      "4s"
+    ]
+  },
+  "apple-iphone-6": {
+    "i": [
+      "iphone 6"
+    ],
+    "p": [
+      "iphone 6 plus",
+      "iphone 6 space gray"
+    ],
+    "e": [
+      "6s",
+      "6 plus s",
+      "5s",
+      "7",
+      "6g",
+      "removed",
+      "teardown",
+      "disassembl",
+      "repair"
+    ]
+  },
+  "apple-iphone-x": {
+    "i": [
+      "iphone x"
+    ],
+    "p": [
+      "iphone x silver",
+      "iphone x space gray",
+      "apple iphone x"
+    ],
+    "e": [
+      "xs",
+      "xr",
+      "8",
+      "11",
+      "12",
+      "se"
+    ]
+  },
+  "apple-iphone-12": {
+    "i": [
+      "iphone 12"
+    ],
+    "p": [
+      "iphone 12 pro",
+      "iphone 12 blue"
+    ],
+    "e": [
+      "12 pro max",
+      "13",
+      "11",
+      "12 mini",
+      "12 pro",
+      "pro max",
+      "mini",
+      "pro camera"
+    ]
+  },
+  "apple-iphone-15-pro": {
+    "i": [
+      "iphone 15 pro"
+    ],
+    "p": [
+      "iphone 15 pro max",
+      "iphone 15 pro titanium"
+    ],
+    "e": [
+      "15 ",
+      "14 pro",
+      "16 pro",
+      "15 plus",
+      "pro max"
+    ]
+  },
+  "samsung-galaxy-s": {
+    "i": [
+      "galaxy s i9000",
+      "gt-i9000",
+      "galaxy s (2010)",
+      "samsung galaxy s "
+    ],
+    "p": [
+      "gt-i9000",
+      "galaxy s vibrant"
+    ],
+    "e": [
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "s8",
+      "s10",
+      "s20",
+      "s21",
+      "s22",
+      "s23",
+      "s24",
+      "galaxy s20",
+      "galaxy s10"
+    ]
+  },
+  "samsung-galaxy-note": {
+    "i": [
+      "galaxy note n7000",
+      "galaxy note (original)",
+      "gt-n7000",
+      "samsung galaxy note "
+    ],
+    "p": [
+      "gt-n7000",
+      "note i9220"
+    ],
+    "e": [
+      "note 2",
+      "note 3",
+      "note 4",
+      "note 5",
+      "note 7",
+      "note 8",
+      "note 9",
+      "note 10",
+      "note 20",
+      "note edge"
+    ]
+  },
+  "samsung-galaxy-s6-edge": {
+    "i": [
+      "galaxy s6 edge"
+    ],
+    "p": [
+      "s6 edge sm-g925",
+      "galaxy s6 edge+"
+    ],
+    "e": [
+      "s6 ",
+      "s7 edge",
+      "s6 active"
+    ]
+  },
+  "samsung-galaxy-fold": {
+    "i": [
+      "galaxy fold"
+    ],
+    "p": [
+      "galaxy fold sm-f900",
+      "samsung galaxy fold 2019"
+    ],
+    "e": [
+      "z fold",
+      "flip",
+      "fold 2",
+      "fold 3",
+      "fold 4",
+      "fold 5",
+      "w20"
+    ]
+  },
+  "samsung-galaxy-z-flip": {
+    "i": [
+      "galaxy z flip"
+    ],
+    "p": [
+      "z flip 5g",
+      "galaxy z flip (2020)",
+      "sm-f700"
+    ],
+    "e": [
+      "z flip 3",
+      "z flip 4",
+      "z flip 5",
+      "fold",
+      "razr"
+    ]
+  },
+  "google-pixel": {
+    "i": [
+      "google pixel",
+      "pixel xl"
+    ],
+    "p": [
+      "pixel (2016)",
+      "pixel 1st",
+      "htc pixel",
+      "pixel xl 2016"
+    ],
+    "e": [
+      "pixel 2",
+      "pixel 3",
+      "pixel 4",
+      "pixel 5",
+      "pixel 6",
+      "pixel 7",
+      "pixel 8",
+      "pixel a",
+      "assistant",
+      "screenshot",
+      "assistant on"
+    ]
+  },
+  "xiaomi-mi-1": {
+    "i": [
+      "xiaomi mi 1",
+      "mi-one",
+      "xiaomi mi-one",
+      "mione"
+    ],
+    "p": [
+      "mi 1s",
+      "xiaomi mi 1s"
+    ],
+    "e": [
+      "mi 2",
+      "mi 3",
+      "mi 4",
+      "mi mix"
+    ]
+  },
+  "xiaomi-mi-mix": {
+    "i": [
+      "mi mix",
+      "xiaomi mix"
+    ],
+    "p": [
+      "mi mix 2016",
+      "mi mix ceramic"
+    ],
+    "e": [
+      "mix 2",
+      "mix 3",
+      "mix 4",
+      "mix fold"
+    ]
+  },
+  "huawei-p20-pro": {
+    "i": [
+      "p20 pro"
+    ],
+    "p": [
+      "huawei p20 pro",
+      "p20 pro clt"
+    ],
+    "e": [
+      "p20 ",
+      "p20 lite",
+      "mate 20",
+      "p30"
+    ]
+  },
+  "oppo-find-x": {
+    "i": [
+      "find x"
+    ],
+    "p": [
+      "oppo find x",
+      "find x cph1871"
+    ],
+    "e": [
+      "find x2",
+      "find x3",
+      "find x5",
+      "find n",
+      "x8",
+      "x8 pro",
+      "find x8"
+    ]
+  },
+  "vivo-nex": {
+    "i": [
+      "vivo nex"
+    ],
+    "p": [
+      "vivo nex s",
+      "nex a"
+    ],
+    "e": [
+      "nex 2",
+      "nex 3",
+      "nex dual"
+    ]
+  },
+  "lg-chocolate-kg90": {
+    "i": [
+      "kg90",
+      "chocolate kg90",
+      "lg chocolate"
+    ],
+    "p": [
+      "kg90n",
+      "lg chocolate kg90"
+    ],
+    "e": [
+      "kg800",
+      "ku800"
+    ]
+  },
+  "lg-g3": {
+    "i": [
+      "lg g3"
+    ],
+    "p": [
+      "lg g3 d855",
+      "lg g3 vs985"
+    ],
+    "e": [
+      "g2",
+      "g4",
+      "g5",
+      "g3 stylus"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "1227b80566d13eba8adf8929dba1126be884989c1645f6e969481f9899159ca0",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Nokia 8110.jpg",
+    "licenseUrl": "",
+    "attribution": "File:Nokia 8110.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:30.712Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

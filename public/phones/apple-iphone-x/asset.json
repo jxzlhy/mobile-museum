@@ -1,0 +1,16 @@
+{
+  "status": "approved",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "3c02a4a76c4ca1c52ba802ccbed36699d5a97e32e314205770635ebb7c8738d4",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Apple iPhone X - front (8121).jpg",
+    "licenseUrl": "",
+    "attribution": "File:Apple iPhone X - front (8121).jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:10.049Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
+  "approvedAt": "2026-09-13T15:16:09.547Z"
+}

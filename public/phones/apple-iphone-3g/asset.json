@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "c6f79c27f8139b29033589af392e32a487886a321c311be5063e1afe4131f028",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:The Back of an iPhone 3G White from Apple.jpg",
+    "licenseUrl": "",
+    "attribution": "File:The Back of an iPhone 3G White from Apple.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:00.225Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

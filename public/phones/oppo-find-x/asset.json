@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "35071e7e791064859a182ee3f8547a323d6e1b4a4a26211caa456fa57becd94e",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:OPPO Find X8 Pro white back.png",
+    "licenseUrl": "",
+    "attribution": "File:OPPO Find X8 Pro white back.png"
+  },
+  "verifiedAt": "2026-09-13T15:12:46.444Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "d914edf37e4d316d4291dce79cdeb111ff9ae7888ad059cd84f7fa2f4c8f42da",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Nokia 3210 3.jpg",
+    "licenseUrl": "",
+    "attribution": "File:Nokia 3210 3.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:29.667Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

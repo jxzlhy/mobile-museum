@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "ed526b8187251aee8b66b5d77ddf6b0e95c3978235ae9c8aa5d8813b5824d8c2",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Huawei P20 Pro.jpg",
+    "licenseUrl": "",
+    "attribution": "File:Huawei P20 Pro.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:14.495Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

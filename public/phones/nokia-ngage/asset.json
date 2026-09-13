@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "ba51377e3aa93c3c5c1521b956505acfd16c80764b5f5eea1a062795d936e2d6",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Nokia N-Gage wikittää.jpg",
+    "licenseUrl": "",
+    "attribution": "File:Nokia N-Gage wikittää.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:34.799Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

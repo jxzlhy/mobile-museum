@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "40eb37d8f71ad846f7dbb7a1ed8a95327e96ea8923dd03b5f1e986cc0f256580",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:Nokia 2110i NHE-4NX.jpg",
+    "licenseUrl": "",
+    "attribution": "File:Nokia 2110i NHE-4NX.jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:28.695Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

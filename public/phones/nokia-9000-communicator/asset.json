@@ -1,0 +1,15 @@
+{
+  "status": "verified",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "sha256": "edaa7a768d0f15af29decb288584c3292104661a03ab2a6534f9965af0e4a781",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "",
+    "title": "File:As Time Goes By (Nokia 9000 Communicator & E7).jpg",
+    "licenseUrl": "",
+    "attribution": "File:As Time Goes By (Nokia 9000 Communicator & E7).jpg"
+  },
+  "verifiedAt": "2026-09-13T15:12:31.141Z",
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+}

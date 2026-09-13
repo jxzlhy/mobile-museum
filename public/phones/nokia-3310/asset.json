@@ -1,0 +1,18 @@
+{
+  "status": "approved",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Nokia_3310_mobile_phone.jpg",
+    "title": "File:Nokia 3310 mobile phone.jpg",
+    "author": "Santeri Viinamäki",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "File:Nokia 3310 mobile phone.jpg"
+  },
+  "note": "来源/许可证已经 Commons API 元数据核验；图片本体经人工复核后可 approve。",
+  "verifiedAt": "2026-09-13T14:51:59.979Z",
+  "thumb": "hero.thumb.jpg",
+  "approvedAt": "2026-09-13T14:52:49.307Z"
+}
