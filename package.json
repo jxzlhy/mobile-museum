@@ -16,7 +16,8 @@
     "assets:download": "node scripts/download-assets.mjs",
     "assets:verify": "node scripts/verify-assets.mjs",
     "assets:build": "node scripts/build-assets-manifest.mjs",
-    "assets:approve": "node scripts/approve-assets.mjs"
+    "assets:approve": "node scripts/approve-assets.mjs",
+    "push": "./推送到GitHub.command"
   },
   "dependencies": {
     "gsap": "^3.12.7",

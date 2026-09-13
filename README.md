@@ -3,6 +3,8 @@
 > Explore the evolution of mobile phones.
 > A phone is never just a phone.
 
+**在线访问：https://jxzlhy.github.io/mobile-museum/**
+
 **手机历史博物馆** —— 一座手机主题的数字博物馆（简体中文为主）。从 1973 到 2026。
 Vue 3 + TypeScript + Vite，完全解耦的 Three.js 展陈引擎 + GSAP ScrollTrigger 编排。
 
