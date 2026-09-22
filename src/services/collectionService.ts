@@ -1,11 +1,11 @@
 import type { CollectionItem } from '@/data/types'
 
-// 个人收藏持久化（规范 §44–§45）：
-// 新键位 mobile-museum:collection，存 CollectionItem（含加入时间与序号）；
-// 自动迁移 V0.1 的旧键位（纯 id 数组）。
+// 个人收藏持久化（V0.4 规范 §44–§45 / V0.5 规范 §27–§28）：
+// 统一键位 museum.collection；自动迁移旧键位（V0.4 的
+// mobile-museum:collection 与 V0.1 的 mm.collection.v1），不丢数据。
 
-const STORAGE_KEY = 'mobile-museum:collection'
-const LEGACY_KEY = 'mm.collection.v1'
+const STORAGE_KEY = 'museum.collection'
+const LEGACY_KEYS = ['mobile-museum:collection', 'mm.collection.v1']
 
 function read(): CollectionItem[] {
   try {
@@ -25,17 +25,28 @@ function read(): CollectionItem[] {
           }))
       }
     }
-    // 迁移 V0.1 旧数据
-    const legacyRaw = localStorage.getItem(LEGACY_KEY)
-    if (legacyRaw) {
+    // 迁移旧数据（V0.4 / V0.1）
+    for (const legacyKey of LEGACY_KEYS) {
+      const legacyRaw = localStorage.getItem(legacyKey)
+      if (!legacyRaw) continue
       const legacy: unknown = JSON.parse(legacyRaw)
-      if (Array.isArray(legacy)) {
-        const migrated = legacy
-          .filter((v): v is string => typeof v === 'string')
-          .map((phoneId, i) => ({ phoneId, addedAt: Date.now(), order: i }))
-        write(migrated)
-        return migrated
-      }
+      if (!Array.isArray(legacy)) continue
+      const migrated = legacy
+        .map((v, i): CollectionItem | null => {
+          if (typeof v === 'string') return { phoneId: v, addedAt: Date.now(), order: i }
+          if (typeof v === 'object' && v !== null && typeof (v as CollectionItem).phoneId === 'string') {
+            const item = v as CollectionItem
+            return {
+              phoneId: item.phoneId,
+              addedAt: typeof item.addedAt === 'number' ? item.addedAt : Date.now(),
+              order: typeof item.order === 'number' ? item.order : i,
+            }
+          }
+          return null
+        })
+        .filter((v): v is CollectionItem => v !== null)
+      write(migrated)
+      return migrated
     }
   } catch {
     /* 存储不可用时退化为内存态 */

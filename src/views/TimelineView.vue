@@ -78,7 +78,17 @@ onUnmounted(() => {
             </router-link>
             <p class="tl-node__meta label">{{ item.phone.brandName }} · {{ formFactorLabel(item.phone.formFactor) }}</p>
             <p class="tl-node__sig body-md">{{ item.phone.tagline ?? item.phone.significance }}</p>
-            <router-link :to="`/phone/${item.phone.id}`" class="tl-node__cta label">查看展品 →</router-link>
+            <div class="tl-node__ctas">
+              <router-link :to="`/phone/${item.phone.id}`" class="tl-node__cta label">查看展品 →</router-link>
+              <!-- 规范 §44：Timeline → VIEW EXHIBIT，进入展厅并自动聚焦 -->
+              <router-link :to="`/museum?focus=${item.phone.id}`" class="tl-node__cta label" :aria-label="`在博物馆中查看 ${item.phone.name}`">
+                看展层 →
+              </router-link>
+              <!-- V0.6 §35：EXPLORE RELATIONS → 关系图谱 -->
+              <router-link :to="`/explore/graph?focus=phone:${item.phone.id}`" class="tl-node__cta label" :aria-label="`查看 ${item.phone.name} 的关系图谱`">
+                EXPLORE RELATIONS →
+              </router-link>
+            </div>
           </article>
         </template>
       </div>
@@ -195,9 +205,15 @@ onUnmounted(() => {
     max-width: 46ch;
   }
 
+  &__ctas {
+    margin-top: $sp-3;
+    display: flex;
+    gap: $sp-4;
+    align-items: baseline;
+  }
+
   &__cta {
     display: inline-block;
-    margin-top: $sp-3;
     font-size: 10px;
     color: $c-text-3;
     transition: color 0.3s var(--ease-museum);

@@ -17,11 +17,15 @@ onMounted(async () => {
 })
 
 const sections = [
-  { to: '/explore/evolution', index: '01', name: 'EVOLUTION', zh: '演化长卷', note: '拖动五十年，看电话长成今天的样子' },
-  { to: '/explore/stories', index: '02', name: 'MUSEUM STORIES', zh: '专题展览', note: () => `${7} 个专题——手机如何改变世界的七个篇章`, count: storyCount },
-  { to: '/phones', index: '03', name: 'ALL PHONES', zh: '全部藏品', note: '五十台真实设备的藏品总目' },
-  { to: '/form-factor', index: '04', name: 'FORM FACTOR', zh: '形态馆', note: '砖块、翻盖、滑盖，直到折叠屏' },
-  { to: '/compare', index: '05', name: 'COMPARE', zh: '对比实验室', note: '任意两台设备之间，隔着多少年变化' },
+  { to: '/museum', index: '00', name: 'THE MUSEUM', zh: '三维主展厅', note: '走进空间：历史、设计、技术、形态与珍藏' },
+  { to: '/museum/time-machine', index: '01', name: 'TIME MACHINE', zh: '时间机器', note: '拖动年份，回到六个可以走进的历史场景' },
+  { to: '/explore/evolution', index: '02', name: 'EVOLUTION', zh: '演化长卷', note: '拖动五十年，看电话长成今天的样子' },
+  { to: '/explore/graph', index: '03', name: 'HISTORICAL GRAPH', zh: '关系图谱', note: '品牌、年代、技术如何把展品连进历史' },
+  { to: '/explore/journeys', index: '04', name: 'CURATED JOURNEYS', zh: '策展路线', note: '按顺序走完一段历史，进度自动保存' },
+  { to: '/explore/stories', index: '05', name: 'MUSEUM STORIES', zh: '专题展览', note: () => `${7} 个专题——手机如何改变世界的七个篇章`, count: storyCount },
+  { to: '/phones', index: '06', name: 'ALL PHONES', zh: '全部藏品', note: '五十台真实设备的藏品总目' },
+  { to: '/form-factor', index: '07', name: 'FORM FACTOR', zh: '形态馆', note: '砖块、翻盖、滑盖，直到折叠屏' },
+  { to: '/compare', index: '08', name: 'COMPARE', zh: '对比实验室', note: '任意两台设备之间，隔着多少年变化' },
 ]
 </script>
 

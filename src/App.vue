@@ -13,6 +13,7 @@ import MuseumNav from '@/components/museum/MuseumNav.vue'
 import MuseumBackground from '@/components/museum/MuseumBackground.vue'
 import MuseumProgress from '@/components/museum/MuseumProgress.vue'
 import MuseumCursor from '@/components/museum/MuseumCursor.vue'
+import DiscoveryToast from '@/components/museum/DiscoveryToast.vue'
 import LoadingOverlay from '@/components/common/LoadingOverlay.vue'
 
 // The museum shell: persistent stage canvas behind everything,
@@ -145,6 +146,7 @@ onUnmounted(() => {
     </main>
 
     <LoadingOverlay />
+    <DiscoveryToast />
   </div>
 </template>
 

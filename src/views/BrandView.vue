@@ -115,21 +115,31 @@ const decades = computed(() => {
 
       <!-- ====== 代表展品 ====== -->
       <section class="brand__section">
-        <p class="label brand__section-label">代表展品 · {{ phones.length }}</p>
+        <div class="brand__section-head">
+          <p class="label brand__section-label">代表展品 · {{ phones.length }}</p>
+          <!-- V0.6 §25 / §36：BRAND EVOLUTION → 关系图谱 -->
+          <router-link :to="`/explore/graph?focus=brand:${brand.id}`" class="brand__network label" data-cursor="图谱">
+            VIEW BRAND NETWORK · 品牌演化网络 →
+          </router-link>
+        </div>
         <GlassCard class="brand__phones-card">
           <nav class="brand__phones">
-            <router-link
-              v-for="p in phones"
-              :key="p.id"
-              :to="`/phone/${p.id}`"
-              class="brand__phone"
-              data-cursor="看展"
-            >
-            <span class="brand__phone-year mono">{{ p.releaseYear }}</span>
-            <PhonePhoto :phone="p" thumb class="brand__phone-art" />
-            <span class="brand__phone-name">{{ p.name }}</span>
-              <span class="brand__phone-arrow mono" aria-hidden="true">→</span>
-            </router-link>
+            <div v-for="p in phones" :key="p.id" class="brand__phonewrap">
+              <router-link :to="`/phone/${p.id}`" class="brand__phone" data-cursor="看展">
+                <span class="brand__phone-year mono">{{ p.releaseYear }}</span>
+                <PhonePhoto :phone="p" thumb class="brand__phone-art" />
+                <span class="brand__phone-name">{{ p.name }}</span>
+                <span class="brand__phone-arrow mono" aria-hidden="true">→</span>
+              </router-link>
+              <!-- 规范 §45：Brand → VIEW IN MUSEUM -->
+              <router-link
+                :to="`/museum?focus=${p.id}`"
+                class="brand__phone-museum label"
+                :aria-label="`在博物馆中查看 ${p.name}`"
+              >
+                看展
+              </router-link>
+            </div>
           </nav>
         </GlassCard>
       </section>
@@ -289,7 +299,31 @@ const decades = computed(() => {
     flex-direction: column;
   }
 
+  &__section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: $sp-4;
+    flex-wrap: wrap;
+  }
+
+  &__network {
+    color: $c-accent;
+    word-break: keep-all;
+
+    &:hover {
+      color: $c-text;
+    }
+  }
+
+  &__phonewrap {
+    display: flex;
+    align-items: center;
+  }
+
   &__phone {
+    flex: 1;
+    min-width: 0;
     display: flex;
     align-items: center;
     gap: $sp-4;
@@ -334,6 +368,22 @@ const decades = computed(() => {
     margin-left: auto;
     color: $c-text-3;
     transition: transform 0.35s var(--ease-museum), color 0.35s var(--ease-museum);
+  }
+
+  &__phone-museum {
+    flex-shrink: 0;
+    margin-left: $sp-4;
+    font-size: 10px;
+    color: $c-text-3;
+    padding: 6px 12px;
+    border: 1px solid $c-line-soft;
+    border-radius: 999px;
+    transition: border-color 0.3s var(--ease-museum), color 0.3s var(--ease-museum);
+
+    &:hover {
+      color: $c-accent;
+      border-color: rgba(184, 178, 164, 0.5);
+    }
   }
 
   &__sources {

@@ -2,20 +2,27 @@
 import { ref, computed, onMounted } from 'vue'
 import { searchService } from '@/services/searchService'
 import { phoneService } from '@/services/phoneService'
+import { relationshipService } from '@/services/relationshipService'
+import { formFactorLabel } from '@/data/formFactors'
 import { useStageScene } from '@/composables/useStageScene'
 import { AmbientScene } from '@/three/scenes/AmbientScene'
 import PhonePhoto from '@/components/common/PhonePhoto.vue'
 import GlassPanel from '@/components/common/GlassPanel.vue'
 import type { Phone } from '@/data/types'
 
-// 搜索（规范 §37–§42）：博物馆查询台。结果展示实拍图；
-// 未输入时展示 POPULAR EXHIBITS，避免空白。
+// 搜索（V0.3 §37–§42 / V0.6 §33–§34）：结果带关联提示
+// （形态 / 年代 / RELATED STORIES），支持 VIEW EXHIBIT / EXPLORE RELATIONS。
 
 useStageScene(() => new AmbientScene())
 
 const query = ref('')
 const results = computed(() => searchService.search(query.value))
 const popular = ref<Phone[]>([])
+
+/** RELATED STORIES（V0.6 §33）：结果行直接显示关联专题。 */
+function relatedStories(phoneId: string) {
+  return relationshipService.getRelatedStories(phoneId)
+}
 
 const suggestions = ['iPhone', '诺基亚', '翻盖', '2007', '5G', '折叠屏']
 const decadeChips = ['1970s', '1980s', '1990s', '2000s', '2010s', '2020s']
@@ -56,21 +63,21 @@ onMounted(async () => {
       <section class="search__group">
         <p class="label">热门展品 · POPULAR EXHIBITS</p>
         <nav class="search__rows">
-          <router-link
-            v-for="(p, i) in popular"
-            :key="p.id"
-            :to="`/phone/${p.id}`"
-            class="search__row"
-            data-cursor="看展"
-          >
-            <span class="search__rank mono">{{ String(i + 1).padStart(2, '0') }}</span>
-            <span class="search__thumb"><PhonePhoto :phone="p" thumb /></span>
-            <span class="search__body">
-              <span class="search__name">{{ p.name }}</span>
-              <span class="label search__meta">{{ p.brandName }} · {{ p.releaseYear }}</span>
-            </span>
-            <span class="search__arrow mono" aria-hidden="true">→</span>
-          </router-link>
+          <div v-for="(p, i) in popular" :key="p.id" class="search__row">
+            <router-link :to="`/phone/${p.id}`" class="search__row-main" data-cursor="看展">
+              <span class="search__rank mono">{{ String(i + 1).padStart(2, '0') }}</span>
+              <span class="search__thumb"><PhonePhoto :phone="p" thumb /></span>
+              <span class="search__body">
+                <span class="search__name">{{ p.name }}</span>
+                <span class="label search__meta">{{ p.brandName }} · {{ p.releaseYear }}</span>
+              </span>
+              <span class="search__arrow mono" aria-hidden="true">→</span>
+            </router-link>
+            <!-- 规范 §43：搜索 → VIEW EXHIBIT，进入展厅聚焦 -->
+            <router-link :to="`/museum?focus=${p.id}`" class="search__museum label" :aria-label="`在博物馆中查看 ${p.name}`">
+              看展
+            </router-link>
+          </div>
         </nav>
       </section>
 
@@ -97,18 +104,42 @@ onMounted(async () => {
     <section v-if="results.phones.length" class="search__group">
       <p class="label">手机 · {{ results.phones.length }}</p>
       <nav class="search__rows">
+        <div v-for="p in results.phones" :key="p.id" class="search__row">
+          <router-link :to="`/phone/${p.id}`" class="search__row-main" data-cursor="看展">
+            <span class="search__year mono">{{ p.releaseYear }}</span>
+            <span class="search__thumb"><PhonePhoto :phone="p" thumb /></span>
+            <span class="search__body">
+              <span class="search__name">{{ p.name }}</span>
+              <span class="label search__meta">{{ p.brandName }} · {{ formFactorLabel(p.formFactor) }} · {{ p.eraId }}</span>
+              <span v-if="relatedStories(p.id).length" class="search__related label mono">RELATED STORIES · {{ relatedStories(p.id).map((s) => s.storyTitleZh).join(' / ') }}</span>
+            </span>
+            <span class="search__arrow mono" aria-hidden="true">→</span>
+          </router-link>
+          <router-link :to="`/museum?focus=${p.id}`" class="search__museum label" :aria-label="`在博物馆中查看 ${p.name}`">
+            看展
+          </router-link>
+          <!-- V0.6 §34：EXPLORE RELATIONS -->
+          <router-link :to="`/explore/graph?focus=phone:${p.id}`" class="search__museum label" :aria-label="`查看 ${p.name} 的关系图谱`">
+            关系
+          </router-link>
+        </div>
+      </nav>
+    </section>
+
+    <section v-if="results.scenes.length" class="search__group">
+      <p class="label">历史场景 · {{ results.scenes.length }}</p>
+      <nav class="search__rows">
         <router-link
-          v-for="p in results.phones"
-          :key="p.id"
-          :to="`/phone/${p.id}`"
+          v-for="s in results.scenes"
+          :key="s.id"
+          :to="`/museum/time-machine/${s.year}`"
           class="search__row"
-          data-cursor="看展"
+          data-cursor="穿越"
         >
-          <span class="search__year mono">{{ p.releaseYear }}</span>
-          <span class="search__thumb"><PhonePhoto :phone="p" thumb /></span>
+          <span class="search__year mono">{{ s.year }}</span>
           <span class="search__body">
-            <span class="search__name">{{ p.name }}</span>
-            <span class="label search__meta">{{ p.brandName }} · {{ (p.tagline ?? '').slice(0, 42) }}</span>
+            <span class="search__name">{{ s.titleZh }}</span>
+            <span class="label search__meta">HISTORICAL SCENE · {{ s.title }}</span>
           </span>
           <span class="search__arrow mono" aria-hidden="true">→</span>
         </router-link>
@@ -262,6 +293,39 @@ onMounted(async () => {
     }
   }
 
+  // 主链接铺满行、内容直接参与行的 flex 布局；「看展」是行尾的独立链接
+  &__row-main {
+    display: contents;
+  }
+
+  &__museum {
+    flex-shrink: 0;
+    margin-left: auto;
+    font-size: 10px;
+    color: $c-text-3;
+    padding: 6px 12px;
+    border: 1px solid $c-line-soft;
+    border-radius: 999px;
+    transition: border-color 0.3s var(--ease-museum), color 0.3s var(--ease-museum);
+
+    &:hover {
+      color: $c-accent;
+      border-color: rgba(184, 178, 164, 0.5);
+    }
+
+    & + & {
+      margin-left: 0;
+    }
+  }
+
+  &__related {
+    margin-top: 2px;
+    font-size: 8px;
+    color: $c-accent;
+    letter-spacing: 0.1em;
+    word-break: keep-all;
+  }
+
   &__year {
     color: $c-text-3;
     width: 52px;
@@ -289,6 +353,7 @@ onMounted(async () => {
     flex-direction: column;
     gap: 2px;
     min-width: 0;
+    flex: 1;
   }
 
   &__name {

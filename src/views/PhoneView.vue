@@ -5,6 +5,10 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { phoneService } from '@/services/phoneService'
 import { eventService } from '@/services/eventService'
+import { museumService, type ExhibitRecommendation } from '@/services/museumService'
+import { discoveryService } from '@/services/discoveryService'
+import { memoryService } from '@/services/memoryService'
+import { hasExhibitContent } from '@/data/exhibits'
 import { formFactorLabel as formFactorLabelOf } from '@/data/formFactors'
 import { phoneImageList, resolvePhoneImage } from '@/data/assets'
 import { useMuseum } from '@/composables/useMuseum'
@@ -16,6 +20,7 @@ import PhonePhoto from '@/components/common/PhonePhoto.vue'
 import PhoneGallery from '@/components/phone/PhoneGallery.vue'
 import GlassCard from '@/components/common/GlassCard.vue'
 import MuseumButton from '@/components/common/MuseumButton.vue'
+import AddToExhibition from '@/components/curator/AddToExhibition.vue'
 import type { Phone, HistoricalEvent } from '@/data/types'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -34,6 +39,7 @@ const contextEvents = ref<HistoricalEvent[]>([])
 const related = ref<Phone[]>([])
 const prevPhone = ref<Phone>()
 const nextPhone = ref<Phone>()
+const recommendations = ref<ExhibitRecommendation[]>([])
 
 const has3D = ref(false)
 const canExplode = ref(false)
@@ -58,6 +64,10 @@ async function load() {
   phone.value = p
   status.value = 'ready'
   document.title = `${p.name}（${p.releaseYear}）— 手机历史博物馆`
+  // 发现记录（规范 §40：查看展品即发现，只记一次；§41 全局轻提示）
+  discoveryService.discover(p.id, 'view')
+  // 最近访问（V0.5 §25）
+  memoryService.visit(p.id)
 
   const [events, rel, adj] = await Promise.all([
     eventService.getEventsForPhone(p.id),
@@ -68,6 +78,8 @@ async function load() {
   related.value = rel
   prevPhone.value = adj.prev
   nextPhone.value = adj.next
+  // YOU MAY ALSO EXPLORE（V0.6 §26–§27：可解释推荐）
+  recommendations.value = await museumService.getRecommendations(p.id, 4)
 
   // 3D 展品仅面向馆藏珍品（数据分级 Level 3，规范 §7 / §31）
   if (p.treasure && p.model && museum.state.webgl) {
@@ -342,7 +354,7 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
         </div>
       </section>
 
-      <!-- ====== 历史背景 ====== -->
+      <!-- ====== 历史背景（V0.6：时代环境 + 关系图谱联动） ====== -->
       <section v-if="contextEvents.length" class="section container">
         <p class="label section__index">05 — 历史背景</p>
         <div class="glass-card section__card">
@@ -355,12 +367,60 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
               </div>
             </article>
           </div>
+          <div class="section__links">
+            <router-link v-if="phone" class="section__link label" :to="`/explore/context/${phone.releaseYear}`">
+              时代环境 · {{ phone.releaseYear }} →
+            </router-link>
+            <router-link v-if="phone" class="section__link label" :to="`/explore/graph?focus=phone:${phone.id}`">
+              关系图谱 · EXPLORE RELATIONS →
+            </router-link>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== 关系与时代（独立入口，无事件也可用） ====== -->
+      <nav v-if="!contextEvents.length && phone" class="section container phonelinks" aria-label="关系与时代">
+        <div class="glass-card phonelinks__card">
+          <router-link class="section__link label" :to="`/explore/context/${phone.releaseYear}`">
+            时代环境 · {{ phone.releaseYear }} 的世界 →
+          </router-link>
+          <router-link class="section__link label" :to="`/explore/graph?focus=phone:${phone.id}`">
+            关系图谱 · EXPLORE RELATIONS →
+          </router-link>
+          <router-link class="section__link label" :to="`/explore/journeys`">
+            策展路线 · START A JOURNEY →
+          </router-link>
+        </div>
+      </nav>
+
+      <!-- ====== YOU MAY ALSO EXPLORE（V0.6 §26–§27：带理由的推荐） ====== -->
+      <section v-if="recommendations.length" class="section container">
+        <p class="label section__index">06 — 下一件展品 · YOU MAY ALSO EXPLORE</p>
+        <div class="glass-card">
+          <nav class="related">
+            <router-link
+              v-for="r in recommendations"
+              :key="r.phone.id"
+              :to="`/phone/${r.phone.id}`"
+              class="related__row"
+              data-cursor="看展"
+            >
+              <span class="related__year mono">{{ r.phone.releaseYear }}</span>
+              <PhonePhoto :phone="r.phone" thumb class="related__photo" />
+              <span class="related__body">
+                <span class="related__name">{{ r.phone.name }}</span>
+                <span class="related__brand label">{{ r.phone.brandName }}</span>
+                <span class="related__reason label mono">{{ r.reason }}</span>
+              </span>
+              <span class="related__arrow mono" aria-hidden="true">→</span>
+            </router-link>
+          </nav>
         </div>
       </section>
 
       <!-- ====== 相关展品 ====== -->
       <section v-if="related.length" class="section container">
-        <p class="label section__index">06 — 相关展品</p>
+        <p class="label section__index">07 — 相关展品</p>
         <div class="glass-card">
           <nav class="related">
             <router-link
@@ -393,7 +453,26 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
             <span class="collect__icon">{{ inCollection ? '✓' : '♡' }}</span>
             <span>{{ inCollection ? '已收藏' : '收藏' }}</span>
           </button>
+          <router-link class="collect__museum label" :to="`/museum?focus=${phone.id}`" data-cursor="看展">
+            在博物馆中查看 →
+          </router-link>
+          <router-link
+            v-if="hasExhibitContent(phone.id)"
+            class="collect__museum collect__museum--accent label"
+            :to="`/museum/exhibit/${phone.id}`"
+            data-cursor="深度观展"
+          >
+            LIVING EXHIBIT · 深度观展 →
+          </router-link>
           <MuseumButton to="/collection" variant="line">查看我的手机史</MuseumButton>
+        </div>
+        <!-- V0.8 §66：Phone → Curator -->
+        <div class="collect__curate">
+          <AddToExhibition
+            block-type="exhibit"
+            :block-data="() => ({ phoneId: phone!.id, displayMode: 'photo' })"
+            label="ADD TO EXHIBITION · 加入个人展览"
+          />
         </div>
       </section>
 
@@ -638,6 +717,34 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
     margin-top: $sp-5;
     max-width: 62ch;
   }
+
+  &__links {
+    margin-top: $sp-5;
+    padding-top: $sp-4;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    gap: $sp-5;
+    flex-wrap: wrap;
+  }
+
+  &__link {
+    color: $c-accent;
+    word-break: keep-all;
+
+    &:hover {
+      color: $c-text;
+    }
+  }
+}
+
+// ---- 关系与时代入口 ----
+.phonelinks {
+  &__card {
+    padding: $sp-5 $sp-6;
+    display: flex;
+    gap: $sp-5;
+    flex-wrap: wrap;
+  }
 }
 
 // ---- Quick Facts ----
@@ -822,6 +929,14 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
     font-size: 9px;
   }
 
+  &__reason {
+    margin-top: 2px;
+    font-size: 9px;
+    color: $c-accent;
+    letter-spacing: 0.08em;
+    word-break: keep-all;
+  }
+
   &__arrow {
     margin-left: auto;
     color: $c-text-3;
@@ -873,6 +988,29 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
 
 .collect__icon {
   font-size: 14px;
+}
+
+.collect__curate {
+  margin-top: $sp-5;
+  padding-top: $sp-5;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  width: 100%;
+}
+
+.collect__museum {
+  color: $c-text-2;
+  border-bottom: 1px solid $c-line;
+  padding-bottom: 2px;
+  word-break: keep-all;
+
+  &:hover {
+    color: $c-text;
+  }
+
+  &--accent {
+    color: $c-accent;
+    border-bottom-color: rgba(184, 178, 164, 0.5);
+  }
 }
 
 @keyframes collect-pulse {

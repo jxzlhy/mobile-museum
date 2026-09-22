@@ -39,6 +39,10 @@ onMounted(async () => {
       <header class="tech__chapter-head">
         <span class="tech__index mono">{{ String(ti + 1).padStart(2, '0') }}</span>
         <h2 class="heading-2">{{ t.name }}</h2>
+        <!-- V0.6 §24 / §37：TECHNOLOGY NETWORK → 关系图谱 -->
+        <router-link :to="`/explore/graph?focus=technology:${t.id}`" class="tech__network label" data-cursor="图谱">
+          VIEW TECHNOLOGY NETWORK →
+        </router-link>
       </header>
       <p class="body-md tech__desc">{{ t.description }}</p>
 
@@ -86,6 +90,16 @@ onMounted(async () => {
     .tech__index {
       color: $c-accent;
       font-size: 13px;
+    }
+
+    .tech__network {
+      margin-left: auto;
+      color: $c-accent;
+      word-break: keep-all;
+
+      &:hover {
+        color: $c-text;
+      }
     }
   }
 

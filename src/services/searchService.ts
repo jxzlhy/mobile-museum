@@ -1,12 +1,15 @@
 import { phones } from '@/data/phones'
 import { brands } from '@/data/brands'
 import { technologies } from '@/data/technologies'
+import { historicalScenes } from '@/data/scenes'
 import type { Brand, Phone, Technology } from '@/data/types'
 
 export interface SearchResult {
   phones: Phone[]
   brands: Brand[]
   technologies: Technology[]
+  /** 历史场景（V0.7 §57：搜 2007 → Era / Scene）。 */
+  scenes: Array<{ id: string; year: number; title: string; titleZh: string }>
   total: number
 }
 
@@ -28,7 +31,7 @@ export const searchService = {
   // async interface used by the other services.
   search(query: string): SearchResult {
     const q = query.trim().toLowerCase()
-    if (!q) return { phones: [], brands: [], technologies: [], total: 0 }
+    if (!q) return { phones: [], brands: [], technologies: [], scenes: [], total: 0 }
 
     const matchedPhones = phones.filter((p) => {
       return (
@@ -57,11 +60,17 @@ export const searchService = {
         (t.milestones ?? []).some((m) => includes(m.label, q)),
     )
 
+    // V0.7 §57：年份 / 场景标题 → Era / Scene
+    const matchedScenes = historicalScenes.filter(
+      (s) => String(s.year).includes(q) || includes(s.title, q) || includes(s.titleZh, q),
+    )
+
     return {
       phones: matchedPhones.sort((a, b) => a.releaseYear - b.releaseYear),
       brands: matchedBrands,
       technologies: matchedTech,
-      total: matchedPhones.length + matchedBrands.length + matchedTech.length,
+      scenes: matchedScenes.map((s) => ({ id: s.id, year: s.year, title: s.title, titleZh: s.titleZh })),
+      total: matchedPhones.length + matchedBrands.length + matchedTech.length + matchedScenes.length,
     }
   },
 }

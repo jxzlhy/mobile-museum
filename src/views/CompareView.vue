@@ -2,6 +2,7 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { comparisonService, type ComparisonResult } from '@/services/comparisonService'
+import AddToExhibition from '@/components/curator/AddToExhibition.vue'
 import { phoneService } from '@/services/phoneService'
 import { useStageScene } from '@/composables/useStageScene'
 import { AmbientScene } from '@/three/scenes/AmbientScene'
@@ -161,6 +162,15 @@ const barWidth = (v: number | string | undefined, max?: number) => {
     <section v-if="result && !sameDevice" class="compare__changed">
       <p class="label compare__changed-head">WHAT CHANGED? · 变了什么</p>
       <p v-for="line in result.summary" :key="line" class="compare__changed-line">{{ line }}</p>
+    </section>
+
+    <!-- V0.8 §42：Comparison → Curator -->
+    <section v-if="result && !sameDevice" class="compare__curate">
+      <AddToExhibition
+        block-type="comparison"
+        :block-data="() => ({ leftPhoneId: result!.left.id, rightPhoneId: result!.right.id, label: `${result!.left.name} vs ${result!.right.name}` })"
+        label="ADD TO EXHIBITION · 把这次对比收进你的展览"
+      />
     </section>
 
     <p class="compare__note label">* 展品标注「图版待补」表示该设备暂无经验证的真实影像资料。</p>
@@ -437,6 +447,13 @@ const barWidth = (v: number | string | undefined, max?: number) => {
     color: $c-text-2;
     max-width: 30ch;
     word-break: keep-all;
+  }
+
+  &__curate {
+    margin-top: $sp-6;
+    padding: $sp-5 $sp-6;
+    border: 1px solid $c-line-soft;
+    border-radius: 16px;
   }
 
   &__note {

@@ -270,3 +270,12 @@ export interface CollectionItem {
   addedAt: number
   order: number
 }
+
+// ---- 博物馆护照（V0.4 规范 §38）----
+
+export interface MuseumDiscovery {
+  phoneId: string
+  discoveredAt: number
+  /** 触发来源：查看详情 / 展厅展签 / 珍藏展厅。 */
+  source?: 'view' | 'hall' | 'treasure'
+}

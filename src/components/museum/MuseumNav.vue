@@ -112,6 +112,11 @@ const mobileDock = [
   @include safe-top;
   transition: transform 0.45s var(--ease-museum), opacity 0.45s var(--ease-museum);
 
+  // 桌面端：远离屏幕边缘，留出展厅墙面的呼吸感
+  @include desktop {
+    padding: $sp-6 clamp(40px, 5vw, 96px);
+  }
+
   &--hidden {
     transform: translateY(-110%);
     opacity: 0;
@@ -124,14 +129,14 @@ const mobileDock = [
   }
 
   &__mark {
-    @include label-style(10px);
+    @include label-style(11px);
     color: $c-text;
     border: 1px solid $c-line;
     padding: 3px 6px;
   }
 
   &__title {
-    @include label-style(12px);
+    @include label-style(13px);
     color: $c-text;
     letter-spacing: 0.3em;
   }
@@ -142,7 +147,7 @@ const mobileDock = [
   }
 
   &__link {
-    @include label-style(10px);
+    @include label-style(13px);
     letter-spacing: 0.18em;
     color: $c-text-3;
     @include hover-line;
@@ -162,9 +167,9 @@ const mobileDock = [
   transform: translateX(-50%);
   z-index: 40;
   display: flex;
-  gap: 2px;
+  gap: 4px;
   margin-bottom: calc(#{$sp-3} + env(safe-area-inset-bottom));
-  padding: 6px;
+  padding: 8px;
   @include glass(999px);
   transition: transform 0.45s var(--ease-museum), opacity 0.45s var(--ease-museum);
 
@@ -174,9 +179,10 @@ const mobileDock = [
   }
 
   &__item {
-    @include label-style(10px);
+    @include label-style(13px);
+    letter-spacing: 0.06em;
     color: $c-text-3;
-    padding: $sp-2 $sp-3;
+    padding: 10px 14px;
     border-radius: 999px;
     white-space: nowrap;
     transition: color 0.3s var(--ease-museum), background 0.3s var(--ease-museum);

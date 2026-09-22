@@ -35,6 +35,33 @@ const router = createRouter({
       meta: { title: '探索 · EXPLORE — 手机历史博物馆' },
     },
     {
+      path: '/explore/graph',
+      name: 'graph',
+      component: () => import('@/views/GraphView.vue'),
+      meta: {
+        title: '关系图谱 · HISTORICAL GRAPH — 手机历史博物馆',
+        description: '品牌、年代、技术、专题如何把每件展品连进手机历史。',
+      },
+    },
+    {
+      path: '/explore/journeys',
+      name: 'journeys',
+      component: () => import('@/views/JourneysView.vue'),
+      meta: { title: '策展路线 · CURATED JOURNEYS — 手机历史博物馆' },
+    },
+    {
+      path: '/explore/journeys/:id',
+      name: 'journey',
+      component: () => import('@/views/JourneyView.vue'),
+      meta: { title: '策展路线 — 手机历史博物馆' },
+    },
+    {
+      path: '/explore/context/:year',
+      name: 'context',
+      component: () => import('@/views/ContextView.vue'),
+      meta: { title: '时代环境 · CONTEXT — 手机历史博物馆' },
+    },
+    {
       path: '/explore/evolution',
       name: 'evolution',
       component: () => import('@/views/EvolutionView.vue'),
@@ -69,6 +96,75 @@ const router = createRouter({
       name: 'dev-assets',
       component: () => import('@/views/DevAssetsView.vue'),
       meta: { title: 'Asset Debug — 手机历史博物馆' },
+    },
+    {
+      path: '/museum',
+      name: 'museum',
+      component: () => import('@/views/MuseumHallView.vue'),
+      meta: {
+        title: '博物馆主展厅 · THE MUSEUM — 手机历史博物馆',
+        description: '走进三维主展厅：历史、设计、技术、形态与珍藏五个展区，穿行五十年。',
+      },
+    },
+    {
+      path: '/museum/treasures',
+      name: 'museum-treasures',
+      component: () => import('@/views/MuseumHallView.vue'),
+      meta: {
+        title: '珍藏展厅 · TREASURE ROOM — 手机历史博物馆',
+        description: '馆藏珍品：照片、3D 与故事俱备的那些机器。',
+      },
+    },
+    {
+      path: '/museum/exhibit/:id',
+      name: 'exhibit',
+      component: () => import('@/views/ExhibitView.vue'),
+      meta: {
+        title: '深度观展 · LIVING EXHIBIT — 手机历史博物馆',
+        description: '同一件展品的不同观察方式：实拍、3D、结构拆解、材料与语音导览。',
+      },
+    },
+    {
+      path: '/exhibition/share/:payload',
+      name: 'exhibition-share',
+      component: () => import('@/views/ExhibitionShareView.vue'),
+      meta: { title: '个人策展分享 — 手机历史博物馆' },
+    },
+    {
+      path: '/curator',
+      name: 'curator',
+      component: () => import('@/views/CuratorStudioView.vue'),
+      meta: {
+        title: '策展工作台 · CURATOR STUDIO — 手机历史博物馆',
+        description: '把发现过的手机、故事与场景，组织成属于你的数字展览。',
+      },
+    },
+    {
+      path: '/curator/:id',
+      name: 'curator-editor',
+      component: () => import('@/views/CuratorEditorView.vue'),
+      meta: { title: '编辑展览 · CURATOR STUDIO — 手机历史博物馆' },
+    },
+    {
+      path: '/curator/:id/preview',
+      name: 'curator-preview',
+      component: () => import('@/views/ExhibitionPreviewView.vue'),
+      meta: { title: '个人展览预览 — 手机历史博物馆' },
+    },
+    {
+      path: '/museum/time-machine',
+      name: 'time-machine',
+      component: () => import('@/views/TimeMachineView.vue'),
+      meta: {
+        title: '时间机器 · TIME MACHINE — 手机历史博物馆',
+        description: '拖动年份，走进按年代重构的数字历史展厅。',
+      },
+    },
+    {
+      path: '/museum/time-machine/:year',
+      name: 'time-machine-scene',
+      component: () => import('@/views/SceneView.vue'),
+      meta: { title: '历史场景 — 手机历史博物馆' },
     },
     {
       path: '/phone/:id',
@@ -110,7 +206,7 @@ const router = createRouter({
       path: '/collection',
       name: 'collection',
       component: () => import('@/views/CollectionView.vue'),
-      meta: { title: '我的手机史 — 手机历史博物馆' },
+      meta: { title: '我的博物馆 · MY MUSEUM — 手机历史博物馆' },
     },
     {
       path: '/:pathMatch(.*)*',
@@ -119,7 +215,13 @@ const router = createRouter({
       meta: { title: '未找到 — 手机历史博物馆' },
     },
   ],
-  scrollBehavior: () => ({ top: 0 }),
+  // 仅路径变化时回到顶部；查询参数同步（?room=/?focus=，规范 §47）
+  // 不得打断滚动驱动的相机。
+  scrollBehavior: (to, from, savedPosition) => {
+    if (savedPosition) return savedPosition
+    if (to.path !== from.path) return { top: 0 }
+    return {}
+  },
 })
 
 // 详情页动态标题
@@ -136,6 +238,16 @@ router.afterEach(async (to) => {
   }
   const title = to.meta.title as string | undefined
   if (title) document.title = title
+  const description = to.meta.description as string | undefined
+  let metaDesc = document.querySelector<HTMLMetaElement>('meta[name="description"]')
+  if (description) {
+    if (!metaDesc) {
+      metaDesc = document.createElement('meta')
+      metaDesc.name = 'description'
+      document.head.appendChild(metaDesc)
+    }
+    metaDesc.content = description
+  }
 })
 
 export default router

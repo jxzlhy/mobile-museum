@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { storyService } from '@/services/storyService'
 import { phoneService } from '@/services/phoneService'
 import { useStageScene } from '@/composables/useStageScene'
@@ -9,13 +9,55 @@ import PhonePhoto from '@/components/common/PhonePhoto.vue'
 import MuseumButton from '@/components/common/MuseumButton.vue'
 import type { MuseumStory } from '@/data/stories'
 import type { Phone } from '@/data/types'
+import { getJourneys } from '@/data/journeys'
+import { curatorService } from '@/services/curator/curatorService'
+import { makeBlock, renumber } from '@/services/curator/types'
+
+// story → journey 映射（V0.6 §38）：同主题的策展路线
+const STORY_JOURNEY_MAP: Record<string, string> = {
+  'the-first-mobile-phone': 'the-first-mobile-phone',
+  'the-first-smartphone': 'from-buttons-to-touch',
+  'the-touchscreen-revolution': 'from-buttons-to-touch',
+  'the-camera-phone': 'the-camera-phone',
+  'the-rise-of-nokia': 'the-rise-of-nokia',
+  'the-smartphone-era': 'the-smartphone-revolution',
+  'the-foldable-era': 'the-foldable-era',
+}
 
 // STORY DETAIL（V0.3 §16–§22）：
 // COVER → INTRO → TIMELINE → KEY EXHIBITS → WHY IT MATTERED → LEGACY。
 // 章节制：每章一个核心观点 + 1~2 个展品 + 少量文字（§64）。
 
 const route = useRoute()
+const router = useRouter()
 const story = ref<MuseumStory | null>(null)
+
+/** V0.8 §41：Story → Curator —— 自动生成 Intro / Timeline / Key Exhibits / Legacy。 */
+function curateFromStory() {
+  const s = story.value
+  if (!s) return
+  const ex = curatorService.create(s.titleZh, 'story')
+  if (!ex) return
+  const blocks = [
+    makeBlock('text', { text: s.intro ?? '' }, 0),
+    makeBlock('timeline', { mode: 'events', yearFrom: s.period?.startYear, yearTo: s.period?.endYear }, 1),
+    ...(s.featuredPhoneIds ?? []).map((id, i) => makeBlock('exhibit', { phoneId: id, displayMode: 'photo' }, 2 + i)),
+    makeBlock('quote', { text: s.whyItMattered ?? '' }, 90),
+  ]
+  curatorService.update(ex.id, {
+    subtitle: s.title,
+    intro: s.subtitle,
+    coverPhoneId: s.featuredPhoneIds?.[0],
+    blocks: renumber(blocks),
+  })
+  router.push(`/curator/${ex.id}`)
+}
+const relatedJourney = computed(() => {
+  const sid = story.value?.id
+  if (!sid) return null
+  const jid = STORY_JOURNEY_MAP[sid]
+  return getJourneys().find((j) => j.id === jid) ?? null
+})
 const phonesById = ref<Map<string, Phone>>(new Map())
 const status = ref<'loading' | 'ready' | 'error'>('loading')
 
@@ -131,8 +173,12 @@ const phoneOf = (id?: string) => (id ? phonesById.value.get(id) : undefined)
         </div>
       </section>
 
-      <!-- ====== 页脚导航 ====== -->
+      <!-- ====== 页脚导航（V0.6 §38：Story → START THIS JOURNEY；V0.8 §41：→ Curator） ====== -->
       <footer class="story__foot container">
+        <MuseumButton v-if="relatedJourney" :to="`/explore/journeys/${relatedJourney.id}`" variant="cta">
+          START THIS JOURNEY · {{ relatedJourney.titleZh }}
+        </MuseumButton>
+        <MuseumButton variant="line" @click="curateFromStory">CREATE EXHIBITION FROM STORY</MuseumButton>
         <MuseumButton to="/explore/stories" variant="line">全部专题</MuseumButton>
         <MuseumButton to="/explore/evolution" variant="line">进入演化长卷</MuseumButton>
       </footer>

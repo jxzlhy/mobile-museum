@@ -4,13 +4,19 @@ import {
   plasticMaterial,
   metalMaterial,
   darkGlassMaterial,
+  pcbMaterial,
 } from '../materials/museumMaterials'
 import { registerModel } from '../core/ModelLoader'
+import type { ExplodePart } from './brickPhone'
 
 // ------------------------------------------------------------
 // V0.2 展品家族：翻盖 / 直板 / 滑盖 / 全键盘 / 板砖触屏 / 折叠屏。
 // 全部为原创程序化模型（无第三方资产）。比例真实、克制的光泽，
 // 与主展品 DynaTAC 同一套灯光与材质语言。
+//
+// V0.5（规范 §8 / §10）：重点展品的模型按真实结构方向注册
+// 可分离部件（前后盖 / 屏幕 / 键盘 / 主板 / 电池 / 铰链），
+// 供 STRUCTURE 拆解模式使用 —— 只注册模型里真正存在的节点。
 // ------------------------------------------------------------
 
 const screenMaterial = () => {
@@ -18,6 +24,15 @@ const screenMaterial = () => {
   m.emissive = new THREE.Color(0x0c1216)
   m.emissiveIntensity = 0.5
   return m
+}
+
+function makePartTracker(group: THREE.Group, parts: ExplodePart[]) {
+  return (name: string, object: THREE.Object3D, base: THREE.Vector3, offset: THREE.Vector3) => {
+    object.position.copy(base)
+    object.name = name
+    group.add(object)
+    parts.push({ name, object, base: base.clone(), offset })
+  }
 }
 
 function addKeys(
@@ -45,6 +60,8 @@ function addKeys(
 // ---- 翻盖（StarTAC / RAZR 血统）----
 function buildFlip(): THREE.Group {
   const group = new THREE.Group()
+  const parts: ExplodePart[] = []
+  const add = makePartTracker(group, parts)
   const shell = plasticMaterial(0x17181b, 0.42)
   const trim = plasticMaterial(0x0e0e10, 0.5)
   const key = metalMaterial(0x6f7278, 0.45)
@@ -61,15 +78,13 @@ function buildFlip(): THREE.Group {
   const earpiece = new THREE.Mesh(new THREE.BoxGeometry(0.28, 0.02, 0.015), trim)
   earpiece.position.set(0, 0.5, 0.047)
   upper.add(earpiece)
-  upper.position.set(0, 0.68, 0)
+  add('upper', upper, new THREE.Vector3(0, 0.68, 0), new THREE.Vector3(0, 0.75, 0))
   upper.rotation.x = -0.14
-  group.add(upper)
 
   // 铰链
   const hinge = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.05, 0.6, 20), metalMaterial(0x8a8d92, 0.35))
   hinge.rotation.z = Math.PI / 2
-  hinge.position.y = 0.06
-  group.add(hinge)
+  add('hinge', hinge, new THREE.Vector3(0, 0.06, 0), new THREE.Vector3(0, 0, 0.45))
 
   // 下盖
   const lower = new THREE.Group()
@@ -81,57 +96,74 @@ function buildFlip(): THREE.Group {
   micDot.rotation.x = Math.PI / 2
   micDot.position.set(0, -0.48, 0.068)
   lower.add(micDot)
-  lower.position.set(0, -0.64, 0)
-  group.add(lower)
+  add('lower', lower, new THREE.Vector3(0, -0.64, 0), new THREE.Vector3(0, -0.6, 0))
 
-  group.userData.explodeParts = []
+  group.userData.explodeParts = parts
   return group
 }
 
 // ---- 直板（诺基亚 3210 / 3310 血统）----
 function buildBar(): THREE.Group {
   const group = new THREE.Group()
+  const parts: ExplodePart[] = []
+  const add = makePartTracker(group, parts)
   const shell = plasticMaterial(0x16181a, 0.55)
   const trim = plasticMaterial(0x0c0d0e, 0.5)
   const key = plasticMaterial(0x24272a, 0.6)
   const glass = screenMaterial()
 
-  const body = new THREE.Mesh(new RoundedBoxGeometry(0.82, 2.15, 0.42, 5, 0.12), shell)
-  body.castShadow = true
-  group.add(body)
+  // 机身骨架（锚点，不移动）
+  const chassis = new THREE.Mesh(new RoundedBoxGeometry(0.78, 2.08, 0.34, 5, 0.1), shell)
+  chassis.castShadow = true
+  add('chassis', chassis, new THREE.Vector3(0, 0, 0), new THREE.Vector3(0, 0, 0))
 
+  // 屏幕总成（向前分离）
+  const screenPart = new THREE.Group()
+  const screenFrame = new THREE.Mesh(new THREE.BoxGeometry(0.56, 0.42, 0.04), trim)
+  screenPart.add(screenFrame)
   const screen = new THREE.Mesh(new THREE.PlaneGeometry(0.5, 0.36), glass)
-  screen.position.set(0, 0.62, 0.212)
-  group.add(screen)
-  const screenFrame = new THREE.Mesh(new THREE.BoxGeometry(0.56, 0.42, 0.02), trim)
-  screenFrame.position.set(0, 0.62, 0.202)
-  group.add(screenFrame)
+  screen.position.z = 0.021
+  screenPart.add(screen)
+  add('screen', screenPart, new THREE.Vector3(0, 0.62, 0.17), new THREE.Vector3(0, 0.1, 0.55))
 
-  // 导航键 + C 键
+  // 键盘（向前分离）
+  const keypad = new THREE.Group()
   const nav = new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.09, 0.045, 20), key)
   nav.rotation.x = Math.PI / 2
-  nav.position.set(0, 0.24, 0.225)
+  nav.position.y = 0.24
   nav.castShadow = true
-  group.add(nav)
+  keypad.add(nav)
   for (const x of [-0.22, 0.22]) {
     const soft = new THREE.Mesh(new RoundedBoxGeometry(0.13, 0.08, 0.04, 2, 0.015), key)
-    soft.position.set(x, 0.24, 0.22)
+    soft.position.set(x, 0.24, 0)
     soft.castShadow = true
-    group.add(soft)
+    keypad.add(soft)
   }
-
-  // 沿机身微弧排列的 3×4 键盘
   for (let r = 0; r < 4; r++) {
     for (let c = 0; c < 3; c++) {
       const keyMesh = new THREE.Mesh(new RoundedBoxGeometry(0.16, 0.11, 0.05, 2, 0.018), key)
-      keyMesh.position.set((c - 1) * 0.2, 0.02 - r * 0.17, 0.21 - r * 0.012)
+      keyMesh.position.set((c - 1) * 0.2, 0.02 - r * 0.17, -r * 0.012)
       keyMesh.rotation.x = -0.08 - r * 0.015
       keyMesh.castShadow = true
-      group.add(keyMesh)
+      keypad.add(keyMesh)
     }
   }
+  add('keypad', keypad, new THREE.Vector3(0, 0, 0.19), new THREE.Vector3(0, 0.05, 0.32))
 
-  group.userData.explodeParts = []
+  // 主板（向内后分离）
+  const pcb = new THREE.Mesh(new THREE.BoxGeometry(0.66, 1.7, 0.035), pcbMaterial())
+  add('pcb', pcb, new THREE.Vector3(0, 0.05, 0.02), new THREE.Vector3(0, 0.15, -0.12))
+
+  // 电池（向后分离）
+  const battery = new THREE.Mesh(new RoundedBoxGeometry(0.5, 1.05, 0.07, 2, 0.02), plasticMaterial(0x202226, 0.5))
+  add('battery', battery, new THREE.Vector3(0, -0.1, -0.1), new THREE.Vector3(0, -0.1, -0.45))
+
+  // Xpress-on 后盖（向后分离）
+  const backCover = new THREE.Mesh(new RoundedBoxGeometry(0.8, 2.1, 0.08, 5, 0.1), plasticMaterial(0x1a1c20, 0.5))
+  backCover.castShadow = true
+  add('backCover', backCover, new THREE.Vector3(0, 0, -0.19), new THREE.Vector3(0, -0.05, -0.8))
+
+  group.userData.explodeParts = parts
   return group
 }
 
@@ -209,42 +241,58 @@ function buildQwerty(): THREE.Group {
 // ---- 板砖触屏（iPhone 血统）----
 function buildSlab(): THREE.Group {
   const group = new THREE.Group()
+  const parts: ExplodePart[] = []
+  const add = makePartTracker(group, parts)
   const frame = metalMaterial(0x7d8085, 0.4)
   const front = darkGlassMaterial()
   const back = plasticMaterial(0x1c1d1f, 0.35)
 
-  const body = new THREE.Mesh(new RoundedBoxGeometry(1.02, 2.12, 0.1, 4, 0.045), back)
+  // 中框（锚点）
+  const body = new THREE.Mesh(new RoundedBoxGeometry(0.98, 2.08, 0.085, 4, 0.04), frame)
   body.castShadow = true
-  group.add(body)
+  add('chassis', body, new THREE.Vector3(0, 0, 0), new THREE.Vector3(0, 0, 0))
 
+  // 前玻璃总成（向前分离）
+  const frontGlass = new THREE.Group()
   const face = new THREE.Mesh(new THREE.PlaneGeometry(0.96, 2.06), front)
-  face.position.z = 0.052
-  group.add(face)
-
-  // 听筒与前置摄像头
+  frontGlass.add(face)
   const speaker = new THREE.Mesh(new RoundedBoxGeometry(0.2, 0.022, 0.006, 1, 0.003), plasticMaterial(0x0a0a0a, 0.6))
-  speaker.position.set(0, 0.92, 0.054)
-  group.add(speaker)
+  speaker.position.set(0, 0.92, 0.004)
+  frontGlass.add(speaker)
   const cam = new THREE.Mesh(new THREE.CylinderGeometry(0.018, 0.018, 0.006, 14), plasticMaterial(0x06070a, 0.4))
   cam.rotation.x = Math.PI / 2
-  cam.position.set(-0.18, 0.92, 0.054)
-  group.add(cam)
-
-  // Home 键圆环
+  cam.position.set(-0.18, 0.92, 0.004)
+  frontGlass.add(cam)
   const homeRing = new THREE.Mesh(new THREE.RingGeometry(0.055, 0.075, 28), frame)
-  homeRing.position.set(0, -0.9, 0.053)
-  group.add(homeRing)
+  homeRing.position.set(0, -0.9, 0.003)
+  frontGlass.add(homeRing)
   const homeDot = new THREE.Mesh(new THREE.CircleGeometry(0.022, 20), plasticMaterial(0x0c0d0e, 0.5))
-  homeDot.position.set(0, -0.9, 0.053)
-  group.add(homeDot)
+  homeDot.position.set(0, -0.9, 0.003)
+  frontGlass.add(homeDot)
+  add('frontGlass', frontGlass, new THREE.Vector3(0, 0, 0.048), new THREE.Vector3(0, 0, 0.6))
 
-  group.userData.explodeParts = []
+  // 逻辑主板
+  const pcb = new THREE.Mesh(new THREE.BoxGeometry(0.7, 0.9, 0.03), pcbMaterial())
+  add('pcb', pcb, new THREE.Vector3(0, 0.45, 0), new THREE.Vector3(0, 0.2, -0.1))
+
+  // 电池
+  const battery = new THREE.Mesh(new RoundedBoxGeometry(0.72, 1.0, 0.035, 2, 0.015), plasticMaterial(0x202226, 0.5))
+  add('battery', battery, new THREE.Vector3(0, -0.45, 0), new THREE.Vector3(0, -0.15, -0.12))
+
+  // 铝制后盖（向后分离）
+  const backCover = new THREE.Mesh(new RoundedBoxGeometry(0.94, 2.04, 0.03, 4, 0.02), back)
+  backCover.castShadow = true
+  add('backCover', backCover, new THREE.Vector3(0, 0, -0.046), new THREE.Vector3(0, 0, -0.6))
+
+  group.userData.explodeParts = parts
   return group
 }
 
 // ---- 折叠屏（Galaxy Fold 血统，呈展开状态）----
 function buildFoldable(): THREE.Group {
   const group = new THREE.Group()
+  const parts: ExplodePart[] = []
+  const add = makePartTracker(group, parts)
   const shell = plasticMaterial(0x191a1d, 0.4)
   const glass = screenMaterial()
   const metal = metalMaterial(0x888b90, 0.38)
@@ -257,9 +305,8 @@ function buildFoldable(): THREE.Group {
   const leftScreen = new THREE.Mesh(new THREE.PlaneGeometry(0.72, 1.98), glass)
   leftScreen.position.z = 0.037
   left.add(leftScreen)
-  left.position.set(-0.385, 0, 0.16)
+  add('leftWing', left, new THREE.Vector3(-0.385, 0, 0.16), new THREE.Vector3(-0.55, 0, 0.1))
   left.rotation.y = 0.26
-  group.add(left)
 
   const right = new THREE.Group()
   const rightBody = new THREE.Mesh(new RoundedBoxGeometry(0.78, 2.05, 0.07, 3, 0.03), shell)
@@ -268,17 +315,15 @@ function buildFoldable(): THREE.Group {
   const rightScreen = new THREE.Mesh(new THREE.PlaneGeometry(0.72, 1.98), glass)
   rightScreen.position.z = 0.037
   right.add(rightScreen)
-  right.position.set(0.385, 0, 0.16)
+  add('rightWing', right, new THREE.Vector3(0.385, 0, 0.16), new THREE.Vector3(0.55, 0, 0.1))
   right.rotation.y = -0.26
-  group.add(right)
 
   // 中央铰链（藏在两翼之后）
   const hinge = new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.055, 1.6, 24), metal)
   hinge.rotation.z = Math.PI / 2
-  hinge.position.z = -0.02
-  group.add(hinge)
+  add('hinge', hinge, new THREE.Vector3(0, 0, -0.02), new THREE.Vector3(0, 0, -0.35))
 
-  group.userData.explodeParts = []
+  group.userData.explodeParts = parts
   return group
 }
 

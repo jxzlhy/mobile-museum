@@ -115,19 +115,23 @@ function onPointerUp() {
     <section class="ff__reps">
       <p class="label">代表展品 · {{ representatives.length }}</p>
       <nav class="ff__rep-list">
-        <router-link
-          v-for="p in representatives"
-          :key="p.id"
-          :to="`/phone/${p.id}`"
-          class="ff__rep"
-          data-cursor="VIEW"
-        >
+        <div v-for="p in representatives" :key="p.id" class="ff__repwrap">
+          <router-link :to="`/phone/${p.id}`" class="ff__rep" data-cursor="VIEW">
             <span class="ff__rep-year mono">{{ p.releaseYear }}</span>
             <span class="ff__rep-art"><PhonePhoto :phone="p" thumb /></span>
             <span class="ff__rep-name">{{ p.name }}</span>
             <span class="ff__rep-brand label">{{ p.brandName }}</span>
-          <span class="ff__rep-arrow mono" aria-hidden="true">→</span>
-        </router-link>
+            <span class="ff__rep-arrow mono" aria-hidden="true">→</span>
+          </router-link>
+          <!-- 规范 §46：形态馆 → View Exhibit，直接进入 Museum Hall -->
+          <router-link
+            :to="`/museum?focus=${p.id}`"
+            class="ff__rep-museum label"
+            :aria-label="`在博物馆中查看 ${p.name}`"
+          >
+            看展
+          </router-link>
+        </div>
       </nav>
     </section>
   </div>
@@ -286,7 +290,14 @@ function onPointerUp() {
     flex-direction: column;
   }
 
+  &__repwrap {
+    display: flex;
+    align-items: center;
+  }
+
   &__rep {
+    flex: 1;
+    min-width: 0;
     display: flex;
     align-items: center;
     gap: $sp-4;
@@ -336,6 +347,22 @@ function onPointerUp() {
     margin-left: auto;
     color: $c-text-3;
     transition: transform 0.35s var(--ease-museum), color 0.35s var(--ease-museum);
+  }
+
+  &__rep-museum {
+    flex-shrink: 0;
+    margin-left: $sp-4;
+    font-size: 10px;
+    color: $c-text-3;
+    padding: 6px 12px;
+    border: 1px solid $c-line-soft;
+    border-radius: 999px;
+    transition: border-color 0.3s var(--ease-museum), color 0.3s var(--ease-museum);
+
+    &:hover {
+      color: $c-accent;
+      border-color: rgba(184, 178, 164, 0.5);
+    }
   }
 }
 </style>
