@@ -1,4 +1,5 @@
 import manifest from './assets-manifest.json'
+import { withBase } from '@/utils/paths'
 import type { AssetAngle, Phone, PhoneAssets, PhoneImageAsset } from '../types'
 
 // ============================================================
@@ -48,9 +49,10 @@ export function phoneImageList(phone: Pick<Phone, 'id'>): Array<PhoneImageAsset 
   return out
 }
 
-/** 缩略地址：优先 thumbPath，回退原图。 */
+/** 缩略地址：优先 thumbPath，回退原图。统一拼接部署 base（V0.9 §25）。 */
 export function assetSrc(asset: PhoneImageAsset, thumb = false): string {
-  return (thumb ? asset.thumbPath : undefined) ?? asset.path
+  const p = (thumb ? asset.thumbPath : undefined) ?? asset.path
+  return withBase(p)
 }
 
 /** 展示用标签（图库 tabs / alt 文案）。 */

@@ -9,6 +9,31 @@ const COMMON_SOURCES = ['厂商官方史料与新闻稿', '维基百科 / Wikida
 
 export const brands: Brand[] = [
   {
+    id: 'ibm',
+    name: 'IBM',
+    nameEn: 'IBM',
+    foundedYear: 1911,
+    country: '美国',
+    motto: 'Think.',
+    description:
+      'IBM 没有做成手机生意，却发明了它最重要的形态：1994 年的 IBM Simon 是公认的第一部智能手机——触摸屏、邮件、应用，一样不缺。它更像一位不经意的发明者：给出蓝图，然后离场。',
+    featuredPhones: ['ibm-simon'],
+    timeline: [
+      { year: 1992, label: 'Bellsouth 合作', description: '与运营商 Bellsouth 合开项目，目标是一台「掌上电脑」。' },
+      { year: 1994, label: 'IBM Simon', description: '第一部智能手机开售：触摸屏 + 邮件 + 传真。' },
+      { year: 1995, label: '悄然离场', description: ' Simon 停产，IBM 再未涉足手机整机。' },
+    ],
+    story:
+      'IBM 在手机史上的角色很特别：它做出了第一部智能手机，却几乎没有从里面赚到钱。1994 年的 IBM Simon 集触摸屏、电子邮件、传真与日历于一身——比 iPhone 早了十三年，比「智能手机」这个词早了十年。它重逾半公斤、续航以小时计、售价 899 美元，半年只卖出约五万台。对 IBM 来说这只是一次终端试验；对整个行业来说，这是一张提前画好的路线图。此后 IBM 专心做企业计算，把消费市场让给了后来者——但每当我们点击一块触摸屏，都在使用 Simon 画下的交互原点。',
+    highlights: [
+      { label: '公认第一部智能手机', value: 'IBM Simon (1994)' },
+      { label: '专利与发明', value: '触摸屏 PDA 先声' },
+      { label: '角色', value: '发明者而非玩家' },
+    ],
+    status: '已退出消费市场',
+    sources: COMMON_SOURCES,
+  },
+  {
     id: 'motorola',
     name: '摩托罗拉',
     nameEn: 'Motorola',

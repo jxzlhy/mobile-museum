@@ -1,3 +1,4 @@
+import { withBase } from '@/utils/paths'
 import type { Phone } from '../types'
 
 // ============================================================
@@ -94,7 +95,7 @@ export const exhibitContents: Record<string, ExhibitContent> = {
       id: 'audio-dynatac-8000x',
       phoneId: 'motorola-dynatac-8000x',
       title: '第一块砖头',
-      src: '/audio/guides/motorola-dynatac-8000x.m4a',
+      src: withBase('/audio/guides/motorola-dynatac-8000x.m4a'),
       language: 'zh-CN',
       transcript:
         '一九八三年，摩托罗拉把移动电话从车里搬进了手里。DynaTAC 八千X，高二十五厘米，重七百九十克，卖三千九百九十五美元，大约是一辆轿车的价钱。它有一根四分之一波长的鞭状天线，一段只能显示号码的红色LED屏，十二颗机械按键，最多存十个号码。它能通话三十分钟，充电却要十个小时。十年之前，马丁·库帕在纽约街头拨出史上第一通手持电话；十年之后，耗资约一亿美元，这台砖头让任何人都能买下那份自由。它开创了消费级移动通信市场，也让手机第一次成为身份的象征。它不是最好的手机，但此后所有的手机，都是它的后代。',
@@ -137,7 +138,7 @@ export const exhibitContents: Record<string, ExhibitContent> = {
       id: 'audio-nokia-3310',
       phoneId: 'nokia-3310',
       title: '摔不坏的传说',
-      src: '/audio/guides/nokia-3310.m4a',
+      src: withBase('/audio/guides/nokia-3310.m4a'),
       language: 'zh-CN',
       transcript:
         '二〇〇〇年九月，诺基亚发布了3310，一台最终卖出一亿两千六百万部的平价手机。它只有八十四乘八十四个像素的单色屏幕，抗摔的ABS塑料外壳，以及一套可以徒手更换的Xpress-on彩壳系统，换壳从此成为一种流行文化。它的短信可以连锁发送，贪吃蛇II让一代人第一次在手机上玩游戏，电池能待机好几天。人们从高处摔过它、坐过它、丢过它，捡起来，多半还能用。可靠性被做成了设计，一部廉价的手机就这样成了民间英雄，也成了诺基亚黄金年代的注脚。',
@@ -178,7 +179,7 @@ export const exhibitContents: Record<string, ExhibitContent> = {
       id: 'audio-razr-v3',
       phoneId: 'motorola-razr-v3',
       title: '刀锋',
-      src: '/audio/guides/motorola-razr-v3.m4a',
+      src: withBase('/audio/guides/motorola-razr-v3.m4a'),
       language: 'zh-CN',
       transcript:
         '二〇〇四年，摩托罗拉用一块铝合金回答了一个问题：翻盖机可以薄到什么程度。RAZR V3，十三点九毫米，刀锋因此得名。机身是阳极氧化的航空级铝合金，键盘不是一颗颗键帽，而是一块电致发光板，按键符号直接蚀刻在上面，合上时是一块金属，打开时按键自己亮起来。铰链的阻尼经过调校，啪的一声合上，是它身份的一部分。它还有一颗三十万像素的VGA相机和双彩屏。一亿三千万部的销量，让刀锋成了翻盖时代最后一个图腾：那是金属与铰链最后的黄金年代。',
@@ -220,7 +221,7 @@ export const exhibitContents: Record<string, ExhibitContent> = {
       id: 'audio-apple-iphone',
       phoneId: 'apple-iphone',
       title: '二〇〇七，屏幕亮起',
-      src: '/audio/guides/apple-iphone.m4a',
+      src: withBase('/audio/guides/apple-iphone.m4a'),
       language: 'zh-CN',
       transcript:
         '二〇〇七年一月九日，乔布斯站在旧金山的舞台上说：今天，苹果重新发明了电话。一部宽屏触控的iPod，一部革命性的手机，一台突破性的上网设备，不是三台设备，是一台。iPhone三点五英寸的玻璃下面是电容触控屏，双指一捏，就能缩放一张照片，这个手势后来属于全世界。铝制的机身，耳机孔在顶部，全机只有一颗实体按键，还有一颗两百万像素的相机。它没有3G，没有应用商店，电池不可拆卸，甚至不支持复制粘贴。但它把手机的定义，从按键与号码，改成了握在手里的一块会亮的屏幕。',
@@ -261,7 +262,7 @@ export const exhibitContents: Record<string, ExhibitContent> = {
       id: 'audio-galaxy-fold',
       phoneId: 'samsung-galaxy-fold',
       title: '屏幕开始折叠',
-      src: '/audio/guides/samsung-galaxy-fold.m4a',
+      src: withBase('/audio/guides/samsung-galaxy-fold.m4a'),
       language: 'zh-CN',
       transcript:
         '二〇一九年，手机行业回到一个一九八九年就出现过的老问题：屏幕能不能折起来？这一次，答案不再是塑料翻盖，而是一整片可以弯折的柔性显示。Galaxy Fold合上是一部四点六英寸的手机，展开是一台七点三英寸的小平板，一块屏幕从中间弯过去，铰链里藏着几十个精密零件。聚合物盖板代替了玻璃，代价是展开后中央那道折痕。初代的它娇气、昂贵，甚至因为屏幕问题推迟了发售。但多窗口、分屏、大屏游戏，形态自由的大门，从这一代重新打开了。折叠屏不再是一个概念，而是一个可以买到的未来。',

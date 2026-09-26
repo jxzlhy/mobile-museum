@@ -8,13 +8,20 @@ import { useStageScene } from '@/composables/useStageScene'
 import { getSmoothScroll } from '@/composables/useSmoothScroll'
 import PhoneSilhouette from '@/components/common/PhoneSilhouette.vue'
 import MuseumButton from '@/components/common/MuseumButton.vue'
+import { sessionService, type MuseumSession } from '@/services/sessionService'
 
 // 博物馆入口（规范 §11–§12）：站在一座数字博物馆的门前。
 
 const museum = useMuseum()
 const heroEl = ref<HTMLElement>()
+const session = ref<MuseumSession | null>(null)
 let animation: HomeAnimation | null = null
 let scene: HomeScene | null = null
+
+onMounted(() => {
+  // CONTINUE EXPLORING（V0.9 §40：有最近会话才显示；§77：不自动跳转）
+  session.value = sessionService.getSession()
+})
 
 useStageScene(() => {
   scene = new HomeScene()
@@ -91,6 +98,15 @@ const galleries = [
       <PhoneSilhouette v-if="!museum.state.webgl" form="brick" class="hero__fallback" />
     </section>
 
+    <!-- ====== CONTINUE EXPLORING（V0.9 §40–§42 / §77：用户主动点击恢复）====== -->
+    <section v-if="session" class="continue container">
+      <router-link :to="session.route" class="continue__card glass-card" data-cursor="继续">
+        <span class="label mono continue__mark">CONTINUE EXPLORING · 继续参观</span>
+        <span class="continue__label">{{ session.label ?? session.route }}</span>
+        <span class="mono continue__arrow" aria-hidden="true">→</span>
+      </router-link>
+    </section>
+
     <!-- ====== 展厅索引 ====== -->
     <section class="galleries container">
       <p class="label">展馆一览</p>
@@ -118,6 +134,41 @@ const galleries = [
 </template>
 
 <style lang="scss" scoped>
+// ---------- CONTINUE ----------
+.continue {
+  margin-top: $sp-8;
+
+  &__card {
+    display: flex;
+    align-items: center;
+    gap: $sp-4;
+    padding: $sp-5 $sp-6;
+
+    &:hover {
+      border-color: rgba(184, 178, 164, 0.55);
+    }
+  }
+
+  &__mark {
+    font-size: 9px;
+    color: $c-accent;
+    letter-spacing: 0.24em;
+    word-break: keep-all;
+  }
+
+  &__label {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 350;
+    color: $c-text;
+    word-break: keep-all;
+  }
+
+  &__arrow {
+    color: $c-text-3;
+  }
+}
+
 // ---------- 入口 ----------
 .hero {
   position: relative;

@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-09-26T17:11:55.390Z",
+  "counts": {
+    "phones": 50,
+    "brands": 17,
+    "stories": 7,
+    "journeys": 6,
+    "events": 30,
+    "scenes": 6
+  },
+  "assets": {
+    "approved": 4,
+    "verified": 33,
+    "other": 1
+  },
+  "total": 116,
+  "valid": 50,
+  "invalid": 0,
+  "missing": 0,
+  "broken": 0,
+  "issues": []
+}

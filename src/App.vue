@@ -15,6 +15,9 @@ import MuseumProgress from '@/components/museum/MuseumProgress.vue'
 import MuseumCursor from '@/components/museum/MuseumCursor.vue'
 import DiscoveryToast from '@/components/museum/DiscoveryToast.vue'
 import LoadingOverlay from '@/components/common/LoadingOverlay.vue'
+import UpdatePrompt from '@/components/museum/UpdatePrompt.vue'
+import InstallPrompt from '@/components/museum/InstallPrompt.vue'
+import ErrorBoundary from '@/components/museum/ErrorBoundary.vue'
 
 // The museum shell: persistent stage canvas behind everything,
 // preloader at the door, navigation and atmosphere around it.
@@ -147,6 +150,9 @@ onUnmounted(() => {
 
     <LoadingOverlay />
     <DiscoveryToast />
+    <UpdatePrompt />
+    <InstallPrompt />
+    <ErrorBoundary />
   </div>
 </template>
 

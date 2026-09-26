@@ -1,0 +1,17 @@
+{
+  "name": "MOBILE MUSEUM — 手机历史博物馆",
+  "short_name": "Mobile Museum",
+  "description": "一座手机历史数字博物馆：展品、3D、故事、关系与策展。",
+  "lang": "zh-CN",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "start_url": "./",
+  "scope": "./",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
