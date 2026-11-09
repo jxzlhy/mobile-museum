@@ -1,5 +1,5 @@
 {
-  "status": "verified",
+  "status": "approved",
   "angle": "hero",
   "file": "hero.jpg",
   "sha256": "6f0c78dd1fb16facefe73383f083242542a68e285e89b24fabb6e7e8d2c0ec6f",
@@ -11,5 +11,6 @@
     "attribution": "File:Sony Ericsson W800i.jpg"
   },
   "verifiedAt": "2026-09-13T15:13:05.108Z",
-  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
+  "approvedAt": "2026-11-09T17:57:57.549Z"
 }

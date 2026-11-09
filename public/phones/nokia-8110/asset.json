@@ -1,5 +1,5 @@
 {
-  "status": "verified",
+  "status": "rejected",
   "angle": "hero",
   "file": "hero.jpg",
   "sha256": "1227b80566d13eba8adf8929dba1126be884989c1645f6e969481f9899159ca0",
@@ -11,5 +11,6 @@
     "attribution": "File:Nokia 8110.jpg"
   },
   "verifiedAt": "2026-09-13T15:12:30.712Z",
-  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+  "note": "人工审图拒绝：图为直板机，Nokia 8110 必须是标志性香蕉弧线造型（§27 型号不符）",
+  "rejectedAt": "2026-11-09T17:58:49.034Z"
 }

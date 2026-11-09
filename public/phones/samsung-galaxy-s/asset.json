@@ -1,5 +1,5 @@
 {
-  "status": "verified",
+  "status": "rejected",
   "angle": "hero",
   "file": "hero.jpg",
   "sha256": "8ed6f545cc88c9fd1d8ed4190539ef942e31df179e9d3a0dc804cfcabc4b2198",
@@ -11,5 +11,6 @@
     "attribution": "File:Samsung Galaxy S Advance GT-I9070.JPG"
   },
   "verifiedAt": "2026-09-13T15:12:51.811Z",
-  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+  "note": "人工审图拒绝：图为 Galaxy S Advance GT-I9070（2012 衍生版），非 2010 初代 i9000（§46 型号区分）",
+  "rejectedAt": "2026-11-09T17:58:49.035Z"
 }

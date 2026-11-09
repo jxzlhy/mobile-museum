@@ -1,5 +1,5 @@
 {
-  "status": "verified",
+  "status": "rejected",
   "angle": "hero",
   "file": "hero.jpg",
   "sha256": "f6c5b7c006e01a36dfb99c25a10db153f4d8ecc2dcc9a851b3ecc130a75d6598",
@@ -11,5 +11,6 @@
     "attribution": "File:IPhone 4 Grid Framed.jpg"
   },
   "verifiedAt": "2026-09-13T15:12:01.531Z",
-  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+  "note": "人工审图拒绝：装裱分解海报照（含店铺场景），非设备实拍（§10 C 级）",
+  "rejectedAt": "2026-11-09T17:58:49.031Z"
 }

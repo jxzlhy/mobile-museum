@@ -14,13 +14,13 @@
           "attribution": "File:IPhone 12 - 3.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.642Z"
+        "updatedAt": "2026-11-09T17:58:49.062Z"
       }
     },
     "apple-iphone-3g": {
       "hero": {
         "path": "/phones/apple-iphone-3g/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -31,13 +31,13 @@
           "attribution": "File:The Back of an iPhone 3G White from Apple.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.643Z"
+        "updatedAt": "2026-11-09T17:58:49.063Z"
       }
     },
     "apple-iphone-4": {
       "hero": {
         "path": "/phones/apple-iphone-4/hero.jpg",
-        "status": "verified",
+        "status": "rejected",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -47,14 +47,14 @@
           "licenseUrl": "",
           "attribution": "File:IPhone 4 Grid Framed.jpg"
         },
-        "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.644Z"
+        "note": "人工审图拒绝：装裱分解海报照（含店铺场景），非设备实拍（§10 C 级）",
+        "updatedAt": "2026-11-09T17:58:49.063Z"
       }
     },
     "apple-iphone-5s": {
       "hero": {
         "path": "/phones/apple-iphone-5s/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -65,7 +65,7 @@
           "attribution": "File:IPhone 5s Black.png"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.644Z"
+        "updatedAt": "2026-11-09T17:58:49.063Z"
       }
     },
     "apple-iphone-6": {
@@ -82,7 +82,7 @@
           "attribution": "File:Apple iPhone 6 iOS Update (16195046500).jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.644Z"
+        "updatedAt": "2026-11-09T17:58:49.063Z"
       }
     },
     "apple-iphone-x": {
@@ -99,13 +99,13 @@
           "attribution": "File:Apple iPhone X - front (8121).jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.645Z"
+        "updatedAt": "2026-11-09T17:58:49.064Z"
       }
     },
     "blackberry-bold-9000": {
       "hero": {
         "path": "/phones/blackberry-bold-9000/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -116,13 +116,13 @@
           "attribution": "File:BlackBerry Bold 9000 TIM.jpeg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.646Z"
+        "updatedAt": "2026-11-09T17:58:49.064Z"
       }
     },
     "blackberry-curve-8520": {
       "hero": {
         "path": "/phones/blackberry-curve-8520/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -133,13 +133,13 @@
           "attribution": "File:BlackBerry Curve 8520.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.646Z"
+        "updatedAt": "2026-11-09T17:58:49.064Z"
       }
     },
     "htc-dream": {
       "hero": {
         "path": "/phones/htc-dream/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -150,13 +150,13 @@
           "attribution": "File:HTC Dream flipside.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.647Z"
+        "updatedAt": "2026-11-09T17:58:49.065Z"
       }
     },
     "huawei-p20-pro": {
       "hero": {
         "path": "/phones/huawei-p20-pro/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -167,13 +167,13 @@
           "attribution": "File:Huawei P20 Pro.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.647Z"
+        "updatedAt": "2026-11-09T17:58:49.065Z"
       }
     },
     "ibm-simon": {
       "hero": {
         "path": "/phones/ibm-simon/hero.jpg",
-        "status": "verified",
+        "status": "rejected",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -183,14 +183,14 @@
           "licenseUrl": "",
           "attribution": "File:IBM Simon Personal Communicator.png"
         },
-        "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.648Z"
+        "note": "人工审图拒绝：图为 1992 年 BellSouth 手机形态原型机，非 1994 量产触屏版 Simon Personal Communicator（§27 型号不符）",
+        "updatedAt": "2026-11-09T17:58:49.065Z"
       }
     },
     "lg-g3": {
       "hero": {
         "path": "/phones/lg-g3/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -201,13 +201,13 @@
           "attribution": "File:LG G3 (Metallic Black, Front).jpg"
         },
         "note": "批量管线下载；来源/许���证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.648Z"
+        "updatedAt": "2026-11-09T17:58:49.065Z"
       }
     },
     "motorola-microtac": {
       "hero": {
         "path": "/phones/motorola-microtac/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -218,13 +218,13 @@
           "attribution": "File:MicroTAC.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.649Z"
+        "updatedAt": "2026-11-09T17:58:49.065Z"
       }
     },
     "motorola-milestone": {
       "hero": {
         "path": "/phones/motorola-milestone/hero.jpg",
-        "status": "verified",
+        "status": "rejected",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -234,8 +234,8 @@
           "licenseUrl": "",
           "attribution": "File:Motorola Milestone & LG GW620 20100124.jpg"
         },
-        "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.649Z"
+        "note": "人工审图拒绝：两机合影（含 LG GW620），不符合单设备展品要求（§33）",
+        "updatedAt": "2026-11-09T17:58:49.066Z"
       }
     },
     "motorola-razr-v3": {
@@ -252,13 +252,13 @@
           "attribution": "File:Motorola RAZR V3-4899.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.649Z"
+        "updatedAt": "2026-11-09T17:58:49.066Z"
       }
     },
     "motorola-startac": {
       "hero": {
         "path": "/phones/motorola-startac/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -269,13 +269,13 @@
           "attribution": "File:Motorola StarTac 70 Made in Germany 27.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.650Z"
+        "updatedAt": "2026-11-09T17:58:49.066Z"
       }
     },
     "nokia-1011": {
       "hero": {
         "path": "/phones/nokia-1011/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -286,13 +286,13 @@
           "attribution": "File:Nokia 1011.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.650Z"
+        "updatedAt": "2026-11-09T17:58:49.066Z"
       }
     },
     "nokia-2110": {
       "hero": {
         "path": "/phones/nokia-2110/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -303,13 +303,13 @@
           "attribution": "File:Nokia 2110i NHE-4NX.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.650Z"
+        "updatedAt": "2026-11-09T17:58:49.066Z"
       }
     },
     "nokia-3210": {
       "hero": {
         "path": "/phones/nokia-3210/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -320,7 +320,7 @@
           "attribution": "File:Nokia 3210 3.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.651Z"
+        "updatedAt": "2026-11-09T17:58:49.066Z"
       }
     },
     "nokia-3310": {
@@ -340,13 +340,13 @@
           "attribution": "File:Nokia 3310 mobile phone.jpg"
         },
         "note": "来源/许可证已经 Commons API 元数据核验；图片本体经人工复核后可 approve。",
-        "updatedAt": "2026-09-13T15:16:09.651Z"
+        "updatedAt": "2026-11-09T17:58:49.067Z"
       }
     },
     "nokia-8110": {
       "hero": {
         "path": "/phones/nokia-8110/hero.jpg",
-        "status": "verified",
+        "status": "rejected",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -356,14 +356,14 @@
           "licenseUrl": "",
           "attribution": "File:Nokia 8110.jpg"
         },
-        "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.652Z"
+        "note": "人工审图拒绝：图为直板机，Nokia 8110 必须是标志性香蕉弧线造型（§27 型号不符）",
+        "updatedAt": "2026-11-09T17:58:49.067Z"
       }
     },
     "nokia-9000-communicator": {
       "hero": {
         "path": "/phones/nokia-9000-communicator/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -374,13 +374,13 @@
           "attribution": "File:As Time Goes By (Nokia 9000 Communicator & E7).jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.652Z"
+        "updatedAt": "2026-11-09T17:58:49.067Z"
       }
     },
     "nokia-lumia-920": {
       "hero": {
         "path": "/phones/nokia-lumia-920/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -391,13 +391,13 @@
           "attribution": "File:Nokia Lumia 920 - Caledos Runner.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.652Z"
+        "updatedAt": "2026-11-09T17:58:49.068Z"
       }
     },
     "nokia-n9": {
       "hero": {
         "path": "/phones/nokia-n9/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -408,7 +408,7 @@
           "attribution": "File:Blue Nokia N9.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.653Z"
+        "updatedAt": "2026-11-09T17:58:49.068Z"
       }
     },
     "nokia-n95": {
@@ -425,13 +425,13 @@
           "attribution": "File:Nokia N95 Front 1.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.653Z"
+        "updatedAt": "2026-11-09T17:58:49.068Z"
       }
     },
     "nokia-ngage": {
       "hero": {
         "path": "/phones/nokia-ngage/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -442,13 +442,13 @@
           "attribution": "File:Nokia N-Gage wikittää.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.653Z"
+        "updatedAt": "2026-11-09T17:58:49.068Z"
       }
     },
     "oppo-find-x": {
       "hero": {
         "path": "/phones/oppo-find-x/hero.jpg",
-        "status": "verified",
+        "status": "rejected",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -458,8 +458,8 @@
           "licenseUrl": "",
           "attribution": "File:OPPO Find X8 Pro white back.png"
         },
-        "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.654Z"
+        "note": "人工审图拒绝：图为 Find X8 Pro（2024，哈苏圆环四摄），非 2018 双轨潜升 Find X（§27 型号不符）",
+        "updatedAt": "2026-11-09T17:58:49.068Z"
       }
     },
     "samsung-galaxy-fold": {
@@ -476,7 +476,7 @@
           "attribution": "File:Samsung Galaxy Fold in Taidong,Qingdao.jpg"
         },
         "note": "人工审核：展柜场景照，设备主体过小，不符合 A/B 级标准（§10）。",
-        "updatedAt": "2026-09-13T15:16:09.654Z"
+        "updatedAt": "2026-11-09T17:58:49.068Z"
       }
     },
     "samsung-galaxy-note": {
@@ -493,13 +493,13 @@
           "attribution": "File:Samsung galaxy Note - Snap 2553.JPG"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.654Z"
+        "updatedAt": "2026-11-09T17:58:49.068Z"
       }
     },
     "samsung-galaxy-s": {
       "hero": {
         "path": "/phones/samsung-galaxy-s/hero.jpg",
-        "status": "verified",
+        "status": "rejected",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -509,14 +509,14 @@
           "licenseUrl": "",
           "attribution": "File:Samsung Galaxy S Advance GT-I9070.JPG"
         },
-        "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.654Z"
+        "note": "人工审图拒绝：图为 Galaxy S Advance GT-I9070（2012 衍生版），非 2010 初代 i9000（§46 型号区分）",
+        "updatedAt": "2026-11-09T17:58:49.068Z"
       }
     },
     "samsung-galaxy-z-flip": {
       "hero": {
         "path": "/phones/samsung-galaxy-z-flip/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -527,13 +527,13 @@
           "attribution": "File:Samsung Galaxy Z Flip opened.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.655Z"
+        "updatedAt": "2026-11-09T17:58:49.069Z"
       }
     },
     "sharp-j-sh04": {
       "hero": {
         "path": "/phones/sharp-j-sh04/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -544,7 +544,7 @@
           "attribution": "File:Sharp J-SH04 CP+ 2011.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.655Z"
+        "updatedAt": "2026-11-09T17:58:49.069Z"
       }
     },
     "siemens-s10": {
@@ -561,13 +561,13 @@
           "attribution": "File:Siemens S10 Active.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.656Z"
+        "updatedAt": "2026-11-09T17:58:49.069Z"
       }
     },
     "sony-ericsson-k750i": {
       "hero": {
         "path": "/phones/sony-ericsson-k750i/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -578,13 +578,13 @@
           "attribution": "File:Sony Ericson K750i camera.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.656Z"
+        "updatedAt": "2026-11-09T17:58:49.069Z"
       }
     },
     "sony-ericsson-w800i": {
       "hero": {
         "path": "/phones/sony-ericsson-w800i/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -595,13 +595,13 @@
           "attribution": "File:Sony Ericsson W800i.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.656Z"
+        "updatedAt": "2026-11-09T17:58:49.069Z"
       }
     },
     "sony-xperia-1": {
       "hero": {
         "path": "/phones/sony-xperia-1/hero.jpg",
-        "status": "verified",
+        "status": "rejected",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -611,14 +611,14 @@
           "licenseUrl": "",
           "attribution": "File:Sony Xperia 1.png"
         },
-        "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.657Z"
+        "note": "人工审图拒绝：图为 Xperia 1 II 正面模板，无法确认 2019 初代（§27 型号不符）",
+        "updatedAt": "2026-11-09T17:58:49.069Z"
       }
     },
     "vivo-nex": {
       "hero": {
         "path": "/phones/vivo-nex/hero.jpg",
-        "status": "verified",
+        "status": "approved",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -629,13 +629,13 @@
           "attribution": "File:Vivo nex.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.657Z"
+        "updatedAt": "2026-11-09T17:58:49.069Z"
       }
     },
     "xiaomi-mi-1": {
       "hero": {
         "path": "/phones/xiaomi-mi-1/hero.jpg",
-        "status": "verified",
+        "status": "rejected",
         "angle": "hero",
         "format": "jpg",
         "source": {
@@ -645,10 +645,10 @@
           "licenseUrl": "",
           "attribution": "File:Xiaomi Mi 11 Ultra back.jpg"
         },
-        "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-09-13T15:16:09.658Z"
+        "note": "人工审图拒绝：图为小米 11 Ultra（120X 变焦后摄），非 2011 小米手机 1（§27 型号不符）",
+        "updatedAt": "2026-11-09T17:58:49.069Z"
       }
     }
   },
-  "generatedAt": "2026-09-13T15:16:09.658Z"
+  "generatedAt": "2026-11-09T17:58:49.069Z"
 }

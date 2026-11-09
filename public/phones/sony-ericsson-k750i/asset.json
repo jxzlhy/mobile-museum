@@ -1,5 +1,5 @@
 {
-  "status": "verified",
+  "status": "approved",
   "angle": "hero",
   "file": "hero.jpg",
   "sha256": "6cb44fc87fd8e6720f6745ed78ee2797f41a292ac0273baa34de885166786a95",
@@ -11,5 +11,6 @@
     "attribution": "File:Sony Ericson K750i camera.jpg"
   },
   "verifiedAt": "2026-09-13T15:13:03.609Z",
-  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
+  "approvedAt": "2026-11-09T17:57:57.524Z"
 }

@@ -1,5 +1,5 @@
 {
-  "status": "verified",
+  "status": "approved",
   "angle": "hero",
   "file": "hero.jpg",
   "sha256": "9e46f0218e5406f9aa969b5b2990c09d3341b54143e9229ceaf816b3af99c41f",
@@ -11,5 +11,6 @@
     "attribution": "File:BlackBerry Curve 8520.jpg"
   },
   "verifiedAt": "2026-09-13T15:12:12.520Z",
-  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
+  "approvedAt": "2026-11-09T17:57:57.142Z"
 }
