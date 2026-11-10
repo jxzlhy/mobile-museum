@@ -22,6 +22,19 @@
   </head>
   <body>
     <div id="app"></div>
+    <!-- 启动阶段错误捕获：main.ts 的错误监听注册之前发生的崩溃
+         会留下空 #app——在这里记录，供 QA/ErrorBoundary 诊断（§71） -->
+    <script>
+      window.__bootErrors = [];
+      window.addEventListener('error', function (e) {
+        window.__bootErrors.push(
+          (e.message || 'script load failed') + (e.filename ? ' @' + e.filename.split('/').pop() + ':' + e.lineno : '')
+        );
+      });
+      window.addEventListener('unhandledrejection', function (e) {
+        window.__bootErrors.push('rejection: ' + String(e.reason).slice(0, 200));
+      });
+    </script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

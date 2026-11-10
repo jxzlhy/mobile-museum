@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, watch } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -27,8 +27,17 @@ gsap.registerPlugin(ScrollTrigger)
 const museum = useMuseum()
 const route = useRoute()
 const canvasEl = ref<HTMLCanvasElement>()
-const reduced = useReducedMotion()
+const reducedRef = useReducedMotion()
 const { isMobile } = useDevice()
+
+// Dev-only 强制减弱动态开关：供自动化 QA 在后台/节流环境下绕过动画冻结
+const forceReduced = ref(false)
+const reduced = computed(() => reducedRef.value || forceReduced.value)
+if (import.meta.env.DEV) {
+  ;(window as unknown as Record<string, unknown>).__setReduced = (v: boolean) => {
+    forceReduced.value = v
+  }
+}
 
 let lenisStarted = false
 
@@ -142,7 +151,15 @@ onUnmounted(() => {
 
     <main class="page-root">
       <router-view v-slot="{ Component }">
-        <transition name="page" mode="out-in">
+        <!-- §72 Reduced Motion：减弱动态偏好下页面切换零过渡（name 置空 →
+             Vue 不等待任何 transition 事件，立即完成）。显式 duration 则为
+             常规模式兜底：后台标签页/低端机会冻结 transitionend，out-in 模式下
+             旧视图卸载卡死会导致新视图永不挂载 -->
+        <transition
+          :name="reduced ? undefined : 'page'"
+          mode="out-in"
+          :duration="reduced ? 0 : { enter: 500, leave: 320 }"
+        >
           <component :is="Component" :key="route.path" />
         </transition>
       </router-view>

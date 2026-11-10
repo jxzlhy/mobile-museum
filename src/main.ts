@@ -13,6 +13,8 @@ if (import.meta.env.DEV) {
   import('gsap/ScrollTrigger').then(({ ScrollTrigger }) => {
     ;(window as unknown as Record<string, unknown>).__ST = ScrollTrigger
   })
+  // QA 便利：dev 环境暴露 router，供自动化遍历路由（生产不暴露）
+  ;(window as unknown as Record<string, unknown>).__router = router
 }
 
 // ---- Resume（V0.9 §38 / §76）：记录最近一次参观位置 ----

@@ -34,10 +34,12 @@ function enter() {
 </script>
 
 <template>
-  <transition name="veil">
-    <div v-if="!forceUnmounted" class="veil" role="dialog" aria-label="正在布展">
+  <!-- 显式 duration：后台标签页会冻结 transitionend，显式时长让 Vue
+       用定时器卸载，门帘在任何环境下都不会残留（规范 §76） -->
+  <transition name="veil" :duration="{ enter: 900, leave: 900 }">
+    <div v-if="!museum.state.entered && !forceUnmounted" class="veil" role="dialog" aria-label="正在布展">
       <div class="veil__inner">
-        <p class="veil__label mono">DIGITAL EXHIBITION — V0.2</p>
+        <p class="veil__label mono">DIGITAL EXHIBITION — V0.9</p>
         <h1 class="veil__title">MOBILE<br />MUSEUM</h1>
         <p class="veil__cn">手机历史博物馆</p>
 
