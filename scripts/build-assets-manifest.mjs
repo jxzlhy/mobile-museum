@@ -58,6 +58,7 @@ for (const d of dirs) {
   phonesOut[d.name] = { hero: entry }
 
   // 本地导入的多角度图（front/back/side/detail/gallery-*）一并登记
+  const ANGLES = ['hero', 'front', 'back', 'side', 'detail']
   const files = (await readdir(dir)).filter(
     (f) => /\.(webp|jpe?g|png)$/i.test(f) && !f.startsWith('raw.') && !f.startsWith('hero'),
   )

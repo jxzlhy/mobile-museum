@@ -1,16 +1,19 @@
 {
-  "status": "rejected",
+  "status": "approved",
   "angle": "hero",
   "file": "hero.jpg",
-  "sha256": "85e1a5a056193b9cbb58621a15cc1a1247d7938ab70fd5b7b71233b43d30f723",
   "source": {
     "type": "wikimedia-commons",
-    "url": "",
-    "title": "File:IBM Simon Personal Communicator.png",
-    "licenseUrl": "",
-    "attribution": "File:IBM Simon Personal Communicator.png"
+    "url": "https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator_(1993)_-_the_first_smartphone_-_Computer_History_Museum.jpg",
+    "title": "File:IBM Simon Personal Communicator (1993) - the first smartphone - Computer History Museum.jpg",
+    "author": "Michael Hicks from Saint Paul, MN, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "File:IBM Simon Personal Communicator (1993) - the first smartphone - Computer History Museum.jpg"
   },
-  "verifiedAt": "2026-09-13T15:12:15.821Z",
-  "note": "人工审图拒绝：图为 1992 年 BellSouth 手机形态原型机，非 1994 量产触屏版 Simon Personal Communicator（§27 型号不符）",
-  "rejectedAt": "2026-11-09T17:58:49.033Z"
+  "verifiedAt": "2026-11-11T18:06:14.947Z",
+  "note": "分类目录发现；待人工审图确认型号后 approve。",
+  "sha256": "3297d4d065eb7a28305ba5644fd3648e89d9d6ac2ceb0bc5f77487b41cfe8bef",
+  "thumb": "hero.thumb.jpg",
+  "approvedAt": "2026-11-11T18:07:52.055Z"
 }

@@ -1,0 +1,19 @@
+{
+  "status": "approved",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "https://commons.wikimedia.org/wiki/File:DynaTAC8000X.jpg",
+    "title": "File:DynaTAC8000X.jpg",
+    "author": "Redrum0486",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "File:DynaTAC8000X.jpg"
+  },
+  "verifiedAt": "2026-11-11T18:06:08.981Z",
+  "note": "分类目录发现；待人工审图确认型号后 approve。",
+  "sha256": "0d9af71dd00af4b2364ed43a75c1072d1bd1609802652bc48783b210417aaad1",
+  "thumb": "hero.thumb.jpg",
+  "approvedAt": "2026-11-11T18:07:52.053Z"
+}
