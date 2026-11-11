@@ -1,0 +1,18 @@
+{
+  "status": "approved",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Google_Pixel_and_Pixel_XL_smartphones_(30155268545).jpg",
+    "title": "File:Google Pixel and Pixel XL smartphones (30155268545).jpg",
+    "author": "Bounty1",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "File:Google Pixel and Pixel XL smartphones (30155268545).jpg"
+  },
+  "verifiedAt": "2026-11-11T15:40:19.393Z",
+  "note": "Pixel 家族照第二候选；待人工审图。",
+  "sha256": "3baf94f52d13d56bb0ecc6b6685502a669a203d708d7e64ea1f04d978907acaa",
+  "approvedAt": "2026-11-11T15:42:00.142Z"
+}

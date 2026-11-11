@@ -16,7 +16,7 @@
           "attribution": "File:First iPhone Macworld 2007 DSCF1286.agr.jpg"
         },
         "note": "重新发现下载；待人工审图确认型号后 approve。",
-        "updatedAt": "2026-11-11T15:26:23.522Z"
+        "updatedAt": "2026-11-11T15:42:00.179Z"
       }
     },
     "apple-iphone-12": {
@@ -33,7 +33,7 @@
           "attribution": "File:IPhone 12 - 3.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.523Z"
+        "updatedAt": "2026-11-11T15:42:00.181Z"
       }
     },
     "apple-iphone-3g": {
@@ -50,7 +50,7 @@
           "attribution": "File:The Back of an iPhone 3G White from Apple.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.523Z"
+        "updatedAt": "2026-11-11T15:42:00.183Z"
       }
     },
     "apple-iphone-4": {
@@ -67,7 +67,7 @@
           "attribution": "File:IPhone 4 Grid Framed.jpg"
         },
         "note": "人工审图拒绝：装裱分解海报照（含店铺场景），非设备实拍（§10 C 级）",
-        "updatedAt": "2026-11-11T15:26:23.523Z"
+        "updatedAt": "2026-11-11T15:42:00.184Z"
       }
     },
     "apple-iphone-5s": {
@@ -84,7 +84,7 @@
           "attribution": "File:IPhone 5s Black.png"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.523Z"
+        "updatedAt": "2026-11-11T15:42:00.185Z"
       }
     },
     "apple-iphone-6": {
@@ -101,7 +101,7 @@
           "attribution": "File:Apple iPhone 6 iOS Update (16195046500).jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.524Z"
+        "updatedAt": "2026-11-11T15:42:00.186Z"
       }
     },
     "apple-iphone-x": {
@@ -118,7 +118,7 @@
           "attribution": "File:Apple iPhone X - front (8121).jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.524Z"
+        "updatedAt": "2026-11-11T15:42:00.186Z"
       }
     },
     "blackberry-bold-9000": {
@@ -135,7 +135,7 @@
           "attribution": "File:BlackBerry Bold 9000 TIM.jpeg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.524Z"
+        "updatedAt": "2026-11-11T15:42:00.187Z"
       }
     },
     "blackberry-curve-8520": {
@@ -152,7 +152,26 @@
           "attribution": "File:BlackBerry Curve 8520.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.524Z"
+        "updatedAt": "2026-11-11T15:42:00.188Z"
+      }
+    },
+    "google-pixel": {
+      "hero": {
+        "path": "/phones/google-pixel/hero.jpg",
+        "status": "approved",
+        "angle": "hero",
+        "format": "jpg",
+        "source": {
+          "type": "wikimedia-commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Google_Pixel_and_Pixel_XL_smartphones_(30155268545).jpg",
+          "title": "File:Google Pixel and Pixel XL smartphones (30155268545).jpg",
+          "author": "Bounty1",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "attribution": "File:Google Pixel and Pixel XL smartphones (30155268545).jpg"
+        },
+        "note": "Pixel 家族照第二候选；待人工审图。",
+        "updatedAt": "2026-11-11T15:42:00.188Z"
       }
     },
     "htc-dream": {
@@ -169,7 +188,7 @@
           "attribution": "File:HTC Dream flipside.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.524Z"
+        "updatedAt": "2026-11-11T15:42:00.189Z"
       }
     },
     "huawei-p20-pro": {
@@ -186,7 +205,7 @@
           "attribution": "File:Huawei P20 Pro.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.525Z"
+        "updatedAt": "2026-11-11T15:42:00.190Z"
       }
     },
     "ibm-simon": {
@@ -203,7 +222,7 @@
           "attribution": "File:IBM Simon Personal Communicator.png"
         },
         "note": "人工审图拒绝：图为 1992 年 BellSouth 手机形态原型机，非 1994 量产触屏版 Simon Personal Communicator（§27 型号不符）",
-        "updatedAt": "2026-11-11T15:26:23.525Z"
+        "updatedAt": "2026-11-11T15:42:00.190Z"
       }
     },
     "lg-g3": {
@@ -220,7 +239,7 @@
           "attribution": "File:LG G3 (Metallic Black, Front).jpg"
         },
         "note": "批量管线下载；来源/许���证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.525Z"
+        "updatedAt": "2026-11-11T15:42:00.190Z"
       }
     },
     "motorola-microtac": {
@@ -237,7 +256,7 @@
           "attribution": "File:MicroTAC.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.525Z"
+        "updatedAt": "2026-11-11T15:42:00.191Z"
       }
     },
     "motorola-milestone": {
@@ -254,7 +273,7 @@
           "attribution": "File:Motorola Milestone & LG GW620 20100124.jpg"
         },
         "note": "人工审图拒绝：两机合影（含 LG GW620），不符合单设备展品要求（§33）",
-        "updatedAt": "2026-11-11T15:26:23.525Z"
+        "updatedAt": "2026-11-11T15:42:00.191Z"
       }
     },
     "motorola-razr-v3": {
@@ -271,7 +290,7 @@
           "attribution": "File:Motorola RAZR V3-4899.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.525Z"
+        "updatedAt": "2026-11-11T15:42:00.191Z"
       }
     },
     "motorola-startac": {
@@ -288,7 +307,7 @@
           "attribution": "File:Motorola StarTac 70 Made in Germany 27.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.525Z"
+        "updatedAt": "2026-11-11T15:42:00.192Z"
       }
     },
     "nokia-1011": {
@@ -305,7 +324,7 @@
           "attribution": "File:Nokia 1011.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.525Z"
+        "updatedAt": "2026-11-11T15:42:00.192Z"
       }
     },
     "nokia-2110": {
@@ -322,7 +341,7 @@
           "attribution": "File:Nokia 2110i NHE-4NX.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.525Z"
+        "updatedAt": "2026-11-11T15:42:00.194Z"
       }
     },
     "nokia-3210": {
@@ -339,7 +358,7 @@
           "attribution": "File:Nokia 3210 3.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.526Z"
+        "updatedAt": "2026-11-11T15:42:00.195Z"
       }
     },
     "nokia-3310": {
@@ -359,7 +378,7 @@
           "attribution": "File:Nokia 3310 mobile phone.jpg"
         },
         "note": "来源/许可证已经 Commons API 元数据核验；图片本体经人工复核后可 approve。",
-        "updatedAt": "2026-11-11T15:26:23.526Z"
+        "updatedAt": "2026-11-11T15:42:00.196Z"
       }
     },
     "nokia-8110": {
@@ -376,7 +395,7 @@
           "attribution": "File:Nokia 8110.jpg"
         },
         "note": "人工审图拒绝：图为直板机，Nokia 8110 必须是标志性香蕉弧线造型（§27 型号不符）",
-        "updatedAt": "2026-11-11T15:26:23.526Z"
+        "updatedAt": "2026-11-11T15:42:00.196Z"
       }
     },
     "nokia-9000-communicator": {
@@ -393,7 +412,7 @@
           "attribution": "File:As Time Goes By (Nokia 9000 Communicator & E7).jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.526Z"
+        "updatedAt": "2026-11-11T15:42:00.196Z"
       }
     },
     "nokia-lumia-920": {
@@ -410,7 +429,7 @@
           "attribution": "File:Nokia Lumia 920 - Caledos Runner.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.526Z"
+        "updatedAt": "2026-11-11T15:42:00.197Z"
       }
     },
     "nokia-n9": {
@@ -427,7 +446,7 @@
           "attribution": "File:Blue Nokia N9.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.526Z"
+        "updatedAt": "2026-11-11T15:42:00.197Z"
       }
     },
     "nokia-n95": {
@@ -444,7 +463,7 @@
           "attribution": "File:Nokia N95 Front 1.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.526Z"
+        "updatedAt": "2026-11-11T15:42:00.197Z"
       }
     },
     "nokia-ngage": {
@@ -461,7 +480,7 @@
           "attribution": "File:Nokia N-Gage wikittää.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.526Z"
+        "updatedAt": "2026-11-11T15:42:00.197Z"
       }
     },
     "oppo-find-x": {
@@ -478,7 +497,7 @@
           "attribution": "File:OPPO Find X8 Pro white back.png"
         },
         "note": "人工审图拒绝：图为 Find X8 Pro（2024，哈苏圆环四摄），非 2018 双轨潜升 Find X（§27 型号不符）",
-        "updatedAt": "2026-11-11T15:26:23.526Z"
+        "updatedAt": "2026-11-11T15:42:00.198Z"
       }
     },
     "samsung-galaxy-fold": {
@@ -497,7 +516,7 @@
           "attribution": "File:Galaxy Fold - 1.jpg"
         },
         "note": "重新发现下载；待人工审图确认型号后 approve。",
-        "updatedAt": "2026-11-11T15:26:23.527Z"
+        "updatedAt": "2026-11-11T15:42:00.198Z"
       }
     },
     "samsung-galaxy-note": {
@@ -514,7 +533,7 @@
           "attribution": "File:Samsung galaxy Note - Snap 2553.JPG"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.527Z"
+        "updatedAt": "2026-11-11T15:42:00.198Z"
       }
     },
     "samsung-galaxy-s": {
@@ -531,7 +550,7 @@
           "attribution": "File:Samsung Galaxy S Advance GT-I9070.JPG"
         },
         "note": "人工审图拒绝：图为 Galaxy S Advance GT-I9070（2012 衍生版），非 2010 初代 i9000（§46 型号区分）",
-        "updatedAt": "2026-11-11T15:26:23.527Z"
+        "updatedAt": "2026-11-11T15:42:00.198Z"
       }
     },
     "samsung-galaxy-z-flip": {
@@ -548,7 +567,7 @@
           "attribution": "File:Samsung Galaxy Z Flip opened.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.527Z"
+        "updatedAt": "2026-11-11T15:42:00.199Z"
       }
     },
     "sharp-j-sh04": {
@@ -565,7 +584,7 @@
           "attribution": "File:Sharp J-SH04 CP+ 2011.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.527Z"
+        "updatedAt": "2026-11-11T15:42:00.199Z"
       }
     },
     "siemens-s10": {
@@ -582,7 +601,7 @@
           "attribution": "File:Siemens S10 Active.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.527Z"
+        "updatedAt": "2026-11-11T15:42:00.200Z"
       }
     },
     "sony-ericsson-k750i": {
@@ -599,7 +618,7 @@
           "attribution": "File:Sony Ericson K750i camera.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.527Z"
+        "updatedAt": "2026-11-11T15:42:00.200Z"
       }
     },
     "sony-ericsson-w800i": {
@@ -616,7 +635,7 @@
           "attribution": "File:Sony Ericsson W800i.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.527Z"
+        "updatedAt": "2026-11-11T15:42:00.201Z"
       }
     },
     "sony-xperia-1": {
@@ -633,7 +652,7 @@
           "attribution": "File:Sony Xperia 1.png"
         },
         "note": "人工审图拒绝：图为 Xperia 1 II 正面模板，无法确认 2019 初代（§27 型号不符）",
-        "updatedAt": "2026-11-11T15:26:23.527Z"
+        "updatedAt": "2026-11-11T15:42:00.201Z"
       }
     },
     "vivo-nex": {
@@ -650,7 +669,7 @@
           "attribution": "File:Vivo nex.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-11T15:26:23.527Z"
+        "updatedAt": "2026-11-11T15:42:00.202Z"
       }
     },
     "xiaomi-mi-1": {
@@ -667,9 +686,9 @@
           "attribution": "File:Xiaomi Mi 11 Ultra back.jpg"
         },
         "note": "人工审图拒绝：图为小米 11 Ultra（120X 变焦后摄），非 2011 小米手机 1（§27 型号不符）",
-        "updatedAt": "2026-11-11T15:26:23.527Z"
+        "updatedAt": "2026-11-11T15:42:00.202Z"
       }
     }
   },
-  "generatedAt": "2026-11-11T15:26:23.527Z"
+  "generatedAt": "2026-11-11T15:42:00.202Z"
 }
