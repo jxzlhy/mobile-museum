@@ -1,15 +1,18 @@
 {
-  "status": "rejected",
+  "status": "approved",
   "angle": "hero",
   "file": "hero.jpg",
-  "sha256": "6fe1be8bdb3920d45db665693444e07a31b97624ad2c496e8f07945f12b67282",
   "source": {
     "type": "wikimedia-commons",
-    "url": "",
-    "title": "File:Samsung Galaxy Fold in Taidong,Qingdao.jpg",
-    "licenseUrl": "",
-    "attribution": "File:Samsung Galaxy Fold in Taidong,Qingdao.jpg"
+    "url": "https://commons.wikimedia.org/wiki/File:Galaxy_Fold_-_1.jpg",
+    "title": "File:Galaxy Fold - 1.jpg",
+    "author": "未知作者",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "File:Galaxy Fold - 1.jpg"
   },
-  "verifiedAt": "2026-09-13T15:12:48.511Z",
-  "note": "人工审核：展柜场景照，设备主体过小，不符合 A/B 级标准（§10）。"
+  "verifiedAt": "2026-11-11T15:22:53.796Z",
+  "note": "重新发现下载；待人工审图确认型号后 approve。",
+  "approvedAt": "2026-11-11T15:25:04.398Z",
+  "sha256": "68248276ed4a0f69bd602919c9df7c4b5a227e31833e509a7985d8df6331a2bb"
 }

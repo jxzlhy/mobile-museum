@@ -1,0 +1,18 @@
+{
+  "status": "approved",
+  "angle": "hero",
+  "file": "hero.jpg",
+  "source": {
+    "type": "wikimedia-commons",
+    "url": "https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg",
+    "title": "File:First iPhone Macworld 2007 DSCF1286.agr.jpg",
+    "author": "AGR",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "File:First iPhone Macworld 2007 DSCF1286.agr.jpg"
+  },
+  "verifiedAt": "2026-11-11T15:22:53.785Z",
+  "note": "重新发现下载；待人工审图确认型号后 approve。",
+  "approvedAt": "2026-11-11T15:25:04.351Z",
+  "sha256": "62ccf7e25307fae7d1a86940ca1c7a76fc5e47380d1a783638a158116b044510"
+}
