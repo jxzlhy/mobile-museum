@@ -1,16 +1,17 @@
 {
-  "status": "rejected",
+  "status": "approved",
   "angle": "hero",
   "file": "hero.jpg",
-  "sha256": "0d58d0cefda414cbdf243d7855bf2538a10312added751dd750e1adc4ce08ad3",
   "source": {
     "type": "wikimedia-commons",
-    "url": "",
-    "title": "File:Sony Xperia 1.png",
-    "licenseUrl": "",
-    "attribution": "File:Sony Xperia 1.png"
+    "url": "https://commons.wikimedia.org/wiki/File:SONY_Xperia_1_(SOV40)_Purple_Frontside.jpg",
+    "title": "File:SONY Xperia 1 (SOV40) Purple Frontside.jpg",
+    "author": "D.328",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "File:SONY Xperia 1 (SOV40) Purple Frontside.jpg"
   },
-  "verifiedAt": "2026-09-13T15:13:06.190Z",
-  "note": "人工审图拒绝：图为 Xperia 1 II 正面模板，无法确认 2019 初代（§27 型号不符）",
-  "rejectedAt": "2026-11-09T17:58:49.035Z"
+  "verifiedAt": "2026-11-11T18:18:15.025Z",
+  "note": "分类枚举第二轮候选，人工审图批准（替换前图）。",
+  "approvedAt": "2026-11-11T18:20:28.685Z"
 }

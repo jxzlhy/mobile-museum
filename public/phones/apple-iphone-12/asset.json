@@ -1,15 +1,17 @@
 {
-  "status": "verified",
+  "status": "approved",
   "angle": "hero",
   "file": "hero.jpg",
-  "sha256": "168e6f19ce02dba31ba91351705fa2011a9df7c38dfd4d0039d64c6b9400e016",
   "source": {
     "type": "wikimedia-commons",
-    "url": "",
-    "title": "File:IPhone 12 - 3.jpg",
-    "licenseUrl": "",
-    "attribution": "File:IPhone 12 - 3.jpg"
+    "url": "https://commons.wikimedia.org/wiki/File:IPhone_12_Green_128g.jpg",
+    "title": "File:IPhone 12 Green 128g.jpg",
+    "author": "茅野ふたば",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "File:IPhone 12 Green 128g.jpg"
   },
-  "verifiedAt": "2026-09-13T15:11:58.111Z",
-  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。"
+  "verifiedAt": "2026-11-11T18:18:15.974Z",
+  "note": "分类枚举第二轮候选，人工审图批准（替换前图）。",
+  "approvedAt": "2026-11-11T18:20:28.712Z"
 }

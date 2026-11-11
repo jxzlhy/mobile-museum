@@ -1,16 +1,17 @@
 {
-  "status": "rejected",
+  "status": "approved",
   "angle": "hero",
   "file": "hero.jpg",
-  "sha256": "5d7b91634e9f722f842e7878798108a5bad5345dad4bb0cc43cee4eb44872745",
   "source": {
     "type": "wikimedia-commons",
-    "url": "",
-    "title": "File:Motorola Milestone & LG GW620 20100124.jpg",
-    "licenseUrl": "",
-    "attribution": "File:Motorola Milestone & LG GW620 20100124.jpg"
+    "url": "https://commons.wikimedia.org/wiki/File:Motorola-milestone-wikipedia.jpg",
+    "title": "File:Motorola-milestone-wikipedia.jpg",
+    "author": "Shritwod (talk)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "File:Motorola-milestone-wikipedia.jpg"
   },
-  "verifiedAt": "2026-09-13T15:12:23.145Z",
-  "note": "人工审图拒绝：两机合影（含 LG GW620），不符合单设备展品要求（§33）",
-  "rejectedAt": "2026-11-09T17:58:49.033Z"
+  "verifiedAt": "2026-11-11T18:18:12.484Z",
+  "note": "分类枚举第二轮候选，人工审图批准（替换前图）。",
+  "approvedAt": "2026-11-11T18:20:28.649Z"
 }

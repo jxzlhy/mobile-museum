@@ -1,16 +1,16 @@
 {
-  "status": "rejected",
+  "status": "candidate",
   "angle": "hero",
-  "file": "hero.jpg",
-  "sha256": "1227b80566d13eba8adf8929dba1126be884989c1645f6e969481f9899159ca0",
+  "file": "hero2.jpg",
   "source": {
     "type": "wikimedia-commons",
-    "url": "",
-    "title": "File:Nokia 8110.jpg",
-    "licenseUrl": "",
-    "attribution": "File:Nokia 8110.jpg"
+    "url": "https://commons.wikimedia.org/wiki/File:Nokia_8110_NHE-6BX.jpg",
+    "title": "File:Nokia 8110 NHE-6BX.jpg",
+    "author": "Mustaraamattu",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "File:Nokia 8110 NHE-6BX.jpg"
   },
-  "verifiedAt": "2026-09-13T15:12:30.712Z",
-  "note": "人工审图拒绝：图为直板机，Nokia 8110 必须是标志性香蕉弧线造型（§27 型号不符）",
-  "rejectedAt": "2026-11-09T17:58:49.034Z"
+  "verifiedAt": "2026-11-11T18:18:09.571Z",
+  "note": "分类枚举第二候选（hero2.jpg）；与现有 verified 图人工比选。"
 }
