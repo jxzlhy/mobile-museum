@@ -1085,6 +1085,12 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
     &:first-child {
       border-top: none;
     }
+
+    // 移动端单列：避免长 URL/英文串在 150px 固定列布局下横向溢出
+    @media (max-width: 575px) {
+      grid-template-columns: 1fr;
+      gap: $sp-1;
+    }
   }
 
   &__kind {
@@ -1097,6 +1103,7 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
     color: $c-text-3;
     line-height: 1.7;
     word-break: keep-all;
+    overflow-wrap: anywhere; // 长授权 URL 与英文串断行（规范 §70 防溢出）
   }
 
   &__link {
