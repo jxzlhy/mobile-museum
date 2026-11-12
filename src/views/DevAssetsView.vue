@@ -88,13 +88,23 @@ const filteredRows = computed(() =>
   statusFilter.value === 'all' ? rows.value : rows.value.filter((r) => r.status === statusFilter.value),
 )
 
-// 发现统计（V0.2.6 §22/§23）
-import candidatesFileJson from '../../scripts/assets-candidates.json'
-const discovery = computed(() => {
-  const entries = Object.entries(candidatesFileJson as Record<string, { status?: string; candidates?: unknown[] }>)
-  return {
-    discovered: entries.filter(([, v]) => v.status === 'candidate').length,
-    candidates: entries.reduce((n, [, v]) => n + (v.candidates?.length ?? 0), 0),
+// 发现统计（V0.2.6 §22/§23）——运行时 fetch（dev-only），
+// 避免 28K 候选 JSON 被打进生产 chunk（V2 性能修复）
+const discovery = ref<{ discovered: number; candidates: number }>({ discovered: 0, candidates: 0 })
+
+onMounted(async () => {
+  if (!isDev) return
+  try {
+    const res = await fetch('/scripts/assets-candidates.json')
+    if (!res.ok) return
+    const json = (await res.json()) as Record<string, { status?: string; candidates?: unknown[] }>
+    const entries = Object.entries(json)
+    discovery.value = {
+      discovered: entries.filter(([, v]) => v.status === 'candidate').length,
+      candidates: entries.reduce((n, [, v]) => n + (v.candidates?.length ?? 0), 0),
+    }
+  } catch {
+    /* dev 工具：失败静默 */
   }
 })
 </script>

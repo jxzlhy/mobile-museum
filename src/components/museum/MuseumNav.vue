@@ -47,19 +47,19 @@ watch(
 )
 
 const desktopLinks = [
+  { to: '/museum', label: '主展厅' },
   { to: '/timeline', label: '时间线' },
   { to: '/phones', label: '藏品' },
-  { to: '/technology', label: '技术馆' },
-  { to: '/form-factor', label: '形态馆' },
+  { to: '/explore', label: '探索' },
   { to: '/brands', label: '品牌馆' },
   { to: '/search', label: '搜索' },
   { to: '/collection', label: '我的收藏' },
 ]
 
 const mobileDock = [
-  { to: '/explore', label: '探索' },
+  { to: '/museum', label: '展厅' },
   { to: '/timeline', label: '时间线' },
-  { to: '/brands', label: '品牌馆' },
+  { to: '/explore', label: '探索' },
   { to: '/search', label: '搜索' },
   { to: '/collection', label: '我的' },
 ]

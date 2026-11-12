@@ -3,3 +3,4 @@ dist
 .DS_Store
 *.local
 推送到GitHub.command
+scripts/assets-candidates.json
