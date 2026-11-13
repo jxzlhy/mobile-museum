@@ -12,5 +12,7 @@
   },
   "verifiedAt": "2026-09-13T15:12:01.531Z",
   "note": "人工审图拒绝：装裱分解海报照（含店铺场景），非设备实拍（§10 C 级）",
-  "rejectedAt": "2026-11-09T17:58:49.031Z"
+  "rejectedAt": "2026-11-09T17:58:49.031Z",
+  "thumb": "hero.thumb.jpg",
+  "card": "hero.card.jpg"
 }

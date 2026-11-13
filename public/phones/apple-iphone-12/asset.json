@@ -13,5 +13,8 @@
   },
   "verifiedAt": "2026-11-11T18:18:15.974Z",
   "note": "分类枚举第二轮候选，人工审图批准（替换前图）。",
-  "approvedAt": "2026-11-11T18:20:28.712Z"
+  "approvedAt": "2026-11-11T18:20:28.712Z",
+  "thumb": "hero.thumb.jpg",
+  "card": "hero.card.jpg",
+  "sha256": "87faf90015012fbab08f5cc35d8b845be83659cf0e28d344f0805b13cdb80ed6"
 }

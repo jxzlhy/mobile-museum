@@ -12,5 +12,7 @@
   },
   "verifiedAt": "2026-09-13T15:13:09.311Z",
   "note": "人工审图拒绝：图为小米 11 Ultra（120X 变焦后摄），非 2011 小米手机 1（§27 型号不符）",
-  "rejectedAt": "2026-11-09T17:58:49.035Z"
+  "rejectedAt": "2026-11-09T17:58:49.035Z",
+  "thumb": "hero.thumb.jpg",
+  "card": "hero.card.jpg"
 }

@@ -15,5 +15,6 @@
   "note": "分类目录发现；待人工审图确认型号后 approve。",
   "sha256": "3297d4d065eb7a28305ba5644fd3648e89d9d6ac2ceb0bc5f77487b41cfe8bef",
   "thumb": "hero.thumb.jpg",
-  "approvedAt": "2026-11-11T18:07:52.055Z"
+  "approvedAt": "2026-11-11T18:07:52.055Z",
+  "card": "hero.card.jpg"
 }

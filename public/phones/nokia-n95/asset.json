@@ -12,5 +12,7 @@
   },
   "verifiedAt": "2026-09-13T15:11:56.954Z",
   "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-  "approvedAt": "2026-09-13T15:16:09.581Z"
+  "approvedAt": "2026-09-13T15:16:09.581Z",
+  "thumb": "hero.thumb.jpg",
+  "card": "hero.card.jpg"
 }
