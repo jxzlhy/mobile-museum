@@ -5,10 +5,12 @@
   "sha256": "f6c5b7c006e01a36dfb99c25a10db153f4d8ecc2dcc9a851b3ecc130a75d6598",
   "source": {
     "type": "wikimedia-commons",
-    "url": "",
+    "url": "https://commons.wikimedia.org/wiki/File:IPhone_4_Grid_Framed.jpg",
     "title": "File:IPhone 4 Grid Framed.jpg",
-    "licenseUrl": "",
-    "attribution": "File:IPhone 4 Grid Framed.jpg"
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "File:IPhone 4 Grid Framed.jpg",
+    "author": "iGeeksBlog",
+    "license": "CC BY-SA 4.0"
   },
   "verifiedAt": "2026-09-13T15:12:01.531Z",
   "note": "人工审图拒绝：装裱分解海报照（含店铺场景），非设备实拍（§10 C 级）",

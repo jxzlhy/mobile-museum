@@ -5,10 +5,12 @@
   "sha256": "e0d92617f3f232251f7a5c123049487b867e7acc0a289e28542598d4443f4148",
   "source": {
     "type": "wikimedia-commons",
-    "url": "",
+    "url": "https://commons.wikimedia.org/wiki/File:MicroTAC.jpg",
     "title": "File:MicroTAC.jpg",
-    "licenseUrl": "",
-    "attribution": "File:MicroTAC.jpg"
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "File:MicroTAC.jpg",
+    "author": "Redrum0486",
+    "license": "CC BY-SA 3.0"
   },
   "verifiedAt": "2026-09-13T15:12:18.746Z",
   "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",

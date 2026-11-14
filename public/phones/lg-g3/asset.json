@@ -5,10 +5,12 @@
   "sha256": "f8b4a12ed7e59253f6a6d8cab45215dec0106a2974d30a5789f19f065daf6fa4",
   "source": {
     "type": "wikimedia-commons",
-    "url": "",
+    "url": "https://commons.wikimedia.org/wiki/File:LG_G3_(Metallic_Black,_Front).jpg",
     "title": "File:LG G3 (Metallic Black, Front).jpg",
-    "licenseUrl": "",
-    "attribution": "File:LG G3 (Metallic Black, Front).jpg"
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "File:LG G3 (Metallic Black, Front).jpg",
+    "author": "LG Electronics (Flickr)",
+    "license": "CC BY 2.0"
   },
   "verifiedAt": "2026-09-13T15:12:17.236Z",
   "note": "批量管线下载；来源/许���证经 Commons 元数据核验，图片本体待人工复核。",

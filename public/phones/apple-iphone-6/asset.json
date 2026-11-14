@@ -1,5 +1,5 @@
 {
-  "status": "verified",
+  "status": "rejected",
   "angle": "hero",
   "file": "hero.jpg",
   "sha256": "86a88b4ad5208d2609a777c0913389c1d6d0bb8aa172083b541403de96d06c29",
@@ -11,7 +11,7 @@
     "attribution": "File:Apple iPhone 6 iOS Update (16195046500).jpg"
   },
   "verifiedAt": "2026-09-13T15:12:04.342Z",
-  "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
+  "note": "复审拒绝：硅胶套遮挡机身设计，屏幕停在 iOS 更新进度条，非展品照",
   "thumb": "hero.thumb.jpg",
   "card": "hero.card.jpg"
 }

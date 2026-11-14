@@ -5,10 +5,11 @@
   "sha256": "86bd002ec6f6a1e3a36f4c4742d89a2a89f62a1762843527407b381147357d41",
   "source": {
     "type": "wikimedia-commons",
-    "url": "",
+    "url": "https://commons.wikimedia.org/wiki/File:BlackBerry_Bold_9000_TIM.jpeg",
     "title": "File:BlackBerry Bold 9000 TIM.jpeg",
-    "licenseUrl": "",
-    "attribution": "File:BlackBerry Bold 9000 TIM.jpeg"
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "File:BlackBerry Bold 9000 TIM.jpeg",
+    "license": "CC BY-SA 4.0"
   },
   "verifiedAt": "2026-09-13T15:12:10.998Z",
   "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
