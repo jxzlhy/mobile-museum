@@ -144,13 +144,14 @@ onUnmounted(() => {
       aria-hidden="true"
     ></canvas>
 
+    <!-- 键盘用户跳过导航直达正文（a11y）：必须是 DOM 第一个可聚焦元素，
+         仅获得焦点时可见 -->
+    <a class="skip-link" href="#page-main">跳到正文内容</a>
+
     <MuseumBackground />
     <MuseumProgress />
     <MuseumNav />
     <MuseumCursor />
-
-    <!-- 键盘用户跳过导航直达正文（a11y）：仅获得焦点时可见 -->
-    <a class="skip-link" href="#page-main">跳到正文内容</a>
 
     <main id="page-main" class="page-root" tabindex="-1">
       <router-view v-slot="{ Component }">
