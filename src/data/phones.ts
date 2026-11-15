@@ -102,6 +102,7 @@ const phoneSeeds: PhoneSeed[] = [
     tagline: '第一部量产 GSM 手机，以发布日期命名。',
     weight: 475,
     network: ['2G (GSM)'],
+    operatingSystem: '无',
     battery: '镍镉电池',
     technologies: ['2G', 'GSM', '短信'],
     story:
