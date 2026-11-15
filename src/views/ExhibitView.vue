@@ -5,24 +5,21 @@ import { Stage } from '@/three/core/Stage'
 import { ExhibitScene } from '@/three/scenes/ExhibitScene'
 import { exhibitService, type Exhibit } from '@/services/exhibitService'
 import { museumService, type NearbyExhibit } from '@/services/museumService'
-import { phoneService } from '@/services/phoneService'
 import { memoryService } from '@/services/memoryService'
 import { discoveryService } from '@/services/discoveryService'
 import { useMuseum } from '@/composables/useMuseum'
 import { useReducedMotion } from '@/composables/useReducedMotion'
-import { useDevice } from '@/composables/useDevice'
-import { useCollection } from '@/composables/useCollection'
-import { getSmoothScroll } from '@/composables/useSmoothScroll'
 import { resolvePhoneImage } from '@/data/assets'
-import { formFactorLabel } from '@/data/formFactors'
 import type { ExplodedPartSpec, MaterialInfo, ExhibitDetailSpec } from '@/data/exhibits'
-import PhonePhoto from '@/components/common/PhonePhoto.vue'
 import MuseumButton from '@/components/common/MuseumButton.vue'
 import ExhibitRealDevice from '@/components/exhibit/ExhibitRealDevice.vue'
 import ExhibitStructure from '@/components/exhibit/ExhibitStructure.vue'
 import ExhibitMaterial from '@/components/exhibit/ExhibitMaterial.vue'
 import ExhibitAudio from '@/components/exhibit/ExhibitAudio.vue'
-import ExhibitSource from '@/components/exhibit/ExhibitSource.vue'
+import ExhibitHead from '@/components/exhibit/ExhibitHead.vue'
+import ExhibitModeSwitch from '@/components/exhibit/ExhibitModeSwitch.vue'
+import ExhibitStory from '@/components/exhibit/ExhibitStory.vue'
+import ExhibitPager from '@/components/exhibit/ExhibitPager.vue'
 import AddToExhibition from '@/components/curator/AddToExhibition.vue'
 
 // ============================================================
@@ -30,14 +27,14 @@ import AddToExhibition from '@/components/curator/AddToExhibition.vue'
 // 同一件展品的不同观察方式 —— REAL DEVICE / 3D / STRUCTURE /
 // MATERIAL / DETAIL。能力驱动（§29）：不存在的模式不出入口。
 // URL 状态刷新可恢复（?mode=&part=，§41）。
+// 视图只保留 3D 场景与交互编排；展签头/模式切换/展签正文/页脚
+// 拆分在 components/exhibit/。
 // ============================================================
 
 const route = useRoute()
 const router = useRouter()
 const museum = useMuseum()
 const reduced = useReducedMotion()
-const { isDesktop } = useDevice()
-const { hasPhone, togglePhone } = useCollection()
 
 const exhibit = ref<Exhibit | null>(null)
 const status = ref<'loading' | 'ready' | 'error'>('loading')
@@ -59,7 +56,7 @@ const partSheetOpen = ref(false)
 const sheetInfo = ref<{ title: string; sub?: string; description?: string } | null>(null)
 const autoRotate = ref(false)
 
-// ---- 相邻 / 收藏 / 策展 ----
+// ---- 相邻 ----
 const nextExhibit = ref<{ phone: { id: string; name: string }; nearby?: NearbyExhibit } | null>(null)
 
 const parts = computed<ExplodedPartSpec[]>(() => exhibit.value?.content?.parts ?? [])
@@ -187,6 +184,11 @@ function setMode(m: ExhibitMode) {
   }
   if (m === '3d') scene?.resetView()
   syncQuery()
+}
+
+/** 模式切换组件回传 string，这里收窄为合法模式（能力列表保证来源合法）。 */
+function onModeChange(id: string) {
+  setMode(id as ExhibitMode)
 }
 
 function syncQuery() {
@@ -346,16 +348,14 @@ function resetView() {
   scene?.resetView()
 }
 
-// ============================================================
-// 收藏 / 策展 / 音频
-// ============================================================
-
-const inCollection = computed(() => (exhibit.value ? hasPhone(exhibit.value.phone.id) : false))
-
 // reduced motion 切换同步到场景（§47）
 watch(reduced, () => {
   scene?.setReduced(reduced.value)
 })
+
+// Escape 收起部件浮层（§45）
+onMounted(() => window.addEventListener('keydown', onKeydown))
+onUnmounted(() => window.removeEventListener('keydown', onKeydown))
 </script>
 
 <template>
@@ -418,42 +418,18 @@ watch(reduced, () => {
       </section>
 
       <!-- ====== 展签头 ====== -->
-      <section class="exhibit-head container">
-        <div class="exhibit-head__meta">
-          <p v-if="exhibit.phone.exhibitNo" class="mono exhibit-head__no">{{ exhibit.phone.exhibitNo }}</p>
-          <p class="exhibit-head__year mono">{{ exhibit.phone.releaseYear }}</p>
-          <h1 class="exhibit-head__name">{{ exhibit.phone.name }}</h1>
-          <p v-if="exhibit.phone.tagline" class="exhibit-head__tagline body-lg">{{ exhibit.phone.tagline }}</p>
-          <p class="label exhibit-head__brand">
-            {{ exhibit.phone.brandName }}<template v-if="exhibit.phone.formFactor"> · {{ formFactorLabel(exhibit.phone.formFactor) }}</template>
-          </p>
-        </div>
-        <div class="exhibit-head__actions">
-          <button class="exhibit-head__collect" :class="{ 'exhibit-head__collect--on': inCollection }" @click="togglePhone(exhibit.phone.id)">
-            <span>{{ inCollection ? '✓' : '♡' }}</span>
-            <span>{{ inCollection ? '已收藏' : '收藏' }}</span>
-          </button>
-        </div>
-      </section>
+      <ExhibitHead :phone="exhibit.phone" />
 
       <!-- ====== 模式切换（能力驱动，§4 / §29）====== -->
-      <nav class="exhibit-modes" :class="{ 'exhibit-modes--desktop': isDesktop }" aria-label="观察方式">
-        <button
-          v-for="m in modes"
-          :key="m.id"
-          class="exhibit-modes__btn"
-          :class="{ 'exhibit-modes__btn--on': mode === m.id }"
-          @click="setMode(m.id)"
-        >
-          {{ m.en }}
-        </button>
-        <span v-if="has3d && mode !== 'real'" class="exhibit-modes__extra">
-          <button class="exhibit-modes__mini" :aria-pressed="autoRotate" @click="toggleAutoRotate">
-            {{ autoRotate ? 'AUTO ON' : 'AUTO OFF' }}
-          </button>
-          <button class="exhibit-modes__mini" @click="resetView">RESET</button>
-        </span>
-      </nav>
+      <ExhibitModeSwitch
+        :modes="modes"
+        :model-value="mode"
+        :has3d="has3d"
+        :auto-rotate="autoRotate"
+        @update:model-value="onModeChange"
+        @toggle-auto="toggleAutoRotate"
+        @reset="resetView"
+      />
 
       <!-- ====== 内容面板 ====== -->
       <section class="exhibit-panel container">
@@ -498,27 +474,7 @@ watch(reduced, () => {
       </section>
 
       <!-- ====== 展签正文（故事 / 快速事实）====== -->
-      <section class="exhibit-story container">
-        <dl v-if="exhibit.phone.specs" class="exhibit-story__facts">
-          <div v-if="exhibit.phone.specs.weight" class="exhibit-story__fact">
-            <dt class="label">重量</dt>
-            <dd class="mono">{{ exhibit.phone.specs.weight }} g</dd>
-          </div>
-          <div v-if="exhibit.phone.specs.displaySize" class="exhibit-story__fact">
-            <dt class="label">屏幕</dt>
-            <dd class="mono">{{ exhibit.phone.specs.displaySize }}"</dd>
-          </div>
-          <div v-if="exhibit.phone.specs.network?.length" class="exhibit-story__fact">
-            <dt class="label">网络</dt>
-            <dd class="mono">{{ exhibit.phone.specs.network.join(' · ') }}</dd>
-          </div>
-        </dl>
-
-        <p v-if="exhibit.phone.story" class="body-md exhibit-story__text">{{ exhibit.phone.story }}</p>
-        <p v-if="exhibit.phone.significance" class="exhibit-story__quote">{{ exhibit.phone.significance }}</p>
-
-        <ExhibitSource :phone="exhibit.phone" class="exhibit-story__source" />
-      </section>
+      <ExhibitStory :phone="exhibit.phone" />
 
       <!-- ====== 加入个人展览（V0.8 §66：→ Curator Studio）====== -->
       <section class="exhibit-curate container glass-card">
@@ -531,26 +487,11 @@ watch(reduced, () => {
       </section>
 
       <!-- ====== 返回 / 下一件（§42 / §43 + V0.6 §39 关系图谱）====== -->
-      <nav class="exhibit-pager container" aria-label="展品导航">
-        <MuseumButton variant="line" @click="router.back()">← BACK TO MUSEUM</MuseumButton>
-        <div class="exhibit-pager__links">
-          <router-link class="exhibit-pager__graph label" :to="`/explore/graph?focus=phone:${exhibit.phone.id}`">
-            EXPLORE RELATIONS · 关系图谱 →
-          </router-link>
-          <router-link class="exhibit-pager__graph label" :to="`/explore/context/${exhibit.phone.releaseYear}`">
-            CONTEXT · {{ exhibit.phone.releaseYear }} 时代环境 →
-          </router-link>
-        </div>
-        <router-link
-          v-if="nextExhibit"
-          :to="`/museum/exhibit/${nextExhibit.phone.id}`"
-          class="exhibit-pager__next"
-          data-cursor="下一件"
-        >
-          <span class="label">NEXT EXHIBIT</span>
-          <span class="exhibit-pager__name">{{ nextExhibit.phone.name }} →</span>
-        </router-link>
-      </nav>
+      <ExhibitPager
+        :phone-id="exhibit.phone.id"
+        :release-year="exhibit.phone.releaseYear"
+        :next="nextExhibit?.phone ?? null"
+      />
     </template>
   </div>
 </template>
@@ -701,122 +642,6 @@ watch(reduced, () => {
   transform: translateY(12px);
 }
 
-// ---- 展签头 ----
-.exhibit-head {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: $sp-5;
-  padding-block: $sp-6 $sp-4;
-  flex-wrap: wrap;
-
-  &__no {
-    font-size: 10px;
-    letter-spacing: 0.3em;
-    color: $c-accent;
-  }
-
-  &__year {
-    margin-top: $sp-2;
-    font-size: 13px;
-    letter-spacing: 0.25em;
-    color: $c-text-2;
-  }
-
-  &__name {
-    margin-top: $sp-1;
-    font-size: clamp(30px, 5.4vw, 56px);
-    font-weight: 250;
-    line-height: 1.08;
-    word-break: keep-all;
-  }
-
-  &__tagline {
-    margin-top: $sp-3;
-    color: $c-text-2;
-  }
-
-  &__brand {
-    margin-top: $sp-2;
-    font-size: 10px;
-  }
-
-  &__collect {
-    display: inline-flex;
-    align-items: center;
-    gap: $sp-2;
-    padding: $sp-3 $sp-5;
-    border: 1px solid $c-line;
-    border-radius: 999px;
-    color: $c-text;
-    @include label-style(12px);
-    letter-spacing: 0.16em;
-    transition: border-color 0.3s var(--ease-museum), color 0.3s var(--ease-museum);
-
-    &--on {
-      border-color: rgba(184, 178, 164, 0.55);
-      color: $c-accent;
-    }
-  }
-}
-
-// ---- 模式切换（§4：同一件展品的不同观察方式）----
-.exhibit-modes {
-  position: sticky;
-  top: calc(64px + env(safe-area-inset-top));
-  z-index: 20;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  padding: 6px;
-  margin-inline: $sp-4;
-  border-radius: 999px;
-  background: rgba(10, 10, 10, 0.72);
-  -webkit-backdrop-filter: blur(16px);
-  backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.09);
-  overflow-x: auto;
-
-  @include desktop {
-    margin-inline: auto;
-    width: fit-content;
-  }
-
-  &__btn {
-    @include label-style(10px);
-    letter-spacing: 0.1em;
-    padding: 9px 16px;
-    border-radius: 999px;
-    color: $c-text-3;
-    white-space: nowrap;
-    transition: color 0.3s var(--ease-museum), background 0.3s var(--ease-museum);
-
-    &--on {
-      color: #0a0a0a;
-      background: rgba(255, 255, 255, 0.9);
-    }
-  }
-
-  &__extra {
-    display: inline-flex;
-    gap: 4px;
-    margin-left: $sp-2;
-  }
-
-  &__mini {
-    @include label-style(9px);
-    padding: 8px 12px;
-    border-radius: 999px;
-    color: $c-text-3;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    white-space: nowrap;
-
-    &:hover {
-      color: $c-text;
-    }
-  }
-}
-
 // ---- 内容面板 ----
 .exhibit-panel {
   padding-block: $sp-5 $sp-2;
@@ -877,149 +702,15 @@ watch(reduced, () => {
   }
 }
 
-// ---- 故事 ----
-.exhibit-story {
-  padding-block: $sp-5;
-
-  &__facts {
-    display: flex;
-    gap: $sp-6;
-    flex-wrap: wrap;
-    padding: $sp-4 $sp-5;
-    border: 1px solid $c-line-soft;
-    border-radius: 14px;
-  }
-
-  &__fact {
-    dd {
-      margin-top: 2px;
-      font-size: 14px;
-      word-break: keep-all;
-    }
-  }
-
-  &__text {
-    margin-top: $sp-5;
-    max-width: 68ch;
-    color: $c-text-2;
-    line-height: 1.85;
-  }
-
-  &__quote {
-    margin-top: $sp-5;
-    font-size: clamp(20px, 3vw, 32px);
-    font-weight: 250;
-    line-height: 1.4;
-    border-left: 2px solid $c-accent;
-    padding-left: $sp-4;
-    max-width: 30ch;
-    word-break: keep-all;
-  }
-
-  &__source {
-    margin-top: $sp-6;
-  }
-}
-
 // ---- 加入个人展览 ----
 .exhibit-curate {
   margin-top: $sp-6;
   padding: $sp-5;
 
-  &__row {
-    margin-top: $sp-3;
-    display: flex;
-    gap: $sp-2;
-  }
-
-  &__select {
-    flex: 1;
-    padding: $sp-3 $sp-4;
-    border-radius: 12px;
-    border: 1px solid $c-line-soft;
-    background: rgba(255, 255, 255, 0.04);
-    color: $c-text;
-    font-size: 13px;
-  }
-
-  &__add {
-    padding: $sp-3 $sp-5;
-    border-radius: 12px;
-    border: 1px solid rgba(184, 178, 164, 0.5);
-    color: $c-accent;
-    @include label-style(11px);
-
-    &:disabled {
-      opacity: 0.35;
-    }
-
-    &:hover:not(:disabled) {
-      background: rgba(184, 178, 164, 0.1);
-    }
-  }
-
-  &__flash {
-    margin-top: $sp-2;
-    font-size: 10px;
-    color: $c-accent;
-  }
-
   &__hint {
     margin-top: $sp-2;
     font-size: 9px;
     color: $c-text-3;
-  }
-}
-
-// ---- 返回 / 下一件 ----
-.exhibit-pager {
-  margin-top: $sp-7;
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  gap: $sp-3;
-  flex-wrap: wrap;
-
-  &__links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: $sp-2;
-  }
-
-  &__graph {
-    color: $c-text-2;
-    word-break: keep-all;
-
-    &:hover {
-      color: $c-accent;
-    }
-  }
-
-  &__next {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: $sp-1;
-    padding: $sp-4 $sp-5;
-    border: 1px solid $c-line-soft;
-    border-radius: 14px;
-    transition: border-color 0.3s var(--ease-museum);
-
-    .label {
-      font-size: 9px;
-      color: $c-text-3;
-    }
-
-    &:hover {
-      border-color: $c-line;
-    }
-  }
-
-  &__name {
-    font-size: 16px;
-    font-weight: 350;
-    word-break: keep-all;
   }
 }
 </style>
