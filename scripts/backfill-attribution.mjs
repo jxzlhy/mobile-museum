@@ -24,6 +24,15 @@ const VERIFIED = {
   'nokia-1011': { author: 'Jkbw', license: 'CC BY 3.0', licenseUrl: 'https://creativecommons.org/licenses/by/3.0/', note: '多重许可（仅 attribution）' },
   'nokia-2110': { author: 'Mustaraamattu', license: 'CC BY-SA 4.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/' },
   'nokia-3210': { author: 'Michael Brandtner (Discostu)', license: 'Public domain', licenseUrl: 'https://commons.wikimedia.org/wiki/Template:PD-self', note: '作者释放至公有领域' },
+  // ---- 轮次 10 实抓（2026-11-15/16）----
+  'nokia-9000-communicator': { author: 'krystof.k (Twitter) & nmuseum', license: 'CC BY-SA 3.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/', note: '多重许可' },
+  'nokia-lumia-920': { author: 'Nicola Delfino (Flickr)', license: 'CC BY 2.0', licenseUrl: 'https://creativecommons.org/licenses/by/2.0/' },
+  'nokia-n9': { author: 'Bytearray render', license: 'CC BY-SA 3.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/' },
+  'nokia-n95': { author: 'Asim18', license: 'CC BY-SA 3.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/', note: '多重许可 3.0/2.5/2.0/1.0' },
+  'samsung-galaxy-z-flip': { author: 'Kth696586', license: 'CC BY-SA 4.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/' },
+  'sharp-j-sh04': { author: 'Morio', license: 'CC BY-SA 3.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/', note: 'GFDL 1.2+ 与 CC BY-SA 3.0 双许可' },
+  'sony-ericsson-k750i': { author: 'Andrew Butko', license: 'CC BY-SA 3.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/', note: 'GFDL 1.3+ 与 CC BY-SA 3.0 双许可' },
+  'sony-ericsson-w800i': { author: '阿貴 (zh.wikipedia)', license: 'CC BY-SA 3.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/', note: 'GFDL 迁移双许可' },
 }
 
 // verified 复审（轮次9）：两张低于馆藏标准 → 正式拒绝

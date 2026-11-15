@@ -7,8 +7,10 @@
     "type": "wikimedia-commons",
     "url": "https://commons.wikimedia.org/wiki/File:Nokia_N95_Front_1.jpg",
     "title": "File:Nokia N95 Front 1.jpg",
-    "licenseUrl": "",
-    "attribution": "File:Nokia N95 Front 1.jpg"
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "File:Nokia N95 Front 1.jpg",
+    "author": "Asim18",
+    "license": "CC BY-SA 3.0"
   },
   "verifiedAt": "2026-09-13T15:11:56.954Z",
   "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",

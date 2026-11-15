@@ -17,7 +17,7 @@
           "attribution": "File:First iPhone Macworld 2007 DSCF1286.agr.jpg"
         },
         "note": "重新发现下载；待人工审图确认型号后 approve。",
-        "updatedAt": "2026-11-14T14:55:15.949Z"
+        "updatedAt": "2026-11-15T16:18:29.018Z"
       }
     },
     "apple-iphone-12": {
@@ -37,7 +37,7 @@
           "attribution": "File:IPhone 12 Green 128g.jpg"
         },
         "note": "分类枚举第二轮候选，人工审图批准（替换前图）。",
-        "updatedAt": "2026-11-14T14:55:15.950Z"
+        "updatedAt": "2026-11-15T16:18:29.020Z"
       }
     },
     "apple-iphone-3g": {
@@ -57,7 +57,7 @@
           "license": "CC BY-SA 4.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.950Z"
+        "updatedAt": "2026-11-15T16:18:29.020Z"
       }
     },
     "apple-iphone-4": {
@@ -77,7 +77,7 @@
           "license": "CC BY-SA 4.0"
         },
         "note": "人工审图拒绝：装裱分解海报照（含店铺场景），非设备实拍（§10 C 级）",
-        "updatedAt": "2026-11-14T14:55:15.951Z"
+        "updatedAt": "2026-11-15T16:18:29.020Z"
       }
     },
     "apple-iphone-5s": {
@@ -97,7 +97,7 @@
           "license": "CC BY-SA 3.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.951Z"
+        "updatedAt": "2026-11-15T16:18:29.021Z"
       }
     },
     "apple-iphone-6": {
@@ -109,13 +109,13 @@
         "format": "jpg",
         "source": {
           "type": "wikimedia-commons",
-          "url": "",
+          "url": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_6_iOS_Update_(16195046500).jpg",
           "title": "File:Apple iPhone 6 iOS Update (16195046500).jpg",
           "licenseUrl": "",
           "attribution": "File:Apple iPhone 6 iOS Update (16195046500).jpg"
         },
         "note": "复审拒绝：硅胶套遮挡机身设计，屏幕停在 iOS 更新进度条，非展品照",
-        "updatedAt": "2026-11-14T14:55:15.951Z"
+        "updatedAt": "2026-11-15T16:18:29.021Z"
       }
     },
     "apple-iphone-x": {
@@ -135,7 +135,7 @@
           "license": "CC BY-SA 4.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.952Z"
+        "updatedAt": "2026-11-15T16:18:29.021Z"
       }
     },
     "blackberry-bold-9000": {
@@ -154,7 +154,7 @@
           "license": "CC BY-SA 4.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.953Z"
+        "updatedAt": "2026-11-15T16:18:29.021Z"
       }
     },
     "blackberry-curve-8520": {
@@ -174,7 +174,7 @@
           "license": "CC BY-SA 4.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.953Z"
+        "updatedAt": "2026-11-15T16:18:29.022Z"
       }
     },
     "google-pixel": {
@@ -194,7 +194,7 @@
           "attribution": "File:Google Pixel and Pixel XL smartphones (30155268545).jpg"
         },
         "note": "Pixel 家族照第二候选；待人工审图。",
-        "updatedAt": "2026-11-14T14:55:15.953Z"
+        "updatedAt": "2026-11-15T16:18:29.022Z"
       }
     },
     "htc-dream": {
@@ -214,7 +214,7 @@
           "license": "CC BY 4.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.953Z"
+        "updatedAt": "2026-11-15T16:18:29.022Z"
       }
     },
     "huawei-p20-pro": {
@@ -234,7 +234,7 @@
           "license": "CC BY-SA 4.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.953Z"
+        "updatedAt": "2026-11-15T16:18:29.023Z"
       }
     },
     "ibm-simon": {
@@ -254,7 +254,7 @@
           "attribution": "File:IBM Simon Personal Communicator (1993) - the first smartphone - Computer History Museum.jpg"
         },
         "note": "分类目录发现；待人工审图确认型号后 approve。",
-        "updatedAt": "2026-11-14T14:55:15.954Z"
+        "updatedAt": "2026-11-15T16:18:29.024Z"
       }
     },
     "lg-g3": {
@@ -274,7 +274,7 @@
           "license": "CC BY 2.0"
         },
         "note": "批量管线下载；来源/许���证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.954Z"
+        "updatedAt": "2026-11-15T16:18:29.025Z"
       }
     },
     "motorola-dynatac-8000x": {
@@ -294,7 +294,7 @@
           "attribution": "File:DynaTAC8000X.jpg"
         },
         "note": "分类目录发现；待人工审图确认型号后 approve。",
-        "updatedAt": "2026-11-14T14:55:15.954Z"
+        "updatedAt": "2026-11-15T16:18:29.026Z"
       }
     },
     "motorola-dynatac-prototype": {
@@ -313,7 +313,7 @@
           "attribution": "File:2007Computex e21Forum-MartinCooper.jpg"
         },
         "note": "Cooper 持机历史照候选：需视觉判定设备可辨识度与机型（原型机 vs 8000X）。",
-        "updatedAt": "2026-11-14T14:55:15.954Z"
+        "updatedAt": "2026-11-15T16:18:29.027Z"
       },
       "gallery": [
         {
@@ -350,7 +350,7 @@
           "license": "CC BY-SA 3.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.955Z"
+        "updatedAt": "2026-11-15T16:18:29.028Z"
       }
     },
     "motorola-milestone": {
@@ -370,7 +370,7 @@
           "attribution": "File:Motorola-milestone-wikipedia.jpg"
         },
         "note": "分类枚举第二轮候选，人工审图批准（替换前图）。",
-        "updatedAt": "2026-11-14T14:55:15.955Z"
+        "updatedAt": "2026-11-15T16:18:29.029Z"
       }
     },
     "motorola-razr-v3": {
@@ -390,7 +390,7 @@
           "license": "CC BY-SA 4.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.955Z"
+        "updatedAt": "2026-11-15T16:18:29.030Z"
       }
     },
     "motorola-startac": {
@@ -410,7 +410,7 @@
           "license": "CC BY-SA 4.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.955Z"
+        "updatedAt": "2026-11-15T16:18:29.031Z"
       }
     },
     "nokia-1011": {
@@ -430,7 +430,7 @@
           "license": "CC BY 3.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.955Z"
+        "updatedAt": "2026-11-15T16:18:29.032Z"
       }
     },
     "nokia-2110": {
@@ -450,7 +450,7 @@
           "license": "CC BY-SA 4.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.956Z"
+        "updatedAt": "2026-11-15T16:18:29.033Z"
       }
     },
     "nokia-3210": {
@@ -470,7 +470,7 @@
           "license": "Public domain"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.956Z"
+        "updatedAt": "2026-11-15T16:18:29.034Z"
       }
     },
     "nokia-3310": {
@@ -490,7 +490,7 @@
           "attribution": "File:Nokia 3310 mobile phone.jpg"
         },
         "note": "来源/许可证已经 Commons API 元数据核验；图片本体经人工复核后可 approve。",
-        "updatedAt": "2026-11-14T14:55:15.956Z"
+        "updatedAt": "2026-11-15T16:18:29.035Z"
       }
     },
     "nokia-9000-communicator": {
@@ -504,11 +504,13 @@
           "type": "wikimedia-commons",
           "url": "https://commons.wikimedia.org/wiki/File:As_Time_Goes_By_(Nokia_9000_Communicator_&_E7).jpg",
           "title": "File:As Time Goes By (Nokia 9000 Communicator & E7).jpg",
-          "licenseUrl": "",
-          "attribution": "File:As Time Goes By (Nokia 9000 Communicator & E7).jpg"
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "File:As Time Goes By (Nokia 9000 Communicator & E7).jpg",
+          "author": "krystof.k (Twitter) & nmuseum",
+          "license": "CC BY-SA 3.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.956Z"
+        "updatedAt": "2026-11-15T16:18:29.037Z"
       }
     },
     "nokia-lumia-920": {
@@ -522,11 +524,13 @@
           "type": "wikimedia-commons",
           "url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_920_-_Caledos_Runner.jpg",
           "title": "File:Nokia Lumia 920 - Caledos Runner.jpg",
-          "licenseUrl": "",
-          "attribution": "File:Nokia Lumia 920 - Caledos Runner.jpg"
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "attribution": "File:Nokia Lumia 920 - Caledos Runner.jpg",
+          "author": "Nicola Delfino (Flickr)",
+          "license": "CC BY 2.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.956Z"
+        "updatedAt": "2026-11-15T16:18:29.038Z"
       }
     },
     "nokia-n9": {
@@ -540,11 +544,13 @@
           "type": "wikimedia-commons",
           "url": "https://commons.wikimedia.org/wiki/File:Blue_Nokia_N9.jpg",
           "title": "File:Blue Nokia N9.jpg",
-          "licenseUrl": "",
-          "attribution": "File:Blue Nokia N9.jpg"
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "File:Blue Nokia N9.jpg",
+          "author": "Bytearray render",
+          "license": "CC BY-SA 3.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.956Z"
+        "updatedAt": "2026-11-15T16:18:29.040Z"
       }
     },
     "nokia-n95": {
@@ -558,11 +564,13 @@
           "type": "wikimedia-commons",
           "url": "https://commons.wikimedia.org/wiki/File:Nokia_N95_Front_1.jpg",
           "title": "File:Nokia N95 Front 1.jpg",
-          "licenseUrl": "",
-          "attribution": "File:Nokia N95 Front 1.jpg"
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "File:Nokia N95 Front 1.jpg",
+          "author": "Asim18",
+          "license": "CC BY-SA 3.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.956Z"
+        "updatedAt": "2026-11-15T16:18:29.040Z"
       }
     },
     "nokia-ngage": {
@@ -580,7 +588,7 @@
           "attribution": "File:Nokia N-Gage wikittää.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.957Z"
+        "updatedAt": "2026-11-15T16:18:29.042Z"
       }
     },
     "oppo-find-x": {
@@ -598,7 +606,7 @@
           "attribution": "File:OPPO Find X8 Pro white back.png"
         },
         "note": "人工审图拒绝：图为 Find X8 Pro（2024，哈苏圆环四摄），非 2018 双轨潜升 Find X（§27 型号不符）",
-        "updatedAt": "2026-11-14T14:55:15.957Z"
+        "updatedAt": "2026-11-15T16:18:29.043Z"
       }
     },
     "samsung-galaxy-fold": {
@@ -618,7 +626,7 @@
           "attribution": "File:Galaxy Fold - 1.jpg"
         },
         "note": "重新发现下载；待人工审图确认型号后 approve。",
-        "updatedAt": "2026-11-14T14:55:15.957Z"
+        "updatedAt": "2026-11-15T16:18:29.043Z"
       }
     },
     "samsung-galaxy-note": {
@@ -630,13 +638,13 @@
         "format": "jpg",
         "source": {
           "type": "wikimedia-commons",
-          "url": "",
+          "url": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_Note_-_Snap_2553.JPG",
           "title": "File:Samsung galaxy Note - Snap 2553.JPG",
           "licenseUrl": "",
           "attribution": "File:Samsung galaxy Note - Snap 2553.JPG"
         },
         "note": "复审拒绝：熄屏 + 大面积灯光反光 + 桌面背景，快照级低于馆藏标准",
-        "updatedAt": "2026-11-14T14:55:15.957Z"
+        "updatedAt": "2026-11-15T16:18:29.044Z"
       }
     },
     "samsung-galaxy-s": {
@@ -654,7 +662,7 @@
           "attribution": "File:Samsung Galaxy S Advance GT-I9070.JPG"
         },
         "note": "人工审图拒绝：图为 Galaxy S Advance GT-I9070（2012 衍生版），非 2010 初代 i9000（§46 型号区分）",
-        "updatedAt": "2026-11-14T14:55:15.957Z"
+        "updatedAt": "2026-11-15T16:18:29.044Z"
       }
     },
     "samsung-galaxy-z-flip": {
@@ -668,11 +676,13 @@
           "type": "wikimedia-commons",
           "url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Flip_opened.jpg",
           "title": "File:Samsung Galaxy Z Flip opened.jpg",
-          "licenseUrl": "",
-          "attribution": "File:Samsung Galaxy Z Flip opened.jpg"
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "File:Samsung Galaxy Z Flip opened.jpg",
+          "author": "Kth696586",
+          "license": "CC BY-SA 4.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.957Z"
+        "updatedAt": "2026-11-15T16:18:29.045Z"
       }
     },
     "sharp-j-sh04": {
@@ -686,11 +696,13 @@
           "type": "wikimedia-commons",
           "url": "https://commons.wikimedia.org/wiki/File:Sharp_J-SH04_CP+_2011.jpg",
           "title": "File:Sharp J-SH04 CP+ 2011.jpg",
-          "licenseUrl": "",
-          "attribution": "File:Sharp J-SH04 CP+ 2011.jpg"
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "File:Sharp J-SH04 CP+ 2011.jpg",
+          "author": "Morio",
+          "license": "CC BY-SA 3.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.957Z"
+        "updatedAt": "2026-11-15T16:18:29.045Z"
       }
     },
     "sony-ericsson-k750i": {
@@ -704,11 +716,13 @@
           "type": "wikimedia-commons",
           "url": "https://commons.wikimedia.org/wiki/File:Sony_Ericson_K750i_camera.jpg",
           "title": "File:Sony Ericson K750i camera.jpg",
-          "licenseUrl": "",
-          "attribution": "File:Sony Ericson K750i camera.jpg"
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "File:Sony Ericson K750i camera.jpg",
+          "author": "Andrew Butko",
+          "license": "CC BY-SA 3.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.957Z"
+        "updatedAt": "2026-11-15T16:18:29.045Z"
       }
     },
     "sony-ericsson-w800i": {
@@ -722,11 +736,13 @@
           "type": "wikimedia-commons",
           "url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_W800i.jpg",
           "title": "File:Sony Ericsson W800i.jpg",
-          "licenseUrl": "",
-          "attribution": "File:Sony Ericsson W800i.jpg"
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "File:Sony Ericsson W800i.jpg",
+          "author": "阿貴 (zh.wikipedia)",
+          "license": "CC BY-SA 3.0"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.957Z"
+        "updatedAt": "2026-11-15T16:18:29.046Z"
       }
     },
     "sony-xperia-1": {
@@ -746,7 +762,7 @@
           "attribution": "File:SONY Xperia 1 (SOV40) Purple Frontside.jpg"
         },
         "note": "分类枚举第二轮候选，人工审图批准（替换前图）。",
-        "updatedAt": "2026-11-14T14:55:15.958Z"
+        "updatedAt": "2026-11-15T16:18:29.046Z"
       }
     },
     "vivo-nex": {
@@ -764,7 +780,7 @@
           "attribution": "File:Vivo nex.jpg"
         },
         "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
-        "updatedAt": "2026-11-14T14:55:15.958Z"
+        "updatedAt": "2026-11-15T16:18:29.046Z"
       }
     },
     "xiaomi-mi-1": {
@@ -782,9 +798,9 @@
           "attribution": "File:Xiaomi Mi 11 Ultra back.jpg"
         },
         "note": "人工审图拒绝：图为小米 11 Ultra（120X 变焦后摄），非 2011 小米手机 1（§27 型号不符）",
-        "updatedAt": "2026-11-14T14:55:15.958Z"
+        "updatedAt": "2026-11-15T16:18:29.047Z"
       }
     }
   },
-  "generatedAt": "2026-11-14T14:55:15.958Z"
+  "generatedAt": "2026-11-15T16:18:29.047Z"
 }
