@@ -40,7 +40,8 @@ function enter() {
     <div v-if="!museum.state.entered && !forceUnmounted" class="veil" role="dialog" aria-label="正在布展">
       <div class="veil__inner">
         <p class="veil__label mono">DIGITAL EXHIBITION — V0.9</p>
-        <h1 class="veil__title">MOBILE<br />MUSEUM</h1>
+        <!-- 用 div 而非 h1：门帘是 dialog 覆盖层，不该在文档大纲里与页面标题竞争 -->
+        <div class="veil__title" aria-hidden="true">MOBILE<br />MUSEUM</div>
         <p class="veil__cn">手机历史博物馆</p>
 
         <div v-if="!museum.state.ready" class="veil__loading" aria-live="polite">

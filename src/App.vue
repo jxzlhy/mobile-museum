@@ -149,7 +149,10 @@ onUnmounted(() => {
     <MuseumNav />
     <MuseumCursor />
 
-    <main class="page-root">
+    <!-- 键盘用户跳过导航直达正文（a11y）：仅获得焦点时可见 -->
+    <a class="skip-link" href="#page-main">跳到正文内容</a>
+
+    <main id="page-main" class="page-root" tabindex="-1">
       <router-view v-slot="{ Component }">
         <!-- §72 Reduced Motion：减弱动态偏好下页面切换零过渡（name 置空 →
              Vue 不等待任何 transition 事件，立即完成）。显式 duration 则为
@@ -178,6 +181,28 @@ onUnmounted(() => {
   position: relative;
   min-height: 100vh;
   min-height: 100dvh;
+}
+
+// 跳转链接：默认视觉隐藏，Tab 获得焦点时浮现于页面顶端（a11y）
+.skip-link {
+  position: fixed;
+  top: $sp-3;
+  left: 50%;
+  transform: translate(-50%, -200%);
+  z-index: 100;
+  padding: $sp-3 $sp-5;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #0a0a0a;
+  @include label-style(12px);
+  letter-spacing: 0.12em;
+  transition: transform 0.25s var(--ease-museum);
+
+  &:focus {
+    outline: 2px solid $c-accent;
+    outline-offset: 2px;
+    transform: translate(-50%, 0);
+  }
 }
 
 .stage-canvas {
