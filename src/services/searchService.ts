@@ -70,7 +70,11 @@ export const searchService = {
     )
 
     return {
-      phones: matchedPhones.sort((a, b) => a.releaseYear - b.releaseYear),
+      // 排序：名称命中 > 标语命中 > 其余；同分按年代（V0.2 §40 搜索质量）
+      phones: matchedPhones
+        .map((p) => ({ p, rank: includes(p.name, q) ? 2 : includes(p.tagline, q) ? 1 : 0 }))
+        .sort((a, b) => b.rank - a.rank || a.p.releaseYear - b.p.releaseYear)
+        .map((x) => x.p),
       brands: matchedBrands,
       technologies: matchedTech,
       scenes: matchedScenes.map((s) => ({ id: s.id, year: s.year, title: s.title, titleZh: s.titleZh })),
