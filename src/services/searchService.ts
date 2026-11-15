@@ -44,6 +44,7 @@ export const searchService = {
         includes(p.tagline, q) ||
         includes(p.eraId, q) ||
         (p.technologies ?? []).some((t) => includes(t, q)) ||
+        (p.specs?.network ?? []).some((n) => includes(n, q)) ||
         (p.tags ?? []).some((t) => includes(t, q))
       )
     })
