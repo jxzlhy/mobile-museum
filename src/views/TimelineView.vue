@@ -73,7 +73,7 @@ onUnmounted(() => {
           <article v-else class="tl-node tl-node--phone" data-cursor="看展">
             <p class="tl-node__year year-mid">{{ item.year }}</p>
             <router-link :to="`/phone/${item.phone.id}`" class="tl-node__link" :aria-label="`${item.phone.name}，${item.year}`">
-              <span class="tl-node__photo"><PhonePhoto :phone="item.phone" /></span>
+              <span class="tl-node__photo"><PhonePhoto :phone="item.phone" thumb /></span>
               <h2 class="tl-node__name">{{ item.phone.name }}</h2>
             </router-link>
             <p class="tl-node__meta label">{{ item.phone.brandName }} · {{ formFactorLabel(item.phone.formFactor) }}</p>
