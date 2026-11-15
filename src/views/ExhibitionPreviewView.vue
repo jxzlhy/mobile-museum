@@ -120,7 +120,8 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
 
       <main class="pv__stage container">
         <!-- COVER -->
-        <transition :name="reduced ? 'pvfade' : 'pvslide'" mode="out-in">
+        <!-- 显式 duration：后台标签页冻结 transitionend 时用定时器兜底（同 App.vue 页面转场） -->
+        <transition :name="reduced ? 'pvfade' : 'pvslide'" mode="out-in" :duration="reduced ? 150 : 400">
           <section v-if="isCover" key="cover" class="pv__cover">
             <p class="label mono pv__cover-theme">{{ ex.theme?.toUpperCase() ?? 'A PERSONAL EXHIBITION' }}</p>
             <div class="pv__cover-art">

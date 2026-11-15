@@ -153,7 +153,8 @@ watch(() => route.params.payload, () => void load())
       </header>
 
       <main class="pub__stage container">
-        <transition :name="reduced ? 'pubfade' : 'pubslide'" mode="out-in">
+        <!-- 显式 duration：后台标签页冻结 transitionend 时用定时器兜底（同 App.vue 页面转场） -->
+        <transition :name="reduced ? 'pubfade' : 'pubslide'" mode="out-in" :duration="reduced ? 150 : 400">
           <!-- COVER（§10 Public Hero） -->
           <section v-if="isCover" key="cover" class="pub__cover">
             <p class="label mono pub__cover-theme">CURATED EXHIBITION · 公开策展</p>
