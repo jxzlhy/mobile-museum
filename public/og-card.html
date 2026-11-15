@@ -1,0 +1,103 @@
+<!doctype html>
+<!-- og-image 卡片源（1280×720）：浏览器截图后 sips 裁切为 public/og.jpg（1200×630）。
+     重生成：npm run dev → 截图 http://localhost:5174/og-card.html → sips -c 630 1200 og-src.jpg && sips -z 630 1200 -->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<style>
+  * { margin: 0; padding: 0; }
+  html, body { width: 1280px; height: 720px; overflow: hidden; }
+  body {
+    background: radial-gradient(ellipse 900px 600px at 30% 40%, #16161a 0%, #080808 65%);
+    color: #f4f2ec;
+    font-family: "PingFang SC", "Helvetica Neue", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 110px;
+    box-sizing: border-box;
+  }
+  .left { max-width: 640px; }
+  .kicker {
+    font-size: 20px;
+    letter-spacing: 0.42em;
+    color: #b8b2a4;
+    text-transform: uppercase;
+  }
+  .title {
+    font-size: 96px;
+    font-weight: 250;
+    line-height: 1.04;
+    letter-spacing: 0.02em;
+    margin-top: 28px;
+    color: #ffffff;
+  }
+  .cn {
+    font-size: 34px;
+    font-weight: 300;
+    margin-top: 26px;
+    color: #d8d4c8;
+    letter-spacing: 0.14em;
+  }
+  .tagline {
+    font-size: 20px;
+    color: #8a877c;
+    margin-top: 20px;
+    letter-spacing: 0.08em;
+  }
+  .rule {
+    width: 88px;
+    height: 2px;
+    background: #b8b2a4;
+    margin-top: 40px;
+    opacity: 0.7;
+  }
+  .phones {
+    display: flex;
+    gap: 42px;
+    align-items: flex-end;
+    opacity: 0.92;
+  }
+  .phone {
+    border: 2px solid rgba(184, 178, 164, 0.55);
+    border-radius: 18px;
+    background: linear-gradient(160deg, #1b1b1f 0%, #101013 70%);
+    position: relative;
+  }
+  .phone::after {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    border: 1px solid rgba(184, 178, 164, 0.25);
+    border-radius: 10px;
+  }
+  .p1 { width: 128px; height: 236px; }
+  .p2 { width: 118px; height: 258px; }
+  .p3 { width: 138px; height: 280px; }
+  .years {
+    position: absolute;
+    bottom: -34px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    color: #8a877c;
+    letter-spacing: 0.2em;
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+  <div class="left">
+    <p class="kicker">Digital Exhibition</p>
+    <h1 class="title">MOBILE<br />MUSEUM</h1>
+    <p class="cn">手机历史博物馆</p>
+    <p class="tagline">一部手机，不只是一台手机。</p>
+    <div class="rule"></div>
+  </div>
+  <div class="phones">
+    <div class="phone p1"><span class="years">1983</span></div>
+    <div class="phone p2"><span class="years">2000</span></div>
+    <div class="phone p3"><span class="years">2007</span></div>
+  </div>
+</body>
+</html>
