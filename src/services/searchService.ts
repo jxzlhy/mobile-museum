@@ -42,6 +42,9 @@ export const searchService = {
         String(p.releaseYear).includes(q) ||
         includes(p.formFactor, q) ||
         includes(p.tagline, q) ||
+        includes(p.story, q) ||
+        includes(p.significance, q) ||
+        includes(p.impact, q) ||
         includes(p.eraId, q) ||
         (p.technologies ?? []).some((t) => includes(t, q)) ||
         (p.specs?.network ?? []).some((n) => includes(n, q)) ||
