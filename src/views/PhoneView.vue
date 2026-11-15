@@ -8,30 +8,32 @@ import { eventService } from '@/services/eventService'
 import { museumService, type ExhibitRecommendation } from '@/services/museumService'
 import { discoveryService } from '@/services/discoveryService'
 import { memoryService } from '@/services/memoryService'
-import { hasExhibitContent } from '@/data/exhibits'
 import { formFactorLabel as formFactorLabelOf } from '@/data/formFactors'
 import { phoneImageList, resolvePhoneImage } from '@/data/assets'
 import { useMuseum } from '@/composables/useMuseum'
-import { useCollection } from '@/composables/useCollection'
 import { Stage } from '@/three/core/Stage'
 import { PhoneScene } from '@/three/scenes/PhoneScene'
 import PhoneSilhouette from '@/components/common/PhoneSilhouette.vue'
 import PhonePhoto from '@/components/common/PhonePhoto.vue'
 import PhoneGallery from '@/components/phone/PhoneGallery.vue'
+import PhoneQuickFacts from '@/components/phone/PhoneQuickFacts.vue'
+import PhoneSpecsTable from '@/components/phone/PhoneSpecsTable.vue'
+import PhoneRelatedList from '@/components/phone/PhoneRelatedList.vue'
+import PhonePager from '@/components/phone/PhonePager.vue'
+import PhoneSources from '@/components/phone/PhoneSources.vue'
+import PhoneCollect from '@/components/phone/PhoneCollect.vue'
 import GlassCard from '@/components/common/GlassCard.vue'
 import MuseumButton from '@/components/common/MuseumButton.vue'
-import AddToExhibition from '@/components/curator/AddToExhibition.vue'
 import type { Phone, HistoricalEvent } from '@/data/types'
 
 gsap.registerPlugin(ScrollTrigger)
 
 // 展品详情（规范 §21–§34 / §63 / §76 / §80）：
 // 真实照片 + 快速事实 + 设计/技术/历史 + 3D（如有）+ 来源 + 收藏。
-// 玻璃卡承载内容，实拍图与 3D 是展品本体。
+// 玻璃卡承载内容，实拍图与 3D 是展品本体；区块级 UI 拆分在 components/phone/。
 
 const route = useRoute()
 const museum = useMuseum()
-const { hasPhone, togglePhone } = useCollection()
 
 const phone = ref<Phone | null>(null)
 const status = ref<'loading' | 'ready' | 'error'>('loading')
@@ -45,9 +47,6 @@ const has3D = ref(false)
 const canExplode = ref(false)
 const activeComponent = ref(0)
 const explodeEl = ref<HTMLElement>()
-
-// 收藏按钮的轻量反馈（规范 §77）：小范围缩放，不弹 Toast
-const collectedPulse = ref(false)
 
 let scene: PhoneScene | null = null
 let explodeTrigger: ScrollTrigger | null = null
@@ -165,64 +164,13 @@ const COMPONENT_LABELS = [
   { name: '后盖', description: '让它成为"砖头"的那块外壳。' },
 ]
 
-// Quick Facts（规范 §26）：少量高价值信息，展签而非规格表。
-const quickFacts = computed(() => {
-  const p = phone.value
-  if (!p) return []
-  const facts: Array<{ label: string; value: string }> = []
-  facts.push({ label: '年份', value: String(p.releaseYear) })
-  if (p.specs?.weight) facts.push({ label: '重量', value: `${p.specs.weight} g` })
-  if (p.specs?.displaySize) facts.push({ label: '屏幕', value: `${p.specs.displaySize}"` })
-  if (p.specs?.camera) facts.push({ label: '相机', value: p.specs.camera.split('（')[0].split(' + ')[0] })
-  if (p.exhibitNo) facts.push({ label: '编号', value: p.exhibitNo })
-  return facts.slice(0, 5)
-})
-
-const specRows = computed(() => {
-  const p = phone.value
-  if (!p) return []
-  const rows: Array<[string, string]> = []
-  if (p.specs?.display) rows.push(['屏幕', `${p.specs.displaySize ? p.specs.displaySize + '" · ' : ''}${p.specs.display}`])
-  if (p.specs?.camera) rows.push(['相机', p.specs.camera])
-  if (p.specs?.cameraFront) rows.push(['前置', p.specs.cameraFront])
-  if (p.specs?.network?.length) rows.push(['网络', p.specs.network.join(' · ')])
-  if (p.specs?.operatingSystem) rows.push(['系统', p.specs.operatingSystem])
-  if (p.specs?.battery) rows.push(['电池', p.specs.battery])
-  if (p.specs?.weight) rows.push(['重量', `${p.specs.weight} 克`])
-  if (p.specs?.dimensions) rows.push(['尺寸', p.specs.dimensions])
-  if (p.technologies?.length) rows.push(['技术特性', p.technologies.join(' · ')])
-  return rows
-})
-
 const formFactorLabel = computed(() => {
   const f = phone.value?.formFactor
   return f ? formFactorLabelOf(f) : null
 })
 
-const inCollection = computed(() => phone.value ? hasPhone(phone.value.id) : false)
-
-function onCollect() {
-  if (!phone.value) return
-  togglePhone(phone.value.id)
-  collectedPulse.value = true
-  setTimeout(() => (collectedPulse.value = false), 450)
-}
-
-/** 图片授权署名清单（规范 §64）。 */
-const imageCredits = computed(() => {
-  const p = phone.value
-  if (!p) return []
-  return phoneImageList(p)
-    .filter((img) => img.source)
-    .map((img) => ({
-      id: img.path,
-      alt: img.alt ?? p.name,
-      author: img.source?.author ?? '未知作者',
-      license: img.source?.license ?? '',
-      licenseUrl: img.source?.licenseUrl,
-      sourceUrl: img.source?.url,
-    }))
-})
+// 相关展品 → 列表组件数据（推荐带理由，相关不带）
+const relatedItems = computed(() => related.value.map((r) => ({ phone: r })))
 
 const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(phone.value, 'hero')))
 </script>
@@ -287,11 +235,8 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
 
       <!-- ====== QUICK FACTS（规范 §26：展签，非规格表） ====== -->
       <section class="section container">
-        <div class="glass-card quickfacts">
-          <div v-for="f in quickFacts" :key="f.label" class="quickfacts__item">
-            <p class="quickfacts__value mono">{{ f.value }}</p>
-            <p class="quickfacts__label label">{{ f.label }}</p>
-          </div>
+        <div class="glass-card">
+          <PhoneQuickFacts :phone="phone" />
         </div>
       </section>
 
@@ -315,13 +260,8 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
       <!-- ====== 技术 / 规格铭牌 ====== -->
       <section class="section container">
         <p class="label section__index">02 — 技术</p>
-        <div class="glass-card specs">
-          <dl class="specs__list">
-            <div v-for="[k, v] in specRows" :key="k" class="specs__row">
-              <dt class="label">{{ k }}</dt>
-              <dd class="mono specs__value">{{ v }}</dd>
-            </div>
-          </dl>
+        <div class="glass-card">
+          <PhoneSpecsTable :phone="phone" />
         </div>
       </section>
 
@@ -397,24 +337,7 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
       <section v-if="recommendations.length" class="section container">
         <p class="label section__index">06 — 下一件展品 · YOU MAY ALSO EXPLORE</p>
         <div class="glass-card">
-          <nav class="related">
-            <router-link
-              v-for="r in recommendations"
-              :key="r.phone.id"
-              :to="`/phone/${r.phone.id}`"
-              class="related__row"
-              data-cursor="看展"
-            >
-              <span class="related__year mono">{{ r.phone.releaseYear }}</span>
-              <PhonePhoto :phone="r.phone" thumb class="related__photo" />
-              <span class="related__body">
-                <span class="related__name">{{ r.phone.name }}</span>
-                <span class="related__brand label">{{ r.phone.brandName }}</span>
-                <span class="related__reason label mono">{{ r.reason }}</span>
-              </span>
-              <span class="related__arrow mono" aria-hidden="true">→</span>
-            </router-link>
-          </nav>
+          <PhoneRelatedList :items="recommendations" />
         </div>
       </section>
 
@@ -422,108 +345,23 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
       <section v-if="related.length" class="section container">
         <p class="label section__index">07 — 相关展品</p>
         <div class="glass-card">
-          <nav class="related">
-            <router-link
-              v-for="r in related"
-              :key="r.id"
-              :to="`/phone/${r.id}`"
-              class="related__row"
-              data-cursor="看展"
-            >
-              <span class="related__year mono">{{ r.releaseYear }}</span>
-              <PhonePhoto :phone="r" thumb class="related__photo" />
-              <span class="related__body">
-                <span class="related__name">{{ r.name }}</span>
-                <span class="related__brand label">{{ r.brandName }}</span>
-              </span>
-              <span class="related__arrow mono" aria-hidden="true">→</span>
-            </router-link>
-          </nav>
+          <PhoneRelatedList :items="relatedItems" />
         </div>
       </section>
 
-      <!-- ====== 收藏（规范 §76–§77：轻量反馈） ====== -->
+      <!-- ====== 收藏与策展入口（规范 §76–§77） ====== -->
       <section class="section container">
-        <div class="glass-card collect">
-          <button
-            class="collect__btn"
-            :class="{ 'collect__btn--on': inCollection, 'collect__btn--pulse': collectedPulse }"
-            @click="onCollect"
-          >
-            <span class="collect__icon">{{ inCollection ? '✓' : '♡' }}</span>
-            <span>{{ inCollection ? '已收藏' : '收藏' }}</span>
-          </button>
-          <router-link class="collect__museum label" :to="`/museum?focus=${phone.id}`" data-cursor="看展">
-            在博物馆中查看 →
-          </router-link>
-          <router-link
-            v-if="hasExhibitContent(phone.id)"
-            class="collect__museum collect__museum--accent label"
-            :to="`/museum/exhibit/${phone.id}`"
-            data-cursor="深度观展"
-          >
-            LIVING EXHIBIT · 深度观展 →
-          </router-link>
-          <MuseumButton to="/collection" variant="line">查看我的手机史</MuseumButton>
-        </div>
-        <!-- V0.8 §66：Phone → Curator -->
-        <div class="collect__curate">
-          <AddToExhibition
-            block-type="exhibit"
-            :block-data="() => ({ phoneId: phone!.id, displayMode: 'photo' })"
-            label="ADD TO EXHIBITION · 加入个人展览"
-          />
-        </div>
+        <PhoneCollect :phone="phone" />
       </section>
 
       <!-- ====== 上一台 / 下一台（规范 §80） ====== -->
-      <nav class="section container pager" aria-label="相邻展品">
-        <router-link
-          v-if="prevPhone"
-          :to="`/phone/${prevPhone.id}`"
-          class="pager__item pager__item--prev"
-          data-cursor="看展"
-        >
-          <span class="label">← 上一台</span>
-          <span class="pager__name">{{ prevPhone.name }}</span>
-        </router-link>
-        <span v-else class="pager__item pager__item--ghost"></span>
-        <router-link
-          v-if="nextPhone"
-          :to="`/phone/${nextPhone.id}`"
-          class="pager__item pager__item--next"
-          data-cursor="看展"
-        >
-          <span class="label">下一台 →</span>
-          <span class="pager__name">{{ nextPhone.name }}</span>
-        </router-link>
-      </nav>
+      <section class="section container">
+        <PhonePager :prev="prevPhone" :next="nextPhone" />
+      </section>
 
       <!-- ====== SOURCES（规范 §63–§64 / §107） ====== -->
       <section class="section container">
-        <footer class="sources glass-card">
-          <p class="label sources__head">资料来源</p>
-          <ul class="sources__list">
-            <li v-for="s in phone.sources" :key="s.title ?? s.provider" class="sources__row">
-              <span class="sources__kind label">{{ s.title ?? s.provider }}</span>
-              <span class="sources__detail body-md">
-                {{ s.note }}
-                <a v-if="s.url" :href="s.url" target="_blank" rel="noopener" class="sources__link">链接</a>
-              </span>
-            </li>
-            <li v-for="c in imageCredits" :key="'img-' + c.id" class="sources__row">
-              <span class="sources__kind label">图片 · {{ c.alt }}</span>
-              <span class="sources__detail body-md">
-                Photo: {{ c.author }}
-                <template v-if="c.license"> · License:
-                  <a v-if="c.licenseUrl" :href="c.licenseUrl" target="_blank" rel="noopener" class="sources__link">{{ c.license }}</a>
-                  <template v-else>{{ c.license }}</template>
-                </template>
-                <a v-if="c.sourceUrl" :href="c.sourceUrl" target="_blank" rel="noopener" class="sources__link">来源页</a>
-              </span>
-            </li>
-          </ul>
-        </footer>
+        <PhoneSources :phone="phone" class="glass-card" />
       </section>
     </template>
   </div>
@@ -747,60 +585,6 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
   }
 }
 
-// ---- Quick Facts ----
-.quickfacts {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $sp-6;
-  padding: $sp-5 $sp-6;
-
-  &__item {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    min-width: 72px;
-  }
-
-  &__value {
-    font-size: clamp(16px, 2vw, 22px);
-    font-weight: 500;
-    color: $c-text;
-    word-break: keep-all;
-  }
-
-  &__label {
-    font-size: 9px;
-  }
-}
-
-// ---- 规格 ----
-.specs {
-  padding: $sp-5;
-
-  &__list {
-    display: flex;
-    flex-direction: column;
-  }
-
-  &__row {
-    display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: $sp-4;
-    padding-block: $sp-3;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-
-    &:first-child {
-      border-top: none;
-    }
-  }
-
-  &__value {
-    color: $c-text-2;
-    font-size: 13px;
-    word-break: keep-all;
-  }
-}
-
 // ---- 拆解 ----
 .explode {
   position: relative;
@@ -871,249 +655,6 @@ const hasHeroImage = computed(() => Boolean(phone.value && resolvePhoneImage(pho
     font-size: 17px;
     font-weight: 400;
     margin-bottom: $sp-1;
-  }
-}
-
-// ---- 相关展品 ----
-.related {
-  display: flex;
-  flex-direction: column;
-
-  &__row {
-    display: flex;
-    align-items: center;
-    gap: $sp-4;
-    padding-block: $sp-3;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    transition: background 0.35s var(--ease-museum);
-
-    &:first-child {
-      border-top: none;
-    }
-
-    &:hover {
-      background: rgba(255, 255, 255, 0.04);
-
-      .related__arrow {
-        transform: translateX(6px);
-        color: $c-text;
-      }
-    }
-  }
-
-  &__year {
-    color: $c-text-3;
-    width: 52px;
-    flex-shrink: 0;
-  }
-
-  &__photo {
-    width: 44px;
-    height: 56px;
-    flex-shrink: 0;
-  }
-
-  &__body {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  &__name {
-    font-size: 17px;
-    font-weight: 350;
-    word-break: keep-all;
-  }
-
-  &__brand {
-    font-size: 9px;
-  }
-
-  &__reason {
-    margin-top: 2px;
-    font-size: 9px;
-    color: $c-accent;
-    letter-spacing: 0.08em;
-    word-break: keep-all;
-  }
-
-  &__arrow {
-    margin-left: auto;
-    color: $c-text-3;
-    transition: transform 0.35s var(--ease-museum), color 0.35s var(--ease-museum);
-  }
-}
-
-// ---- 收藏 ----
-.collect {
-  display: flex;
-  flex-direction: column;
-  gap: $sp-5;
-  align-items: flex-start;
-  padding: $sp-6;
-
-  @include desktop {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
-
-.collect__btn {
-  display: inline-flex;
-  align-items: center;
-  gap: $sp-3;
-  padding: $sp-3 $sp-6;
-  border: 1px solid $c-line;
-  border-radius: 999px;
-  color: $c-text;
-  @include label-style(12px);
-  letter-spacing: 0.2em;
-  transition: border-color 0.3s var(--ease-museum), background 0.3s var(--ease-museum);
-
-  &:hover {
-    border-color: rgba(255, 255, 255, 0.35);
-    background: rgba(255, 255, 255, 0.04);
-  }
-
-  &--on {
-    border-color: rgba(184, 178, 164, 0.55);
-    color: $c-accent;
-  }
-
-  &--pulse {
-    animation: collect-pulse 0.45s var(--ease-museum);
-  }
-}
-
-.collect__icon {
-  font-size: 14px;
-}
-
-.collect__curate {
-  margin-top: $sp-5;
-  padding-top: $sp-5;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  width: 100%;
-}
-
-.collect__museum {
-  color: $c-text-2;
-  border-bottom: 1px solid $c-line;
-  padding-bottom: 2px;
-  word-break: keep-all;
-
-  &:hover {
-    color: $c-text;
-  }
-
-  &--accent {
-    color: $c-accent;
-    border-bottom-color: rgba(184, 178, 164, 0.5);
-  }
-}
-
-@keyframes collect-pulse {
-  0% { transform: scale(1); }
-  40% { transform: scale(1.06); }
-  100% { transform: scale(1); }
-}
-
-// ---- 上一台 / 下一台 ----
-.pager {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: $sp-3;
-
-  &__item {
-    display: flex;
-    flex-direction: column;
-    gap: $sp-1;
-    padding: $sp-4 $sp-5;
-    border: 1px solid $c-line-soft;
-    border-radius: 14px;
-    transition: border-color 0.3s var(--ease-museum), background 0.3s var(--ease-museum);
-
-    .label {
-      font-size: 9px;
-      color: $c-text-3;
-    }
-
-    &:hover {
-      border-color: $c-line;
-      background: rgba(255, 255, 255, 0.03);
-    }
-
-    &--next {
-      text-align: right;
-      align-items: flex-end;
-    }
-
-    &--ghost {
-      border: none;
-    }
-  }
-
-  &__name {
-    font-size: 15px;
-    font-weight: 350;
-    word-break: keep-all;
-  }
-}
-
-// ---- Sources ----
-.sources {
-  padding: $sp-5 $sp-6;
-
-  &__head {
-    margin-bottom: $sp-3;
-    font-size: 10px;
-  }
-
-  &__list {
-    display: flex;
-    flex-direction: column;
-  }
-
-  &__row {
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    gap: $sp-4;
-    padding-block: $sp-2;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-
-    &:first-child {
-      border-top: none;
-    }
-
-    // 移动端单列：避免长 URL/英文串在 150px 固定列布局下横向溢出
-    @media (max-width: 575px) {
-      grid-template-columns: 1fr;
-      gap: $sp-1;
-    }
-  }
-
-  &__kind {
-    font-size: 9px;
-    word-break: keep-all;
-  }
-
-  &__detail {
-    font-size: 12px;
-    color: $c-text-3;
-    line-height: 1.7;
-    word-break: keep-all;
-    overflow-wrap: anywhere; // 长授权 URL 与英文串断行（规范 §70 防溢出）
-  }
-
-  &__link {
-    margin-left: $sp-2;
-    color: $c-text-2;
-    border-bottom: 1px solid $c-line;
-
-    &:hover {
-      color: $c-text;
-    }
   }
 }
 </style>
