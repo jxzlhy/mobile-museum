@@ -9,6 +9,7 @@
 
 import { readJson, writeJson } from './lib/assets-common.mjs'
 import rules from '../src/data/assets/match-rules.json' with { type: 'json' }
+import blocklist from './known-bad-titles.json' with { type: 'json' }
 
 const rawFile = process.argv[2]
 const force = process.argv.includes('--force')
@@ -26,6 +27,11 @@ function scoreCandidate(c, rule, year) {
   const t = c.title.toLowerCase()
   let score = 0
   const reasons = []
+  // 视觉拒绝黑名单（known-bad-titles.json）：一票否决，先于一切规则
+  const blocked = blocklist.titles.some((b) => t === b.toLowerCase())
+  if (blocked) {
+    return { score: -200, reasons: ['blocklisted -200（视觉审查已拒）'] }
+  }
   if (rule) {
     for (const inc of rule.i) {
       if (t.includes(inc.toLowerCase())) {
@@ -87,16 +93,19 @@ for (const [phoneId, entry] of Object.entries(raw)) {
     else if (top.score >= 20) { status = 'weak'; weak++ }
     else { status = 'rejected'; rejected++ }
   }
-  // 保留旧候选中已有高分结果（幂等：不被低分新结果覆盖）
+  // 保留旧候选中已有高分结果（幂等：不被低分新结果覆盖）；
+  // 但旧顶级候选若命中视觉拒绝黑名单，则不得保留（黑名单一票否决）
   const prev = existing[phoneId]
   const prevTop = prev?.candidates?.[0]
-  if (!force && prevTop && (prevTop.score ?? 0) >= (top?.score ?? 0) && prev.status !== 'missing') {
+  const prevBlocked = prevTop ? blocklist.titles.some((b) => prevTop.title.toLowerCase() === b.toLowerCase()) : false
+  if (!force && prevTop && !prevBlocked && (prevTop.score ?? 0) >= (top?.score ?? 0) && prev.status !== 'missing') {
     out[phoneId] = prev
     console.log(`keep ${phoneId}（既有高分候选 ${prevTop.score}）`)
     continue
   }
+  if (prevBlocked) console.log(`blocklisted ${phoneId}（旧顶级候选被视觉拒绝黑名单否决 → 重排）`)
   out[phoneId] = {
-    status: status === 'weak' ? 'candidate' : status,
+    status, // weak 保持 weak（不可下载）；candidate 及以上才进入下载队列
     tier: top ? (top.score >= 100 ? 'strong' : top.score >= 60 ? 'candidate' : top.score >= 20 ? 'weak' : 'reject') : 'missing',
     candidates: ranked.slice(0, 5),
     updatedAt: new Date().toISOString(),

@@ -1,19 +1,17 @@
 {
-  "status": "candidate",
+  "status": "rejected",
   "angle": "hero",
-  "file": "hero2.jpg",
+  "file": "hero.jpg",
   "source": {
     "type": "wikimedia-commons",
-    "url": "https://commons.wikimedia.org/wiki/File:Nokia_8110_NHE-6BX.jpg",
-    "title": "File:Nokia 8110 NHE-6BX.jpg",
-    "author": "Mustaraamattu",
+    "url": "https://commons.wikimedia.org/wiki/File:Nokia_8110.jpg",
+    "title": "File:Nokia 8110.jpg",
+    "author": "Lewis Collard",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "attribution": "File:Nokia 8110 NHE-6BX.jpg"
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "File:Nokia 8110.jpg"
   },
-  "verifiedAt": "2026-11-11T18:18:09.571Z",
-  "note": "分类枚举第二候选（hero2.jpg）；与现有 verified 图人工比选。",
+  "note": "复审拒绝：直板造型无香蕉弧，型号错误（8110 标志性曲线缺失）；香蕉弧候选待重新发现（Matrixphone.jpg 仅戏服道具）",
   "thumb": "hero.thumb.jpg",
-  "card": "hero.card.jpg",
-  "sha256": "1227b80566d13eba8adf8929dba1126be884989c1645f6e969481f9899159ca0"
+  "card": "hero.card.jpg"
 }

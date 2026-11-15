@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-15T16:18:29.049Z",
+  "generatedAt": "2026-11-15T16:47:11.370Z",
   "total": 50,
-  "discovered": 38,
+  "discovered": 37,
   "candidates": 223,
   "approved": 33,
   "verified": 0,
   "candidate": 1,
   "missing": 17,
   "failed": 0,
-  "rejected": 6,
+  "rejected": 8,
   "missingPhones": [
     "motorola-dynatac-prototype",
     "motorola-razr-2019",
@@ -31,9 +31,11 @@
   "rejectedAssets": [
     "apple-iphone-4",
     "apple-iphone-6",
+    "nokia-8110",
     "oppo-find-x",
     "samsung-galaxy-note",
     "samsung-galaxy-s",
+    "siemens-s10",
     "xiaomi-mi-1"
   ],
   "failedDownloads": [],

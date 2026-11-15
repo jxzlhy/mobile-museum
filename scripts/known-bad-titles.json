@@ -1,0 +1,21 @@
+{
+  "_note": "视觉审查中已明确拒绝的文件标题（黑名单）：型号错误/衍生版/海报式/门店照/套壳/熄屏/错误代际。rank-persist 命中即 -200，任何规则都无法将其复活；下载前最后防线。",
+  "titles": [
+    "File:Nokia 8110.jpg",
+    "File:Nokia 8110 banana.jpg",
+    "File:Siemens S10 Active.jpg",
+    "File:Samsung Galaxy S Advance GT-I9070.JPG",
+    "File:Xiaomi Mi 11 Ultra back.jpg",
+    "File:OPPO Find X8 Pro white back.png",
+    "File:IPhone 4 Grid Framed.jpg",
+    "File:Apple iPhone 6 iOS Update (16195046500).jpg",
+    "File:Samsung galaxy Note - Snap 2553.JPG",
+    "File:Moto Razr 2020.png",
+    "File:Mi mix 2 front back.png",
+    "File:Apple iPhone 13 Pro.jpg",
+    "File:HTC One J HTL22 back.jpg",
+    "File:Google, London, UK - Victoria.jpg",
+    "File:Huawei Store (original shot with Huawei Mate 20 Pro).jpg",
+    "File:Nokia 8110 NHE-6BX.jpg"
+  ]
+}

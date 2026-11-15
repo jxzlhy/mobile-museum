@@ -33,6 +33,10 @@ for (const id of ids) {
       console.log(`skip ${id}（已下载并核验，幂等）`)
       continue
     }
+    if (sidecar.status === 'rejected') {
+      console.log(`skip ${id}（人工已拒绝——重新发现需先清 sidecar 并更新候选）`)
+      continue
+    }
   }
 
   process.stdout.write(`download ${id} … `)
