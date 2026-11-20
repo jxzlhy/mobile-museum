@@ -13,7 +13,9 @@ const VERIFIED = {
   'apple-iphone-4': { author: 'iGeeksBlog', license: 'CC BY-SA 4.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/' },
   'apple-iphone-5s': { author: 'Zach Vega', license: 'CC BY-SA 3.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/' },
   'apple-iphone-x': { author: 'Gregory Varnum', license: 'CC BY-SA 4.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/' },
-  'blackberry-bold-9000': { license: 'CC BY-SA 4.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/' },
+  'blackberry-bold-9000': { author: 'Zuzu', license: 'CC BY-SA 3.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/', note: '轮次46修正：原记4.0为站点页脚污染值；历史页bot声明为GFDL 1.2+与CC BY-SA 3.0双许可' },
+  // ---- 轮次 46 实抓（2026-11-21）----
+  'vivo-nex': { author: 'Martinsson Serg', license: 'CC BY-SA 2.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/2.0/', note: 'Flickr (MartinZerg) 上传，FlickreviewR 2 确认 cc-by-sa-2.0' },
   'blackberry-curve-8520': { author: 'Klaeiis', license: 'CC BY-SA 4.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/' },
   'htc-dream': { author: 'Marcus Sümnick', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/' },
   'huawei-p20-pro': { author: 'Kārlis Dambrāns', license: 'CC BY-SA 4.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/' },

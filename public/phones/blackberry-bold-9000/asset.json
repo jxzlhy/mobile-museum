@@ -7,9 +7,11 @@
     "type": "wikimedia-commons",
     "url": "https://commons.wikimedia.org/wiki/File:BlackBerry_Bold_9000_TIM.jpeg",
     "title": "File:BlackBerry Bold 9000 TIM.jpeg",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "attribution": "File:BlackBerry Bold 9000 TIM.jpeg",
-    "license": "CC BY-SA 4.0"
+    "license": "CC BY-SA 3.0",
+    "author": "Zuzu",
+    "note": "GFDL 1.2+ 与 CC BY-SA 3.0 双许可（SchlurcherBot 结构化声明）"
   },
   "verifiedAt": "2026-09-13T15:12:10.998Z",
   "note": "批量管线下载；来源/许可证经 Commons 元数据核验，图片本体待人工复核。",
